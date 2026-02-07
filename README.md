@@ -1,62 +1,129 @@
-# CtxOS
+# 🚀 CtxOS — The Ultimate Distribution Factory
 
-Modular Linux Framework, Installer, and Distro Toolkit.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.txt)  
+[![Build Status](https://github.com/CtxOS/CtxOS/actions/workflows/software-center.yml/badge.svg)](https://github.com/CtxOS/CtxOS/actions)  
+[![Latest Release](https://img.shields.io/github/v/release/CtxOS/CtxOS)](https://github.com/CtxOS/CtxOS/releases)
 
-## Features
-- **Modular Framework**: Build modern distributions from pre-engineered modules.
-- **Enterprise-Grade Software Center**: DBus-backed management for APT, Profiles, and Flatpaks.
-- **Self-Documenting & Product-Ready**: Includes a premium project portal to showcase your distro.
-- **Meta-packages**: Turn modules into installable `.deb` packages.
-- **Recovery Tools**: Built-in rescue and snapshot management scripts.
+---
 
-## Getting Started
+## Overview
 
-### 🌐 Project Showcase
-CtxOS provides a premium landing page template for your distribution.
-To view the showcase, simply open `website/index.html` in your browser. It includes:
-- Modern glassmorphism design.
-- Animated feature showcases.
-- Documentation and release orchestration highlights.
+The **Debian Base Kit** is a professional-grade, modular toolkit to build, manage, and ship custom Debian-based Linux distributions across multiple architectures.
 
-### Installation
-To install the default (**base**) profile:
+From single commands to automated pipelines, it empowers distro maintainers and developers with:
+
+- Multi-architecture (x86_64, ARM64, RISC-V, Raspberry Pi) image builds  
+- Unified package management (APT + Flatpak + Meta-packages)  
+- Advanced system services secured via DBus & Polkit  
+- Proactive auto-updates, snapshot-protected migrations & rollback  
+- Fully localized UI with hardware-aware intelligent stack suggestions  
+- Integrated CI/CD pipeline with release orchestration and live ISO generation  
+- Docker, VM, and WSL2 development environments for portability  
+- Centralized archive, mirror sync, and project packaging system  
+
+---
+
+## 🏗 Architecture at a Glance
+
+| Component             | Description                                                   |
+|-----------------------|---------------------------------------------------------------|
+| **Backend Service**   | Secure DBus + Polkit gated system services                    |
+| **Frontends**         | Native GTK4 + Premium Webview UI with rich AppStream metadata |
+| **Snapshot Manager**  | Timeshift/Snapper-based system restore and rollback           |
+| **Package Providers** | APT, Flatpak, Meta-packages unified into one discovery engine |
+| **Localization**      | Multilingual UI with EN/ES support, scalable to more languages|
+| **Release Pipeline**  | Automated version bumping, build, packaging, and deployment   |
+| **Multi-Arch Builder**| Cross-architecture rootfs and ISO builder with QEMU emulation |
+| **Archive & Mirror**  | Central repo with upstream mirror syncing                      |
+| **Project Packager**  | Build, test, and archive your distro projects                  |
+
+---
+
+## 🎯 Key Features
+
+### Multi-Format Package Management  
+Seamlessly manage APT and Flatpak packages alongside custom meta-packages with smart installation logic.
+
+### Intelligent Profile Switching  
+Switch between Server, Desktop, and Developer profiles with guided impact analysis and snapshot safety.
+
+### Self-Healing System  
+Live update monitoring with transactional package installs and automatic rollback on failure.
+
+### Global Localization  
+Dynamic, JSON-driven translations with fallback and support for adding your own languages.
+
+### Cross-Platform Development  
+Develop and test inside Docker containers, Virtual Machines, or Windows Subsystem for Linux (WSL2).
+
+### Automated Release & CI/CD  
+One-command full release orchestration with changelog generation, artifact publishing, and ISO creation.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Debian-based development host (Ubuntu, Debian, etc.)  
+- Python 3.9+ and dependencies (`pip install -r requirements.txt`)  
+- Docker (optional, for containerized dev environment)  
+- QEMU + KVM (optional, for VM testing)  
+
+### Quickstart
+
 ```bash
-sudo make install
+# Clone the repository
+git clone https://github.com/CtxOS/CtxOS.git
+cd CtxOS
+
+# Build and launch the Software Center Webview UI
+pip install pywebview
+python3 software-center/webview_launcher.py
+````
+
+### Building a Multi-Arch Image
+
+```bash
+# Build images for Raspberry Pi, ARM64, and RISC-V
+BUILD_MULTI_ARCH=true ./scripts/pipeline-master.sh
 ```
 
-To install a specific profile (e.g., **server**, **desktop**, **rescue**):
+### Running in Docker
+
 ```bash
-sudo make install PROFILE=server
+./scripts/docker-run.sh
 ```
 
-To uninstall a specific profile:
-```bash
-sudo make uninstall PROFILE=server
-```
+---
 
-To install just a specific module:
-```bash
-sudo make module-core
-```
+## 📚 Documentation
 
-### Building the ISO
-Requires `live-build`:
-```bash
-make iso
-```
+For comprehensive setup, usage, and architecture details, see [MANUAL.md](software-center/MANUAL.md).
 
-### Creating Packages
-```bash
-make debs
-```
+---
 
-## Repository Structure
-- `docs/`: Detailed documentation.
-- `modules/`: Individual system components (APT, Core, UI, etc.).
-- `live-iso/`: OS build environment.
-- `packaging/`: Logic for building meta-packages.
-- `recovery/`: System check, rescue tools, and snapshot utilities.
-- `scripts/`: Shared library functions for hunters.
+## 🤝 Contributing
 
-## License
-MIT
+Contributions, issues, and feature requests are welcome!
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests.
+
+---
+
+## 📄 License
+
+This project is licensed under the Apache 2.0 License — see the [LICENSE.txt](LICENSE.txt) file for details.
+
+---
+
+## 🎉 Join the Community
+
+Stay updated and contribute:
+
+* GitHub Issues & Pull Requests
+* Community Forum (link)
+* Mailing List (link)
+
+---
+
+*Crafted with ❤️ for the open source Linux community.*
