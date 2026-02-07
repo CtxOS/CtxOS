@@ -72,6 +72,24 @@ One-command full release orchestration with changelog generation, artifact publi
 
 ### Quickstart
 
+<<<<<<< HEAD
+=======
+### 📊 Build Pipeline Visualizer
+CtxOS includes an interactive workflow visualizer to understand and manage the build process:
+```bash
+cd workflow
+pnpm install
+pnpm dev
+```
+Then visit:
+- `http://localhost:3000/ctxos` - CtxOS Build Pipeline
+- `http://localhost:3000` - AI Agent Builder (general purpose)
+
+See `workflow/README.md` and `workflow/INTEGRATION.md` for details.
+
+### Installation
+To install the default (**base**) profile:
+>>>>>>> cebc276 (feat: add CtxOS build pipeline visualizer)
 ```bash
 # Clone the repository
 git clone https://github.com/CtxOS/CtxOS.git
