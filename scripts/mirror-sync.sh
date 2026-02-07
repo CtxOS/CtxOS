@@ -13,11 +13,20 @@ mkdir -p "$LOG_DIR"
 sync_debian() {
     log "Starting sync for Debian Bookworm (main, contrib)..."
     # In a real environment, we'd use debmirror or rsync
-    # debmirror --arch=$ARCHES \
+    # debmirror --arch="$ARCHES" \
     #           --dist=bookworm \
     #           --section=main,contrib,non-free \
     #           --host=deb.debian.org \
     #           --method=http \
+    #           --root="debian" \
+    #           --diff=none \
+    #           --source \
+    #           --cleanup \
+    #           --nosource \
+    #           --progress \
+    #           --verbose \
+    #           --ignore-release-gpg \
+    #           --method="$UPSTREAM" \
     #           "$MIRROR_ROOT/debian"
     log "Checking local mirror integrity at $MIRROR_ROOT/debian..."
     # Mocking sync success

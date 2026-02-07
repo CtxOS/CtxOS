@@ -6,8 +6,8 @@ REPO_NAME="debian-base-kit"
 DISTRIBUTION="bookworm"
 COMPONENT="main"
 GPG_KEY="Debian Base Kit"
-INCOMING_DIR="/var/lib/aptly/incoming"
 ROOT_DIR="/var/lib/aptly"
+INCOMING_DIR="$ROOT_DIR/incoming"
 
 log() { echo -e "\033[0;32m[REPO]\033[0m $1"; }
 

@@ -5,7 +5,7 @@ set -e
 ARCH=${1:-"aarch64"}
 DISTRO=${2:-"ubuntu"}
 VERSION=$(cat VERSION 2>/dev/null || echo "1.0.0")
-TARGET_DIR="build/images/$ARCH"
+TARGET_DIR="build/images/$ARCH/$VERSION"
 
 # Visual Helpers
 C_BLUE="\033[0;34m"
@@ -13,8 +13,8 @@ C_CYAN="\033[0;36m"
 C_GREEN="\033[0;32m"
 C_RESET="\033[0m"
 
-log() { echo -e "${C_BLUE}[BUILDER]${C_RESET} $1"; }
-error() { echo -e "\033[0;31m[ERROR]\033[0m $1"; exit 1; }
+log() { echo -e "${C_BLUE}[BUILDER]${C_RESET} ${C_GREEN}$1${C_RESET}"; }
+error() { echo -e "${C_CYAN}[ERROR]${C_RESET} ${C_BLUE}$1${C_RESET}"; exit 1; }
 
 # 1. Verification
 log "Starting build for $DISTRO ($ARCH)..."
