@@ -47,7 +47,7 @@ fi
 
 # 5. QEMU Setup for Cross-Arch
 log "Setting up QEMU for $ARCH..."
-cp /usr/bin/qemu-$ARCH-static "$ROOTFS_DIR/usr/bin/"
+cp /usr/bin/qemu-"$ARCH"-static "$ROOTFS_DIR/usr/bin/"
 
 # 6. First Stage Chroot (Finish Bootstrap)
 log "Completing second-stage bootstrap..."

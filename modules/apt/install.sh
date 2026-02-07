@@ -4,7 +4,7 @@ source ../../scripts/lib.sh
 
 log "Installing apt module"
 if [ -s packages.txt ]; then
-    apt-get install -y $(cat packages.txt)
+    xargs -a packages.txt apt-get install -y
 fi
 
 # Skip repo setup in rescue profile

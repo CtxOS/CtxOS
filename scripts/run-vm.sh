@@ -10,7 +10,7 @@ log() { echo -e "\033[0;35m[VM-LAUNCH]\033[0m $1"; }
 
 if [ -z "$ISO_FILE" ]; then
     # Try to find the latest ISO
-    ISO_FILE=$(ls -t *.iso | head -n 1)
+    ISO_FILE=$(find . -maxdepth 1 -name "*.iso" -print0 | xargs -0 ls -t | head -n 1)
 fi
 
 if [ ! -f "$ISO_FILE" ]; then

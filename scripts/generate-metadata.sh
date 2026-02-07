@@ -11,7 +11,7 @@ log "Extracting AppStream data from .debs..."
 mkdir -p "$METADATA_DIR"
 
 # Scanning for AppStream XML in the archive
-for deb in $(find "$ARCHIVE_DIR" -name "*.deb"); do
+find "$ARCHIVE_DIR" -name "*.deb" | while read -r deb; do
     log "Processing $deb..."
     # In a real distro, we'd use appstream-util to extract 
     # the metainfo.xml and merge it into a global collection

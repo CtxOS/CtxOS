@@ -4,7 +4,7 @@ source ../../scripts/lib.sh
 
 log "Installing core packages"
 apt-get update
-apt-get install -y $(cat packages.txt)
+xargs -a packages.txt apt-get install -y
 
 if [ -d "files" ]; then
     for f in files/*; do

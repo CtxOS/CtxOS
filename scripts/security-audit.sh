@@ -18,7 +18,7 @@ DEBS=$(find "$ARCHIVE_DIR" -name "*.deb" | wc -l)
 log "Scanning $DEBS packages..."
 
 # Check for known risky patterns in package names or metadata
-for deb in $(find "$ARCHIVE_DIR" -name "*.deb"); do
+find "$ARCHIVE_DIR" -name "*.deb" | while read -r deb; do
     # Placeholder for actual scan logic
     log "Verified: $(basename "$deb")"
 done

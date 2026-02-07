@@ -22,7 +22,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     # For macOS, XQuartz is required. This is a best-effort configuration.
     IP=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
     X11_OPTS="-e DISPLAY=$IP:0"
-    xhost + $IP &> /dev/null || true
+    if [ -n "$IP" ]; then
+        xhost + "$IP" &> /dev/null || true
+    fi
 fi
 
 # 3. Run the container
@@ -30,6 +32,6 @@ log "Starting toolkit container..."
 docker run -it --rm \
     --name $CONTAINER_NAME \
     --privileged \
-    $X11_OPTS \
+    "$X11_OPTS" \
     -v "$(pwd):/app" \
     $IMAGE_NAME /bin/bash
