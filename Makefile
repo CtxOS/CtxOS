@@ -16,7 +16,7 @@ module-%:
 	@bash modules/$*/install.sh
 
 iso:
-	@bash live-iso/build-iso.sh
+	@cd live-iso && bash build-iso.sh
 
 debs:
 	@bash packaging/build-debs.sh

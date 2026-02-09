@@ -1,6 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
+# Ensure we are in the script's directory
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$DIR"
+
+# Try to source logging helpers
+if [ -f "../scripts/log.sh" ]; then
+    source "../scripts/log.sh"
+else
+    log() { echo -e "\033[0;32m[INFO]\033[0m $1"; }
+fi
+
 # Requirement check: live-build
 if ! command -v lb &> /dev/null; then
     echo "Error: live-build not found. Please install it first (apt install live-build)."
