@@ -1,0 +1,33 @@
+# Build outputs
+build/
+dist/
+build_output/
+*.deb
+*.iso
+*.log
+
+# Node.js
+node_modules/
+pnpm-lock.yaml
+.next/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+.env.local
+config.local.json

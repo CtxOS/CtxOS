@@ -2,7 +2,15 @@
 import os
 import sys
 import json
+import logging
 from gi.repository import GLib
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+)
+logger = logging.getLogger("ctxos.software-center")
 
 # Try to import pydbus, if not available (Mac development), we'll mock the server logic
 try:
@@ -10,6 +18,7 @@ try:
     HAS_PYDBUS = True
 except ImportError:
     HAS_PYDBUS = False
+    logger.warning("pydbus not found. This service requires a Linux environment with DBus.")
 
 # Add parent directory to path to import API
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -35,7 +44,7 @@ class SoftwareCenterService:
         """Callback for the update monitor."""
         # This will eventually emit the DBus signal
         # We need a reference to the published object to emit signals if using pydbus
-        print(f"DEBUG: Emitting UpdatesAvailable signal with count={count}")
+        logger.debug(f"Emitting UpdatesAvailable signal with count={count}")
         # In pydbus, signals are emitted by calling the signal name on the published object
         if hasattr(self, 'emit_updates_available'):
             self.emit_updates_available(count)
@@ -55,19 +64,19 @@ class SoftwareCenterService:
     def Install(self, app_id):
         # In production, this would be wrapped in a polkit check
         # For this prototype, we call the installer directly
-        print(f"Installing {app_id}...")
+        logger.info(f"Installing {app_id}...")
         result = self.action_manager.install(app_id)
         # Note: In a real async service, we'd emit signals during progress
         # and not return until polkit check passes.
         return json.dumps(result)
 
     def Remove(self, app_id):
-        print(f"Removing {app_id}...")
+        logger.info(f"Removing {app_id}...")
         result = self.action_manager.remove(app_id)
         return json.dumps(result)
 
     def SwitchProfile(self, app_id):
-        print(f"Switching system to profile: {app_id}")
+        logger.info(f"Switching system to profile: {app_id}")
         result = self.app_manager.profiles.switch_profile(app_id)
         # Ensure result has consistent keys for the bridge
         if not result.get("success") and "error" not in result:
@@ -75,20 +84,19 @@ class SoftwareCenterService:
         return json.dumps(result)
 
     def Update(self):
-        print("Updating system cache...")
+        logger.info("Updating system cache...")
         result = self.action_manager.update_cache()
         return json.dumps(result)
 
 def run_service():
     if not HAS_PYDBUS:
-        print("pydbus not found. This service requires a Linux environment with DBus.")
-        print("Mocking service start for development...")
+        logger.info("Mocking service start for development...")
         return
 
     bus = SessionBus()
     bus.publish("org.ctxos.SoftwareCenter", SoftwareCenterService())
     
-    print("Software Center DBus Service is running...")
+    logger.info("Software Center DBus Service is running...")
     loop = GLib.MainLoop()
     try:
         loop.run()

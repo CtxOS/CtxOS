@@ -92,7 +92,10 @@ def start_webview():
         background_color='#0f172a'
     )
     api.set_window(window)
-    webview.start(debug=True)
+    
+    # Check if DEBUG environment variable is set
+    debug_mode = os.getenv('DEBUG', 'False').lower() == 'true'
+    webview.start(debug=debug_mode)
 
 if __name__ == "__main__":
     start_webview()

@@ -47,6 +47,12 @@ log "Bumping version: $CURRENT_VERSION -> $NEW_VERSION"
 # 1. Update Version File
 echo "$NEW_VERSION" > "$VERSION_FILE"
 
+# 1.1 Sync Frontend Version
+if [ -f "workflow/package.json" ]; then
+    log "Syncing workflow/package.json version..."
+    sed -i.bak "s/\"version\": \".*\"/\"version\": \"$NEW_VERSION\"/" workflow/package.json && rm workflow/package.json.bak
+fi
+
 # 2. Update Debian Changelogs for all modules
 for mod in "${MODULES[@]}"; do
     if [ -d "$mod/debian" ]; then

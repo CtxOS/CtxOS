@@ -1,8 +1,11 @@
 import os
 import json
+import logging
 from api.actions import ActionManager
 from providers.snapshot import SnapshotProvider
 from api.health import HealthChecker
+
+logger = logging.getLogger("ctxos.profiles")
 
 class ProfileSwitcher:
     """Handles migration and switching between system profiles."""
@@ -60,7 +63,7 @@ class ProfileSwitcher:
         if success:
             health_res = self.health.check_health()
             if not health_res["healthy"]:
-                print(f"[ProfileSwitcher] System Unhealthy: {health_res['errors']}")
+                logger.error(f"System Unhealthy after migration: {health_res['errors']}")
                 # We could trigger auto-rollback here
                 # self.snapshots.restore_snapshot(snapshot_res["description"])
                 return {

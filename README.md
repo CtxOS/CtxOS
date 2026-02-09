@@ -72,8 +72,6 @@ One-command full release orchestration with changelog generation, artifact publi
 
 ### Quickstart
 
-<<<<<<< HEAD
-=======
 ### 📊 Build Pipeline Visualizer
 CtxOS includes an interactive workflow visualizer to understand and manage the build process:
 ```bash
@@ -89,7 +87,6 @@ See `workflow/README.md` and `workflow/INTEGRATION.md` for details.
 
 ### Installation
 To install the default (**base**) profile:
->>>>>>> cebc276 (feat: add CtxOS build pipeline visualizer)
 ```bash
 # Clone the repository
 git clone https://github.com/CtxOS/CtxOS.git

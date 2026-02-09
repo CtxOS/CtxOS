@@ -6,6 +6,17 @@ source scripts/log.sh
 PROFILE="${1:-base}"
 PROFILE_FILE="profiles/$PROFILE.mk"
 
+# Check required commands
+check_command() {
+    if ! command -v "$1" &> /dev/null; then
+        error "Required command not found: $1"
+        exit 1
+    fi
+}
+
+check_command "dpkg"
+check_command "apt-get"
+
 if [ ! -f "$PROFILE_FILE" ]; then
     error "Unknown profile: $PROFILE"
     exit 1

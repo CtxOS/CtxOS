@@ -1,7 +1,10 @@
 import subprocess
 import os
+import logging
 from providers.snapshot import SnapshotProvider
 from api.health import HealthChecker
+
+logger = logging.getLogger("ctxos.actions")
 
 class ActionManager:
     """Handles installation and removal of packages with safety guards."""
@@ -28,7 +31,7 @@ class ActionManager:
         
         # If install failed and we have a snapshot, we could rollback or just report
         if not result["success"] and snapshot_desc:
-            print(f"[ActionManager] Install failed. Snapshot {snapshot_desc} is available for manual rollback.")
+            logger.error(f"Install failed. Snapshot {snapshot_desc} is available for manual rollback.")
 
         return result
 

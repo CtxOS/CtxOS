@@ -17,6 +17,16 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
+check_command() {
+    if ! command -v "$1" &> /dev/null; then
+        echo "Error: Required command not found: $1"
+        exit 1
+    fi
+}
+
+check_command "curl"
+check_command "gpg"
+
 log "Downloading distribution GPG key..."
 curl -fsSL "$KEY_URL" | gpg --dearmor -o /usr/share/keyrings/ctxos.gpg
 
