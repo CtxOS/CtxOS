@@ -1,34 +1,31 @@
 #!/usr/bin/env bash
+# remote-install.sh - One-line installer for users
 set -e
-source scripts/require-root.sh
-source scripts/log.sh
 
-PROFILE="${1:-base}"
-PROFILE_FILE="profiles/$PROFILE.mk"
+# --- Configuration (User should update these) ---
+REPO_DOMAIN="ctxos.github.io"
+KEY_URL="https://${REPO_DOMAIN}/ctxos.asc"
+REPO_URL="https://${REPO_DOMAIN}"
+DISTRO="bookworm"
+COMPONENT="main"
+# ------------------------------------------------
 
-if [ ! -f "$PROFILE_FILE" ]; then
-    error "Unknown profile: $PROFILE"
-    exit 1
+log() { echo -e "\033[0;32m[INSTALL]\033[0m $1"; }
+
+if [[ $EUID -ne 0 ]]; then
+   echo "Please run as root (sudo)"
+   exit 1
 fi
 
-log "Starting Debian Base Kit Installation (Profile: $PROFILE)"
+log "Downloading distribution GPG key..."
+curl -fsSL "$KEY_URL" | gpg --dearmor -o /usr/share/keyrings/ctxos.gpg
 
-# Ensure all installer scripts are executable
-chmod +x scripts/*.sh
-chmod +x modules/*/install.sh 2>/dev/null || true
-chmod +x modules/*/remove.sh 2>/dev/null || true
+log "Adding repository to sources..."
+echo "deb [signed-by=/usr/share/keyrings/ctxos.gpg] $REPO_URL $DISTRO $COMPONENT" \
+    > /etc/apt/sources.list.d/ctxos.list
 
-# Load profile
-# shellcheck disable=SC1090
-source "$PROFILE_FILE"
+log "Updating package lists..."
+apt-get update
 
-for m in ${MODULES}; do
-  if [ -d "modules/$m" ] && [ -f "modules/$m/install.sh" ]; then
-    log "▶ Installing module: $m"
-    (cd "modules/$m" && bash ./install.sh)
-  else
-    warn "Module $m not found or missing install.sh"
-  fi
-done
-
-log "Installation complete!"
+log "✅ CtxOS repository is now active."
+log "You can now run: apt install ctxos-core"

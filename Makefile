@@ -6,7 +6,7 @@ all: install
 
 install:
 	@echo "▶ Installing profile: $(PROFILE)"
-	@bash install.sh $(PROFILE)
+	@bash setup.sh $(PROFILE)
 
 uninstall:
 	@echo "▶ Uninstalling profile: $(PROFILE)"

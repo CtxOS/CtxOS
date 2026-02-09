@@ -42,8 +42,8 @@ EOF
 
 log "Release notes saved to $NOTES_FILE"
 
-# Generate website/releases.json
-cat <<EOF > "website/releases.json"
+# Generate releases.json
+cat <<EOF > "releases.json"
 [
   {
     "version": "$VERSION",
