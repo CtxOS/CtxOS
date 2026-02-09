@@ -5,7 +5,13 @@ source ../../scripts/lib.sh
 log "Installing core packages"
 # Update is handled by apt module, but we do a quick refresh if needed
 apt-get update -o Acquire::Retries=1 -o Acquire::http::Timeout="5" || warn "Standard repository update failed. Continuing anyway..."
-xargs -a packages.txt apt-get install -y
+if [ -s packages.txt ]; then
+    while read -r pkg; do
+        [ -z "$pkg" ] && continue
+        log "  + $pkg"
+        apt-get install -y "$pkg" || warn "Failed to install $pkg (skipping)"
+    done < packages.txt
+fi
 
 if [ -d "files" ]; then
     for f in files/*; do
