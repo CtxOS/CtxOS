@@ -134,7 +134,7 @@ The toolkit includes a `HealthChecker` that validates system vitality after ever
 - **Atomic Intent**: The toolkit aims for "all-or-nothing" profile switches to prevent partial system breakage.
 
 ### System Bus Service
-The backend runs as a secure DBus service (`org.debianbasekit.SoftwareCenter`). This ensures that:
+The backend runs as a secure DBus service (`org.ctxos.SoftwareCenter`). This ensures that:
 - User frontends never run with root privileges.
 - All actions are authenticated via **Polkit** policies.
 - System state is managed consistently across multiple open frontends.

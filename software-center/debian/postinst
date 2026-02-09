@@ -7,8 +7,8 @@ if [ "$1" = "configure" ]; then
         systemctl daemon-reload
         systemctl try-reload-or-restart dbus
         systemctl try-reload-or-restart polkit
-        systemctl enable org.debianbasekit.SoftwareCenter.service
-        systemctl start org.debianbasekit.SoftwareCenter.service
+        systemctl enable org.ctxos.SoftwareCenter.service
+        systemctl start org.ctxos.SoftwareCenter.service
     fi
 fi
 

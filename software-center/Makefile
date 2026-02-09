@@ -22,9 +22,9 @@ install:
 	cp bin/software-center-gtk $(DESTDIR)$(PREFIX)/bin/
 	cp bin/software-center-webview $(DESTDIR)$(PREFIX)/bin/
 	
-	cp backend/dbus/org.debianbasekit.SoftwareCenter.conf $(DESTDIR)/etc/dbus-1/system.d/
-	cp backend/dbus/org.debianbasekit.SoftwareCenter.service $(DESTDIR)/lib/systemd/system/
-	cp polkit/org.debianbasekit.softwarecenter.policy $(DESTDIR)$(PREFIX)/share/polkit-1/actions/
+	cp backend/dbus/org.ctxos.SoftwareCenter.conf $(DESTDIR)/etc/dbus-1/system.d/
+	cp backend/dbus/org.ctxos.SoftwareCenter.service $(DESTDIR)/lib/systemd/system/
+	cp polkit/org.ctxos.softwarecenter.policy $(DESTDIR)$(PREFIX)/share/polkit-1/actions/
 
 	chmod +x $(DESTDIR)$(PREFIX)/bin/software-center-gtk
 	chmod +x $(DESTDIR)$(PREFIX)/bin/software-center-webview
