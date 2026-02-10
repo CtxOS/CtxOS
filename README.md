@@ -110,6 +110,15 @@ BUILD_MULTI_ARCH=true ./scripts/pipeline-master.sh
 ./scripts/docker-run.sh
 ```
 
+### 🐳 Security Container Images
+
+CtxOS provides a suite of specialized security container images (Core, Security, and individual Tools). See the [containers documentation](./containers/README.md) for details.
+
+```bash
+cd containers
+./build.sh
+```
+
 ---
 
 ## 📚 Documentation
