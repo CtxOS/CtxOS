@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	cd src/0trace && $(MAKE)
+
+override_dh_auto_install:
+	mkdir -p debian/0trace/usr/bin
+	mkdir -p debian/0trace/usr/lib/0trace
+	install -m 755 src/0trace/0trace.sh debian/0trace/usr/bin/0trace
+	install -m 755 src/0trace/sendprobe debian/0trace/usr/lib/0trace/sendprobe
+	install -m 755 src/0trace/usleep debian/0trace/usr/lib/0trace/usleep

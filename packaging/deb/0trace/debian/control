@@ -1,0 +1,14 @@
+Source: 0trace
+Section: net
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+
+Package: 0trace
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, tcpdump
+Description: stealthy traceroute tool
+ 0trace is a hops enumeration tool that allows to perform traceroute-like
+ operations within existing TCP connections, thus bypassing many stateful
+ packet filters and intrusion detection systems.

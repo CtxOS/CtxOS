@@ -9,6 +9,7 @@ MODULES=(
     "software-center" 
     "packaging/deb/ctxos-core" 
     "packaging/deb/ctxos-configs-zsh"
+    "packaging/deb/0trace"
     "packaging/deb/ctxos-menu"    "packaging/deb/debian-base-desktop" 
     "packaging/deb/debian-base-tools"
     "packaging/deb/ctxos-tools-web"

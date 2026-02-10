@@ -7,7 +7,7 @@ Standards-Version: 4.5.0
 
 Package: ctxos-tools-web
 Architecture: all
-Depends: zaproxy, sqlmap, wpscan, dirb, gobuster, wfuzz, burpsuite, commix, skipfish, nikto, feroxbuster, ffuf
+Depends: zaproxy, sqlmap, wpscan, dirb, gobuster, wfuzz, burpsuite, commix, skipfish, nikto, feroxbuster, ffuf, 0trace
 Description: CtxOS Web Security Stack
  This meta-package installs a comprehensive suite of tools for web application
  penetration testing and security research.
