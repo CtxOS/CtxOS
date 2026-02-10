@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=0trace
+Comment=0trace
+Encoding=UTF-8
+Exec=menuexec 0trace --help
+Icon=ctxos_0trace
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=0trace

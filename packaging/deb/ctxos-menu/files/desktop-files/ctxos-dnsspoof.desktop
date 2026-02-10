@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnsspoof
+Comment=dnsspoof
+Encoding=UTF-8
+Exec=menuexec dnsspoof --help
+Icon=ctxos_dnsspoof
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=dnsspoof

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bing-ip2hosts
+Comment=bing-ip2hosts
+Encoding=UTF-8
+Exec=menuexec bing-ip2hosts --help
+Icon=ctxos_bing-ip2hosts
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=bing-ip2hosts

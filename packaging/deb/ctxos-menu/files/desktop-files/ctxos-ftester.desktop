@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ftester
+Comment=ftester
+Encoding=UTF-8
+Exec=menuexec ftester --help
+Icon=ctxos_ftester
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ftester

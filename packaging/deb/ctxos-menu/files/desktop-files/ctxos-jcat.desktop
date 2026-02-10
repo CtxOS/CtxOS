@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jcat
+Comment=jcat
+Encoding=UTF-8
+Exec=menuexec jcat --help
+Icon=ctxos_jcat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=jcat

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=olemap.dekstop
+Comment=olemap.dekstop
+Encoding=UTF-8
+Exec=menuexec olemap.dekstop --help
+Icon=ctxos_olemap.dekstop
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=olemap.dekstop

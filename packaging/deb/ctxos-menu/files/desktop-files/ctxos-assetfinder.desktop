@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=assetfinder
+Comment=assetfinder
+Encoding=UTF-8
+Exec=menuexec assetfinder --help
+Icon=ctxos_assetfinder
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=assetfinder

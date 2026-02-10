@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bulk_extractor
+Comment=bulk_extractor
+Encoding=UTF-8
+Exec=menuexec bulk_extractor --help
+Icon=ctxos_bulk_extractor
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=bulk_extractor

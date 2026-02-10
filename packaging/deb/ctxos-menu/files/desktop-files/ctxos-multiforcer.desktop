@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=multiforcer
+Comment=multiforcer
+Encoding=UTF-8
+Exec=menuexec multiforcer --help
+Icon=ctxos_multiforcer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=multiforcer

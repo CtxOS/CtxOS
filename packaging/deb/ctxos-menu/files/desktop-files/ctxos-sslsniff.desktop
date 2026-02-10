@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sslsniff
+Comment=sslsniff
+Encoding=UTF-8
+Exec=menuexec sslsniff --help
+Icon=ctxos_sslsniff
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=sslsniff

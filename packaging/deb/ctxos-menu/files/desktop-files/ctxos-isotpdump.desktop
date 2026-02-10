@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=isotpdump
+Comment=isotpdump
+Encoding=UTF-8
+Exec=menuexec isotpdump --help
+Icon=ctxos_isotpdump
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=isotpdump

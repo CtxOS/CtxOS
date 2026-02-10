@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=parsero
+Comment=parsero
+Encoding=UTF-8
+Exec=menuexec parsero --help
+Icon=ctxos_parsero
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=parsero

@@ -20,7 +20,7 @@ VERSION=$(cat "$BASE_DIR/../VERSION" || echo "1.0.1")
 PACKAGES=(
     "ctxos-core" 
     "ctxos-configs-zsh"
-    "debian-base-desktop" 
+    "ctxos-menu"    "debian-base-desktop" 
     "debian-base-tools"
     "ctxos-tools-web"
     "ctxos-tools-wireless"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cryptcat
+Comment=cryptcat
+Encoding=UTF-8
+Exec=menuexec cryptcat --help
+Icon=ctxos_cryptcat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cryptcat

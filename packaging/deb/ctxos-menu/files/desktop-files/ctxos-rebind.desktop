@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rebind
+Comment=rebind
+Encoding=UTF-8
+Exec=menuexec rebind --help
+Icon=ctxos_rebind
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rebind

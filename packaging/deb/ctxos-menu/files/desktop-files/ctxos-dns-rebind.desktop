@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dns-rebind
+Comment=dns-rebind
+Encoding=UTF-8
+Exec=menuexec dns-rebind --help
+Icon=ctxos_dns-rebind
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dns-rebind

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dumpzilla
+Comment=dumpzilla
+Encoding=UTF-8
+Exec=menuexec dumpzilla --help
+Icon=ctxos_dumpzilla
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dumpzilla

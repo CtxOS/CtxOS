@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=device-pharmer
+Comment=device-pharmer
+Encoding=UTF-8
+Exec=menuexec device-pharmer --help
+Icon=ctxos_device-pharmer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=device-pharmer

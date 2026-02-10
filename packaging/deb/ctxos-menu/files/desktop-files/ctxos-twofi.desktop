@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=twofi
+Comment=twofi
+Encoding=UTF-8
+Exec=menuexec twofi --help
+Icon=ctxos_twofi
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=twofi

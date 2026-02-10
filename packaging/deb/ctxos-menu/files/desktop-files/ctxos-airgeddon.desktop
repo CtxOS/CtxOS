@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=airgeddon
+Comment=airgeddon
+Encoding=UTF-8
+Exec=menuexec airgeddon --help
+Icon=ctxos_airgeddon
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=airgeddon

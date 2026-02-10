@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=regripper
+Comment=regripper
+Encoding=UTF-8
+Exec=menuexec regripper --help
+Icon=ctxos_regripper
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=regripper

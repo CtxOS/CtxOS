@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cloud-enum
+Comment=cloud-enum
+Encoding=UTF-8
+Exec=menuexec cloud-enum --help
+Icon=ctxos_cloud-enum
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cloud-enum

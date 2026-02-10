@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=webshells
+Comment=webshells
+Encoding=UTF-8
+Exec=menuexec webshells --help
+Icon=ctxos_webshells
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=webshells

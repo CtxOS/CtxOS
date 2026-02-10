@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ezhexviewer
+Comment=ezhexviewer
+Encoding=UTF-8
+Exec=menuexec ezhexviewer --help
+Icon=ctxos_ezhexviewer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ezhexviewer

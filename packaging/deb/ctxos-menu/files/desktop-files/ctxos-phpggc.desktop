@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=phpggc
+Comment=phpggc
+Encoding=UTF-8
+Exec=menuexec phpggc --help
+Icon=ctxos_phpggc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=phpggc

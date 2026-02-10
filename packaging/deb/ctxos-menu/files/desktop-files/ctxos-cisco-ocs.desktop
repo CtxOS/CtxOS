@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cisco-ocs
+Comment=cisco-ocs
+Encoding=UTF-8
+Exec=menuexec cisco-ocs --help
+Icon=ctxos_cisco-ocs
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=cisco-ocs

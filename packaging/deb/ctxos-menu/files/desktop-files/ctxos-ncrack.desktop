@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ncrack
+Comment=ncrack
+Encoding=UTF-8
+Exec=menuexec ncrack --help
+Icon=ctxos_ncrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=ncrack

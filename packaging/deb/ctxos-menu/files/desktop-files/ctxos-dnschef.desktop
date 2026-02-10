@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnschef
+Comment=dnschef
+Encoding=UTF-8
+Exec=menuexec dnschef --help
+Icon=ctxos_dnschef
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnschef

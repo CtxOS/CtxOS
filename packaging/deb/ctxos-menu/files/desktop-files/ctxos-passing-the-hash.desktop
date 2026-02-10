@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=passing-the-hash
+Comment=passing-the-hash
+Encoding=UTF-8
+Exec=menuexec passing-the-hash --help
+Icon=ctxos_passing-the-hash
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=passing-the-hash

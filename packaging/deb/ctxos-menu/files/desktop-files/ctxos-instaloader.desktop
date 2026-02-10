@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=instaloader
+Comment=instaloader
+Encoding=UTF-8
+Exec=menuexec instaloader --help
+Icon=ctxos_instaloader
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=instaloader

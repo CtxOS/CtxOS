@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtl_test
+Comment=rtl_test
+Encoding=UTF-8
+Exec=menuexec rtl_test --help
+Icon=ctxos_rtl_test
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtl_test

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gpa
+Comment=gpa
+Encoding=UTF-8
+Exec=menuexec gpa --help
+Icon=ctxos_gpa
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gpa

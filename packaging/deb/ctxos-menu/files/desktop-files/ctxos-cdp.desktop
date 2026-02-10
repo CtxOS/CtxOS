@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cdp
+Comment=cdp
+Encoding=UTF-8
+Exec=menuexec cdp --help
+Icon=ctxos_cdp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cdp

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=urlsnarf
+Comment=urlsnarf
+Encoding=UTF-8
+Exec=menuexec urlsnarf --help
+Icon=ctxos_urlsnarf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=urlsnarf

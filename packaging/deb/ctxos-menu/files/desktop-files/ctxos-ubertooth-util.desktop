@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ubertooth-util
+Comment=ubertooth-util
+Encoding=UTF-8
+Exec=menuexec ubertooth-util --help
+Icon=ctxos_ubertooth-util
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ubertooth-util

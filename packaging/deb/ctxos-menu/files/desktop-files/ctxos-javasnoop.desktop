@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=javasnoop
+Comment=javasnoop
+Encoding=UTF-8
+Exec=menuexec javasnoop --help
+Icon=ctxos_javasnoop
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-reverseengineer;
+X-Ctxos-Package=javasnoop

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=olefile
+Comment=olefile
+Encoding=UTF-8
+Exec=menuexec olefile --help
+Icon=ctxos_olefile
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=olefile

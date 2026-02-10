@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=blkls
+Comment=blkls
+Encoding=UTF-8
+Exec=menuexec blkls --help
+Icon=ctxos_blkls
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=blkls

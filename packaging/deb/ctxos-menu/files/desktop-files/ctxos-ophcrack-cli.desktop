@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ophcrack-cli
+Comment=ophcrack-cli
+Encoding=UTF-8
+Exec=menuexec ophcrack-cli --help
+Icon=ctxos_ophcrack-cli
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=ophcrack-cli

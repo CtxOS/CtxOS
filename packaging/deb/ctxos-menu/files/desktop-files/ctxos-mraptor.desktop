@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mraptor
+Comment=mraptor
+Encoding=UTF-8
+Exec=menuexec mraptor --help
+Icon=ctxos_mraptor
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mraptor

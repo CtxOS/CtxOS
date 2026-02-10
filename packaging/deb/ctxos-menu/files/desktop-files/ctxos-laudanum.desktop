@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=laudanum
+Comment=laudanum
+Encoding=UTF-8
+Exec=menuexec laudanum --help
+Icon=ctxos_laudanum
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=laudanum

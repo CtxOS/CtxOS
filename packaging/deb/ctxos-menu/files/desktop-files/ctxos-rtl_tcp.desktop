@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtl_tcp
+Comment=rtl_tcp
+Encoding=UTF-8
+Exec=menuexec rtl_tcp --help
+Icon=ctxos_rtl_tcp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtl_tcp

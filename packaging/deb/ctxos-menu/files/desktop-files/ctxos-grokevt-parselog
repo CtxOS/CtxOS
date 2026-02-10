@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=grokevt-parselog
+Comment=grokevt-parselog
+Encoding=UTF-8
+Exec=menuexec grokevt-parselog --help
+Icon=ctxos_grokevt-parselog
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=grokevt-parselog

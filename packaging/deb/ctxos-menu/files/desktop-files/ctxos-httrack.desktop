@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=httrack
+Comment=httrack
+Encoding=UTF-8
+Exec=menuexec httrack --help
+Icon=ctxos_httrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=httrack

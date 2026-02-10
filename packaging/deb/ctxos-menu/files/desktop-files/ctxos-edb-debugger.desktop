@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=edb-debugger
+Comment=edb-debugger
+Encoding=UTF-8
+Exec=menuexec edb-debugger --help
+Icon=ctxos_edb-debugger
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-reverseengineer;
+X-Ctxos-Package=edb-debugger

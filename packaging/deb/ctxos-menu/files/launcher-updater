@@ -1,0 +1,59 @@
+#!/bin/bash
+# CtxOS Launcher Updater
+# Updates desktop database and icon caches
+
+set -e
+
+echo "[*] CtxOS Launcher Updater"
+echo "[*] Updating desktop database and icon caches..."
+
+# Update desktop database
+if command -v update-desktop-database &> /dev/null; then
+    echo "[+] Updating desktop database..."
+    update-desktop-database /usr/share/applications 2>/dev/null || true
+else
+    echo "[!] update-desktop-database not found, skipping..."
+fi
+
+# Update icon cache for hicolor theme
+if command -v gtk-update-icon-cache &> /dev/null; then
+    echo "[+] Updating hicolor icon cache..."
+    gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true
+    
+    # Update other common icon themes if they exist
+    for theme in gnome Adwaita Papirus; do
+        if [ -d "/usr/share/icons/$theme" ]; then
+            echo "[+] Updating $theme icon cache..."
+            gtk-update-icon-cache -f -t "/usr/share/icons/$theme" 2>/dev/null || true
+        fi
+    done
+else
+    echo "[!] gtk-update-icon-cache not found, skipping..."
+fi
+
+# Update MIME database
+if command -v update-mime-database &> /dev/null; then
+    echo "[+] Updating MIME database..."
+    update-mime-database /usr/share/mime 2>/dev/null || true
+else
+    echo "[!] update-mime-database not found, skipping..."
+fi
+
+# Update dconf database if changes were made
+if command -v dconf &> /dev/null; then
+    echo "[+] Updating dconf database..."
+    dconf update 2>/dev/null || true
+else
+    echo "[!] dconf not found, skipping..."
+fi
+
+# Refresh GNOME Shell (if running)
+if pgrep -x "gnome-shell" > /dev/null; then
+    echo "[+] Refreshing GNOME Shell..."
+    # Send a signal to refresh without restarting
+    killall -HUP gnome-shell 2>/dev/null || true
+fi
+
+echo "[✓] Launcher update complete!"
+echo ""
+echo "Note: You may need to log out and log back in for all changes to take effect."

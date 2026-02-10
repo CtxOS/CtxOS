@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=shodan
+Comment=shodan
+Encoding=UTF-8
+Exec=menuexec shodan --help
+Icon=ctxos_shodan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=shodan

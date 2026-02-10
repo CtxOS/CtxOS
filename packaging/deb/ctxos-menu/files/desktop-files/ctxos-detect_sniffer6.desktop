@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=detect_sniffer6
+Comment=detect_sniffer6
+Encoding=UTF-8
+Exec=menuexec detect_sniffer6 --help
+Icon=ctxos_detect_sniffer6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=detect_sniffer6

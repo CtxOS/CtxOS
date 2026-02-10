@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xprobe
+Comment=xprobe
+Encoding=UTF-8
+Exec=menuexec xprobe --help
+Icon=ctxos_xprobe
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=xprobe

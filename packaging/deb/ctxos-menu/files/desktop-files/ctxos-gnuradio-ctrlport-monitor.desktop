@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-ctrlport-monitor
+Comment=gnuradio-ctrlport-monitor
+Encoding=UTF-8
+Exec=menuexec gnuradio-ctrlport-monitor --help
+Icon=ctxos_gnuradio-ctrlport-monitor
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-ctrlport-monitor

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fragmentation6
+Comment=fragmentation6
+Encoding=UTF-8
+Exec=menuexec fragmentation6 --help
+Icon=ctxos_fragmentation6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fragmentation6

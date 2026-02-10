@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=routersploit
+Comment=routersploit
+Encoding=UTF-8
+Exec=menuexec routersploit --help
+Icon=ctxos_routersploit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=routersploit

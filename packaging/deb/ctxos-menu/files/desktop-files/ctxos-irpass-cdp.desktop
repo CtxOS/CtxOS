@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=irpass-cdp
+Comment=irpass-cdp
+Encoding=UTF-8
+Exec=menuexec irpass-cdp --help
+Icon=ctxos_irpass-cdp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=irpass-cdp

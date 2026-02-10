@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=svreport
+Comment=svreport
+Encoding=UTF-8
+Exec=menuexec svreport --help
+Icon=ctxos_svreport
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=svreport

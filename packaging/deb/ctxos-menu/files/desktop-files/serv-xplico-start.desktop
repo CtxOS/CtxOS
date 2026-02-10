@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xplico start
+Comment=xplico start
+Encoding=UTF-8
+Exec=menuexec sudo service xplico start
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=xplico

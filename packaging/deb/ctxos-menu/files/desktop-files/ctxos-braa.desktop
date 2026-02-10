@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=braa
+Comment=braa
+Encoding=UTF-8
+Exec=menuexec braa --help
+Icon=ctxos_braa
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=braa

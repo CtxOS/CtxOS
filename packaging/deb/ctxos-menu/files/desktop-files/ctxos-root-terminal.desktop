@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=root-terminal
+Comment=root-terminal
+Encoding=UTF-8
+Exec=menuexec root-terminal --help
+Icon=ctxos_root-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=root-terminal

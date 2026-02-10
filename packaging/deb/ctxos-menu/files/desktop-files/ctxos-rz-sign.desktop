@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rz-sign
+Comment=rz-sign
+Encoding=UTF-8
+Exec=menuexec rz-sign --help
+Icon=ctxos_rz-sign
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rz-sign

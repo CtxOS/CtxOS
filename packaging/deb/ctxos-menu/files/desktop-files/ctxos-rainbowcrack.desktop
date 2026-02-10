@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rainbowcrack
+Comment=rainbowcrack
+Encoding=UTF-8
+Exec=menuexec rainbowcrack --help
+Icon=ctxos_rainbowcrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=rainbowcrack

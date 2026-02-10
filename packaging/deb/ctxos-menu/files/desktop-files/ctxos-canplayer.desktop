@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=canplayer
+Comment=canplayer
+Encoding=UTF-8
+Exec=menuexec canplayer --help
+Icon=ctxos_canplayer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=canplayer

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=passive_discovery6
+Comment=passive_discovery6
+Encoding=UTF-8
+Exec=menuexec passive_discovery6 --help
+Icon=ctxos_passive_discovery6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=passive_discovery6

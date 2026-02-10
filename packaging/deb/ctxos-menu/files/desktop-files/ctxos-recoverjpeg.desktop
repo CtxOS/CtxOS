@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=recoverjpeg
+Comment=recoverjpeg
+Encoding=UTF-8
+Exec=menuexec recoverjpeg --help
+Icon=ctxos_recoverjpeg
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=recoverjpeg

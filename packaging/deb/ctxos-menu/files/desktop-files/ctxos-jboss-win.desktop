@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jboss-win
+Comment=jboss-win
+Encoding=UTF-8
+Exec=menuexec jboss-win --help
+Icon=ctxos_jboss-win
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=jboss-win

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-net
+Comment=pth-net
+Encoding=UTF-8
+Exec=menuexec pth-net --help
+Icon=ctxos_pth-net
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pth-net

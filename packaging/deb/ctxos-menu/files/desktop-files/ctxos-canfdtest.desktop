@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=canfdtest
+Comment=canfdtest
+Encoding=UTF-8
+Exec=menuexec canfdtest --help
+Icon=ctxos_canfdtest
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=canfdtest

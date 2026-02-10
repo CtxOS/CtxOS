@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sqlmap
+Comment=sqlmap
+Encoding=UTF-8
+Exec=menuexec sqlmap --help
+Icon=ctxos_sqlmap
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-06-db-exploit;03-webapp-analysis;
+X-Ctxos-Package=sqlmap

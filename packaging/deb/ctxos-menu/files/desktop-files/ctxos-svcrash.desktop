@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=svcrash
+Comment=svcrash
+Encoding=UTF-8
+Exec=menuexec svcrash --help
+Icon=ctxos_svcrash
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=svcrash

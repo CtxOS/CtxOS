@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bettercap
+Comment=bettercap
+Encoding=UTF-8
+Exec=menuexec bettercap --help
+Icon=ctxos_bettercap
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-02-network-spoofing;09-sniffing-spoofing;
+X-Ctxos-Package=bettercap

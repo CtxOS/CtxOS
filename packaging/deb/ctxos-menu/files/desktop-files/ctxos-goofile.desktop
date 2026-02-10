@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=goofile
+Comment=goofile
+Encoding=UTF-8
+Exec=menuexec goofile --help
+Icon=ctxos_goofile
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=goofile

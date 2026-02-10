@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=spike
+Comment=spike
+Encoding=UTF-8
+Exec=menuexec spike --help
+Icon=ctxos_spike
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-02-fuzzers;02-vulnerability-analysis;
+X-Ctxos-Package=spike

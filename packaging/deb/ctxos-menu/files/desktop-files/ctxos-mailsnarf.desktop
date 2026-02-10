@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mailsnarf
+Comment=mailsnarf
+Encoding=UTF-8
+Exec=menuexec mailsnarf --help
+Icon=ctxos_mailsnarf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mailsnarf

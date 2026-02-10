@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=watobo
+Comment=watobo
+Encoding=UTF-8
+Exec=menuexec watobo --help
+Icon=ctxos_watobo
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=watobo

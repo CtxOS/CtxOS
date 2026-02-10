@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=t50
+Comment=t50
+Encoding=UTF-8
+Exec=menuexec t50 --help
+Icon=ctxos_t50
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=t50

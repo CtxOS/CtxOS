@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=radare2
+Comment=radare2
+Encoding=UTF-8
+Exec=menuexec radare2 --help
+Icon=ctxos_radare2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-04-radare2;07-reverseengineer;
+X-Ctxos-Package=radare2

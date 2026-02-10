@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=slcand
+Comment=slcand
+Encoding=UTF-8
+Exec=menuexec slcand --help
+Icon=ctxos_slcand
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=slcand

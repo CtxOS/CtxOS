@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=netdiscover
+Comment=netdiscover
+Encoding=UTF-8
+Exec=menuexec netdiscover --help
+Icon=ctxos_netdiscover
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-02-identify-live-hosts;01-info-gathering;
+X-Ctxos-Package=netdiscover

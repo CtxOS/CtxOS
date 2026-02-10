@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sqlninja
+Comment=sqlninja
+Encoding=UTF-8
+Exec=menuexec sqlninja --help
+Icon=ctxos_sqlninja
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=sqlninja

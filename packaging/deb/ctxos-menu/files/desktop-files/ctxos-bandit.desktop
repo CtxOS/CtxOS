@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bandit
+Comment=bandit
+Encoding=UTF-8
+Exec=menuexec bandit --help
+Icon=ctxos_bandit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=bandit

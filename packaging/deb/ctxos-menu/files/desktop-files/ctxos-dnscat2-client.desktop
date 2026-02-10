@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnscat2-client
+Comment=dnscat2-client
+Encoding=UTF-8
+Exec=menuexec dnscat2-client --help
+Icon=ctxos_dnscat2-client
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnscat2-client

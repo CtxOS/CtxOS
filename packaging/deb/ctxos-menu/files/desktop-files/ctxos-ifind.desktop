@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ifind
+Comment=ifind
+Encoding=UTF-8
+Exec=menuexec ifind --help
+Icon=ctxos_ifind
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ifind

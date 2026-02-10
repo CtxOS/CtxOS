@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wireshark
+Comment=wireshark
+Encoding=UTF-8
+Exec=menuexec wireshark --help
+Icon=ctxos_wireshark
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-01-network-sniffers;09-sniffing-spoofing;
+X-Ctxos-Package=wireshark

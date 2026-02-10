@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=kismet
+Comment=kismet
+Encoding=UTF-8
+Exec=menuexec kismet --help
+Icon=ctxos_kismet
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-01-wireless-tools;06-wireless-attacks;
+X-Ctxos-Package=kismet

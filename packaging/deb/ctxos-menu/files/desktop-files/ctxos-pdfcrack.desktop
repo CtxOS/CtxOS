@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pdfcrack
+Comment=pdfcrack
+Encoding=UTF-8
+Exec=menuexec pdfcrack --help
+Icon=ctxos_pdfcrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=pdfcrack

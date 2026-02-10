@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=netexec
+Comment=netexec
+Encoding=UTF-8
+Exec=menuexec netexec --help
+Icon=ctxos_netexec
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=netexec

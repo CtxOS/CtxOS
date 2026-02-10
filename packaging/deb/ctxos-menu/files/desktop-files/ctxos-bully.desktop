@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bully
+Comment=bully
+Encoding=UTF-8
+Exec=menuexec bully --help
+Icon=ctxos_bully
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=bully

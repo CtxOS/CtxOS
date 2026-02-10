@@ -1,0 +1,105 @@
+#!/bin/bash
+# error_exit - Display error message and exit with status code
+# Usage: error_exit "Error message" [exit_code]
+
+# Colors for terminal output
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+# Function to show GUI error dialog
+show_gui_error() {
+    local message="$1"
+    
+    # Try zenity first (GNOME)
+    if command -v zenity &> /dev/null; then
+        zenity --error \
+            --title="Error" \
+            --text="$message" \
+            --width=400 \
+            2>/dev/null
+        return 0
+    fi
+    
+    # Try kdialog (KDE)
+    if command -v kdialog &> /dev/null; then
+        kdialog --error "$message" \
+            --title "Error" \
+            2>/dev/null
+        return 0
+    fi
+    
+    # Try yad (alternative)
+    if command -v yad &> /dev/null; then
+        yad --error \
+            --title="Error" \
+            --text="$message" \
+            --width=400 \
+            --button="OK:0" \
+            2>/dev/null
+        return 0
+    fi
+    
+    # Try xmessage as fallback
+    if command -v xmessage &> /dev/null; then
+        xmessage -center "ERROR: $message" 2>/dev/null
+        return 0
+    fi
+    
+    return 1
+}
+
+# Function to send desktop notification
+send_notification() {
+    local message="$1"
+    
+    if command -v notify-send &> /dev/null; then
+        notify-send -i dialog-error \
+            -u critical \
+            "Error" \
+            "$message" \
+            2>/dev/null
+    fi
+}
+
+# Main function
+main() {
+    local error_message="${1:-An unknown error occurred}"
+    local exit_code="${2:-1}"
+    
+    # Validate exit code is a number
+    if ! [[ "$exit_code" =~ ^[0-9]+$ ]]; then
+        exit_code=1
+    fi
+    
+    # Ensure exit code is between 1-255
+    if [ "$exit_code" -lt 1 ] || [ "$exit_code" -gt 255 ]; then
+        exit_code=1
+    fi
+    
+    # Print to stderr with color if terminal supports it
+    if [ -t 2 ]; then
+        echo -e "${RED}[ERROR]${NC} $error_message" >&2
+        echo -e "${YELLOW}Exiting with code: $exit_code${NC}" >&2
+    else
+        echo "[ERROR] $error_message" >&2
+        echo "Exiting with code: $exit_code" >&2
+    fi
+    
+    # Try to show GUI error if DISPLAY is set (running in X11/Wayland)
+    if [ -n "$DISPLAY" ] || [ -n "$WAYLAND_DISPLAY" ]; then
+        show_gui_error "$error_message"
+        send_notification "$error_message"
+    fi
+    
+    # Log to syslog if available
+    if command -v logger &> /dev/null; then
+        logger -t "error_exit" -p user.error "$error_message (exit code: $exit_code)"
+    fi
+    
+    # Exit with specified code
+    exit "$exit_code"
+}
+
+# Run main function with all arguments
+main "$@"

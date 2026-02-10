@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=exe2hex
+Comment=exe2hex
+Encoding=UTF-8
+Exec=menuexec exe2hex --help
+Icon=ctxos_exe2hex
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=exe2hex

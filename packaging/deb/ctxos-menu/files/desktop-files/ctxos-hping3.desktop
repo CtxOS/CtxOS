@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hping3
+Comment=hping3
+Encoding=UTF-8
+Exec=menuexec hping3 --help
+Icon=ctxos_hping3
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-02-identify-live-hosts;01-info-gathering;
+X-Ctxos-Package=hping3

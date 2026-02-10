@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wash
+Comment=wash
+Encoding=UTF-8
+Exec=menuexec wash --help
+Icon=ctxos_wash
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=wash

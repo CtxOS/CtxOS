@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sslsplit
+Comment=sslsplit
+Encoding=UTF-8
+Exec=menuexec sslsplit --help
+Icon=ctxos_sslsplit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sslsplit

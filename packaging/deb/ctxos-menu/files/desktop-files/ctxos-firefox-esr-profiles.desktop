@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=firefox-esr-profiles
+Comment=firefox-esr-profiles
+Encoding=UTF-8
+Exec=menuexec firefox-esr-profiles --help
+Icon=ctxos_firefox-esr-profiles
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=firefox-esr-profiles

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnstracer
+Comment=dnstracer
+Encoding=UTF-8
+Exec=menuexec dnstracer --help
+Icon=ctxos_dnstracer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnstracer

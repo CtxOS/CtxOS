@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtl_sdr
+Comment=rtl_sdr
+Encoding=UTF-8
+Exec=menuexec rtl_sdr --help
+Icon=ctxos_rtl_sdr
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtl_sdr

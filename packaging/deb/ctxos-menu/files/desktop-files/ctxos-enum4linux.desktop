@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=enum4linux
+Comment=enum4linux
+Encoding=UTF-8
+Exec=menuexec enum4linux --help
+Icon=ctxos_enum4linux
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-10-smb-analysis;01-info-gathering;
+X-Ctxos-Package=enum4linux

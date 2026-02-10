@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sqldict
+Comment=sqldict
+Encoding=UTF-8
+Exec=menuexec sqldict --help
+Icon=ctxos_sqldict
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=sqldict

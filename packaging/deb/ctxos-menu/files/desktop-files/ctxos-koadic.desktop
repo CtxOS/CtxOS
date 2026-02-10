@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=koadic
+Comment=koadic
+Encoding=UTF-8
+Exec=menuexec koadic --help
+Icon=ctxos_koadic
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=koadic

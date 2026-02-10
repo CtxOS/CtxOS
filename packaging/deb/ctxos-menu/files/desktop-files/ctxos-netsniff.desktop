@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=netsniff
+Comment=netsniff
+Encoding=UTF-8
+Exec=menuexec netsniff --help
+Icon=ctxos_netsniff
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=netsniff

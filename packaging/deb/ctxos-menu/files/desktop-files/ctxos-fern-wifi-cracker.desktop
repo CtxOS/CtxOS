@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fern-wifi-cracker
+Comment=fern-wifi-cracker
+Encoding=UTF-8
+Exec=menuexec fern-wifi-cracker --help
+Icon=ctxos_fern-wifi-cracker
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=fern-wifi-cracker

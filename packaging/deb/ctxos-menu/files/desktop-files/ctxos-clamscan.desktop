@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=clamscan
+Comment=clamscan
+Encoding=UTF-8
+Exec=menuexec clamscan --help
+Icon=ctxos_clamscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=clamscan

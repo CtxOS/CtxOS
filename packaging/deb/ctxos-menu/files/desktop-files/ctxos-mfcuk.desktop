@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mfcuk
+Comment=mfcuk
+Encoding=UTF-8
+Exec=menuexec mfcuk --help
+Icon=ctxos_mfcuk
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mfcuk

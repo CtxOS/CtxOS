@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ismtp
+Comment=ismtp
+Encoding=UTF-8
+Exec=menuexec ismtp --help
+Icon=ctxos_ismtp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ismtp

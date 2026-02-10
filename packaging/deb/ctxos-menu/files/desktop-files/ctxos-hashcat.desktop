@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hashcat
+Comment=hashcat
+Encoding=UTF-8
+Exec=menuexec hashcat --help
+Icon=ctxos_hashcat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-02-offline-attacks;05-password-attacks;
+X-Ctxos-Package=hashcat

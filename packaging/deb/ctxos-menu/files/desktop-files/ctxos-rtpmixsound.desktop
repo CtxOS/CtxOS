@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtpmixsound
+Comment=rtpmixsound
+Encoding=UTF-8
+Exec=menuexec rtpmixsound --help
+Icon=ctxos_rtpmixsound
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtpmixsound

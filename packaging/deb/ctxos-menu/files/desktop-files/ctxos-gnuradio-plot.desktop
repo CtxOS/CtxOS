@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-plot
+Comment=gnuradio-plot
+Encoding=UTF-8
+Exec=menuexec gnuradio-plot --help
+Icon=ctxos_gnuradio-plot
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-plot

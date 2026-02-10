@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mimikatz
+Comment=mimikatz
+Encoding=UTF-8
+Exec=menuexec mimikatz --help
+Icon=ctxos_mimikatz
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-03-local-attacks;05-password-attacks;08-post-exploit;
+X-Ctxos-Package=mimikatz

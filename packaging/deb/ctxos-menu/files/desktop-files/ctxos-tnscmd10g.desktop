@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tnscmd10g
+Comment=tnscmd10g
+Encoding=UTF-8
+Exec=menuexec tnscmd10g --help
+Icon=ctxos_tnscmd10g
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tnscmd10g

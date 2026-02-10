@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=modes_rx
+Comment=modes_rx
+Encoding=UTF-8
+Exec=menuexec modes_rx --help
+Icon=ctxos_modes_rx
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=modes_rx

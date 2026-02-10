@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ike-scan
+Comment=ike-scan
+Encoding=UTF-8
+Exec=menuexec ike-scan --help
+Icon=ctxos_ike-scan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=ike-scan

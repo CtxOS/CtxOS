@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gvm-check
+Comment=gvm-check
+Encoding=UTF-8
+Exec=menuexec gvm-check --help
+Icon=ctxos_gvm-check
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gvm-check

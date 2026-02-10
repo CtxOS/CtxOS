@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=freeradius
+Comment=freeradius
+Encoding=UTF-8
+Exec=menuexec freeradius --help
+Icon=ctxos_freeradius
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=freeradius

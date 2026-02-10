@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=smtp-user-enum
+Comment=smtp-user-enum
+Encoding=UTF-8
+Exec=menuexec smtp-user-enum --help
+Icon=ctxos_smtp-user-enum
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=smtp-user-enum

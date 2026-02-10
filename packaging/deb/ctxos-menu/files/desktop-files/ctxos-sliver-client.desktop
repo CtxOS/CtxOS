@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sliver-client
+Comment=sliver-client
+Encoding=UTF-8
+Exec=menuexec sliver-client --help
+Icon=ctxos_sliver-client
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-post-exploit;
+X-Ctxos-Package=sliver-client

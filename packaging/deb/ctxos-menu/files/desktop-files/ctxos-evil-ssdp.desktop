@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=evil-ssdp
+Comment=evil-ssdp
+Encoding=UTF-8
+Exec=menuexec evil-ssdp --help
+Icon=ctxos_evil-ssdp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=evil-ssdp

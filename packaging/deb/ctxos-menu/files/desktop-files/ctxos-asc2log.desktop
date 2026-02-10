@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=asc2log
+Comment=asc2log
+Encoding=UTF-8
+Exec=menuexec asc2log --help
+Icon=ctxos_asc2log
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=asc2log

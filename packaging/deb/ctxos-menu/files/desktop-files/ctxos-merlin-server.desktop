@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=merlin-server
+Comment=merlin-server
+Encoding=UTF-8
+Exec=menuexec merlin-server --help
+Icon=ctxos_merlin-server
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=merlin-server

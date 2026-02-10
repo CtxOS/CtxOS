@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=extundelete
+Comment=extundelete
+Encoding=UTF-8
+Exec=menuexec extundelete --help
+Icon=ctxos_extundelete
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=extundelete

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=grokevt-ripdll
+Comment=grokevt-ripdll
+Encoding=UTF-8
+Exec=menuexec grokevt-ripdll --help
+Icon=ctxos_grokevt-ripdll
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=grokevt-ripdll

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hashdeep
+Comment=hashdeep
+Encoding=UTF-8
+Exec=menuexec hashdeep --help
+Icon=ctxos_hashdeep
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=hashdeep

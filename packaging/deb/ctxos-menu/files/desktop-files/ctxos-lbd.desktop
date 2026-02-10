@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=lbd
+Comment=lbd
+Encoding=UTF-8
+Exec=menuexec lbd --help
+Icon=ctxos_lbd
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=lbd

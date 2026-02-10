@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rizin-diff
+Comment=rizin-diff
+Encoding=UTF-8
+Exec=menuexec rizin-diff --help
+Icon=ctxos_rizin-diff
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-05-rizin;07-reverseengineer;
+X-Ctxos-Package=rizin-diff

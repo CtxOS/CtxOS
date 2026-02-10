@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-plot_psd
+Comment=gnuradio-plot_psd
+Encoding=UTF-8
+Exec=menuexec gnuradio-plot_psd --help
+Icon=ctxos_gnuradio-plot_psd
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-plot_psd

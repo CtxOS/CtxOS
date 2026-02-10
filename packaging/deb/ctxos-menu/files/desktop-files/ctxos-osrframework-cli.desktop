@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=osrframework-cli
+Comment=osrframework-cli
+Encoding=UTF-8
+Exec=menuexec osrframework-cli --help
+Icon=ctxos_osrframework-cli
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=osrframework-cli

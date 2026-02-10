@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=android-sdk
+Comment=android-sdk
+Encoding=UTF-8
+Exec=menuexec android-sdk --help
+Icon=ctxos_android-sdk
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=android-sdk

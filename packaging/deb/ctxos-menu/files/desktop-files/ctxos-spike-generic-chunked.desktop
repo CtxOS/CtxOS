@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=spike-generic-chunked
+Comment=spike-generic-chunked
+Encoding=UTF-8
+Exec=menuexec spike-generic-chunked --help
+Icon=ctxos_spike-generic-chunked
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-02-fuzzers;02-vulnerability-analysis;
+X-Ctxos-Package=spike-generic-chunked

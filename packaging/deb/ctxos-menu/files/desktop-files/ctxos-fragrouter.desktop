@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fragrouter
+Comment=fragrouter
+Encoding=UTF-8
+Exec=menuexec fragrouter --help
+Icon=ctxos_fragrouter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fragrouter

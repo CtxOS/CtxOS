@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rizin-find
+Comment=rizin-find
+Encoding=UTF-8
+Exec=menuexec rizin-find --help
+Icon=ctxos_rizin-find
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-05-rizin;07-reverseengineer;
+X-Ctxos-Package=rizin-find

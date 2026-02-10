@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=paros
+Comment=paros
+Encoding=UTF-8
+Exec=menuexec paros --help
+Icon=ctxos_paros
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=paros

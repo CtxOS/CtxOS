@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sliver
+Comment=sliver
+Encoding=UTF-8
+Exec=menuexec sliver --help
+Icon=ctxos_sliver
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-post-exploit;
+X-Ctxos-Package=sliver

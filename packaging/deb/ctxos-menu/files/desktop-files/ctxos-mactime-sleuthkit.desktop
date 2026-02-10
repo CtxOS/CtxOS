@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mactime-sleuthkit
+Comment=mactime-sleuthkit
+Encoding=UTF-8
+Exec=menuexec mactime-sleuthkit --help
+Icon=ctxos_mactime-sleuthkit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-forensics;
+X-Ctxos-Package=mactime-sleuthkit

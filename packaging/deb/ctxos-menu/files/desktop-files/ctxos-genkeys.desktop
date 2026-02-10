@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=genkeys
+Comment=genkeys
+Encoding=UTF-8
+Exec=menuexec genkeys --help
+Icon=ctxos_genkeys
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=genkeys

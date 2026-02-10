@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=svmap
+Comment=svmap
+Encoding=UTF-8
+Exec=menuexec svmap --help
+Icon=ctxos_svmap
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=svmap

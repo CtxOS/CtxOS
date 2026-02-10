@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jd-gui
+Comment=jd-gui
+Encoding=UTF-8
+Exec=menuexec jd-gui --help
+Icon=ctxos_jd-gui
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=jd-gui

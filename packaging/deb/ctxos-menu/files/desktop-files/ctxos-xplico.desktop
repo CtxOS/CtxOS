@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xplico
+Comment=xplico
+Encoding=UTF-8
+Exec=menuexec xplico --help
+Icon=ctxos_xplico
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=xplico

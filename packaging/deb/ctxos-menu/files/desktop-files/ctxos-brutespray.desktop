@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=brutespray
+Comment=brutespray
+Encoding=UTF-8
+Exec=menuexec brutespray --help
+Icon=ctxos_brutespray
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=brutespray

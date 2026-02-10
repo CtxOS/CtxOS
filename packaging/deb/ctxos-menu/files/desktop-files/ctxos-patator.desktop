@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=patator
+Comment=patator
+Encoding=UTF-8
+Exec=menuexec patator --help
+Icon=ctxos_patator
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=patator

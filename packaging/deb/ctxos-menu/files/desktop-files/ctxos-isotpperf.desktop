@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=isotpperf
+Comment=isotpperf
+Encoding=UTF-8
+Exec=menuexec isotpperf --help
+Icon=ctxos_isotpperf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=isotpperf

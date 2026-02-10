@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nipper
+Comment=nipper
+Encoding=UTF-8
+Exec=menuexec nipper --help
+Icon=ctxos_nipper
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=nipper

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-uhd_fft
+Comment=gnuradio-uhd_fft
+Encoding=UTF-8
+Exec=menuexec gnuradio-uhd_fft --help
+Icon=ctxos_gnuradio-uhd_fft
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-uhd_fft

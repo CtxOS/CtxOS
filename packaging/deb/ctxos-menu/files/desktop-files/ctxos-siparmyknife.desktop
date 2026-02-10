@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=siparmyknife
+Comment=siparmyknife
+Encoding=UTF-8
+Exec=menuexec siparmyknife --help
+Icon=ctxos_siparmyknife
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=siparmyknife

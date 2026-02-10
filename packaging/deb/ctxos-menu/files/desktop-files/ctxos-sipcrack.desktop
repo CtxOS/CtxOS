@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sipcrack
+Comment=sipcrack
+Encoding=UTF-8
+Exec=menuexec sipcrack --help
+Icon=ctxos_sipcrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=sipcrack

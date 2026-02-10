@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fake_dhcps6
+Comment=fake_dhcps6
+Encoding=UTF-8
+Exec=menuexec fake_dhcps6 --help
+Icon=ctxos_fake_dhcps6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fake_dhcps6

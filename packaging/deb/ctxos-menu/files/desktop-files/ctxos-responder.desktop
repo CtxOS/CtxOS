@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=responder
+Comment=responder
+Encoding=UTF-8
+Exec=menuexec responder --help
+Icon=ctxos_responder
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-02-network-spoofing;09-sniffing-spoofing;
+X-Ctxos-Package=responder

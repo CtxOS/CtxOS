@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=socat
+Comment=socat
+Encoding=UTF-8
+Exec=menuexec socat --help
+Icon=ctxos_socat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=socat

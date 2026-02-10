@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=joomscan
+Comment=joomscan
+Encoding=UTF-8
+Exec=menuexec joomscan --help
+Icon=ctxos_joomscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=joomscan

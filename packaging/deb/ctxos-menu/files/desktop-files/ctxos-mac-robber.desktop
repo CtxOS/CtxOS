@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mac-robber
+Comment=mac-robber
+Encoding=UTF-8
+Exec=menuexec mac-robber --help
+Icon=ctxos_mac-robber
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mac-robber

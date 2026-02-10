@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mdb-hexdump
+Comment=mdb-hexdump
+Encoding=UTF-8
+Exec=menuexec mdb-hexdump --help
+Icon=ctxos_mdb-hexdump
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mdb-hexdump

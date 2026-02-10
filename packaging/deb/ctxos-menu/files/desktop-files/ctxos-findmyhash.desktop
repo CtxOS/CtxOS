@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=findmyhash
+Comment=findmyhash
+Encoding=UTF-8
+Exec=menuexec findmyhash --help
+Icon=ctxos_findmyhash
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=findmyhash

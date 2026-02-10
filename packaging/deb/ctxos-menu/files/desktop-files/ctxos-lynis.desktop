@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=lynis
+Comment=lynis
+Encoding=UTF-8
+Exec=menuexec lynis --help
+Icon=ctxos_lynis
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=lynis

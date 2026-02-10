@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=btscanner
+Comment=btscanner
+Encoding=UTF-8
+Exec=menuexec btscanner --help
+Icon=ctxos_btscanner
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=btscanner

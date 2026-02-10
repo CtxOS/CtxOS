@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ndiff
+Comment=ndiff
+Encoding=UTF-8
+Exec=menuexec ndiff --help
+Icon=ctxos_ndiff
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ndiff

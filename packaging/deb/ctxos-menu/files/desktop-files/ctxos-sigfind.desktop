@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sigfind
+Comment=sigfind
+Encoding=UTF-8
+Exec=menuexec sigfind --help
+Icon=ctxos_sigfind
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sigfind

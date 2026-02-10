@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=stunnel4
+Comment=stunnel4
+Encoding=UTF-8
+Exec=menuexec stunnel4 --help
+Icon=ctxos_stunnel4
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=stunnel4

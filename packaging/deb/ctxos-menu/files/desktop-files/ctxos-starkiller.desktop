@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=starkiller
+Comment=starkiller
+Encoding=UTF-8
+Exec=menuexec starkiller --help
+Icon=ctxos_starkiller
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=starkiller

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-read_file_metadata
+Comment=gnuradio-read_file_metadata
+Encoding=UTF-8
+Exec=menuexec gnuradio-read_file_metadata --help
+Icon=ctxos_gnuradio-read_file_metadata
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-read_file_metadata

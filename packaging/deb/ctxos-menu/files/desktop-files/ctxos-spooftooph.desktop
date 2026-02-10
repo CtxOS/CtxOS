@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=spooftooph
+Comment=spooftooph
+Encoding=UTF-8
+Exec=menuexec spooftooph --help
+Icon=ctxos_spooftooph
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=spooftooph

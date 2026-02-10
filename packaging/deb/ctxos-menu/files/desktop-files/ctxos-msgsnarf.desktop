@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=msgsnarf
+Comment=msgsnarf
+Encoding=UTF-8
+Exec=menuexec msgsnarf --help
+Icon=ctxos_msgsnarf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=msgsnarf

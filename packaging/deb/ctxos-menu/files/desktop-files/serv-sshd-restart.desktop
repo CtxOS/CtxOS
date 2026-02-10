@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sshd restart
+Comment=sshd restart
+Encoding=UTF-8
+Exec=menuexec sudo service sshd restart
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=sshd

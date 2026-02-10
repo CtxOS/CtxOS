@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=unicorn-magic
+Comment=unicorn-magic
+Encoding=UTF-8
+Exec=menuexec unicorn-magic --help
+Icon=ctxos_unicorn-magic
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=unicorn-magic

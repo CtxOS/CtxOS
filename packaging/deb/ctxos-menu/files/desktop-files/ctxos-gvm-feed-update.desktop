@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gvm-feed-update
+Comment=gvm-feed-update
+Encoding=UTF-8
+Exec=menuexec gvm-feed-update --help
+Icon=ctxos_gvm-feed-update
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gvm-feed-update

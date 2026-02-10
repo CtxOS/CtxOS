@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=airodump
+Comment=airodump
+Encoding=UTF-8
+Exec=menuexec airodump --help
+Icon=ctxos_airodump
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=airodump

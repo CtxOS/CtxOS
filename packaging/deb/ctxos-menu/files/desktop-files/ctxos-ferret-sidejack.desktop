@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ferret-sidejack
+Comment=ferret-sidejack
+Encoding=UTF-8
+Exec=menuexec ferret-sidejack --help
+Icon=ctxos_ferret-sidejack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ferret-sidejack

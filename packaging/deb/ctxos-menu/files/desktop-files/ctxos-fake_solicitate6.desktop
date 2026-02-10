@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fake_solicitate6
+Comment=fake_solicitate6
+Encoding=UTF-8
+Exec=menuexec fake_solicitate6 --help
+Icon=ctxos_fake_solicitate6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fake_solicitate6

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=slowhttptest
+Comment=slowhttptest
+Encoding=UTF-8
+Exec=menuexec slowhttptest --help
+Icon=ctxos_slowhttptest
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=slowhttptest

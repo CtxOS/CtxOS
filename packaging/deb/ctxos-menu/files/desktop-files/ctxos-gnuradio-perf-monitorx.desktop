@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-perf-monitorx
+Comment=gnuradio-perf-monitorx
+Encoding=UTF-8
+Exec=menuexec gnuradio-perf-monitorx --help
+Icon=ctxos_gnuradio-perf-monitorx
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-perf-monitorx

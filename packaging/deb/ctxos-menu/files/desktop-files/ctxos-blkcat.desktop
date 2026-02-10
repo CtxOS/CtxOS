@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=blkcat
+Comment=blkcat
+Encoding=UTF-8
+Exec=menuexec blkcat --help
+Icon=ctxos_blkcat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=blkcat

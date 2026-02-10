@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=weevely
+Comment=weevely
+Encoding=UTF-8
+Exec=menuexec weevely --help
+Icon=ctxos_weevely
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=weevely

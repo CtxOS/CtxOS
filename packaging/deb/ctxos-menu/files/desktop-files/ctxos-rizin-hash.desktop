@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rizin-hash
+Comment=rizin-hash
+Encoding=UTF-8
+Exec=menuexec rizin-hash --help
+Icon=ctxos_rizin-hash
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=rizin-hash

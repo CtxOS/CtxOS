@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dhcpig
+Comment=dhcpig
+Encoding=UTF-8
+Exec=menuexec dhcpig --help
+Icon=ctxos_dhcpig
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dhcpig

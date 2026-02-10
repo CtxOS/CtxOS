@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=maryam
+Comment=maryam
+Encoding=UTF-8
+Exec=menuexec maryam --help
+Icon=ctxos_maryam
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=maryam

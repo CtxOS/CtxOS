@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=username-anarchy
+Comment=username-anarchy
+Encoding=UTF-8
+Exec=menuexec username-anarchy --help
+Icon=ctxos_username-anarchy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=username-anarchy

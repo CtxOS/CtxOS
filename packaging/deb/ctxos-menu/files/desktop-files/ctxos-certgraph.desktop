@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=certgraph
+Comment=certgraph
+Encoding=UTF-8
+Exec=menuexec certgraph --help
+Icon=ctxos_certgraph
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=certgraph

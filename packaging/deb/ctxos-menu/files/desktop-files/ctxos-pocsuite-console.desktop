@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pocsuite-console
+Comment=pocsuite-console
+Encoding=UTF-8
+Exec=menuexec pocsuite-console --help
+Icon=ctxos_pocsuite-console
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pocsuite-console

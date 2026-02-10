@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=msf-start
+Comment=msf-start
+Encoding=UTF-8
+Exec=menuexec msf-start --help
+Icon=ctxos_msf-start
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-exploitation-tools;
+X-Ctxos-Package=msf-start

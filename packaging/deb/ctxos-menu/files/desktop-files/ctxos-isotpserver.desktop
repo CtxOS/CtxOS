@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=isotpserver
+Comment=isotpserver
+Encoding=UTF-8
+Exec=menuexec isotpserver --help
+Icon=ctxos_isotpserver
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=isotpserver

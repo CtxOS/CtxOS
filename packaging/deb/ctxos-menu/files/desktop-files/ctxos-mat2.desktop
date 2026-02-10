@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mat2
+Comment=mat2
+Encoding=UTF-8
+Exec=menuexec mat2 --help
+Icon=ctxos_mat2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mat2

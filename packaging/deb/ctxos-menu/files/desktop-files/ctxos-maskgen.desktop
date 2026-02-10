@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=maskgen
+Comment=maskgen
+Encoding=UTF-8
+Exec=menuexec maskgen --help
+Icon=ctxos_maskgen
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=maskgen

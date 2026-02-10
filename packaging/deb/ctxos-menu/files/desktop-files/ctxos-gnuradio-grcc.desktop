@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-grcc
+Comment=gnuradio-grcc
+Encoding=UTF-8
+Exec=menuexec gnuradio-grcc --help
+Icon=ctxos_gnuradio-grcc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-grcc

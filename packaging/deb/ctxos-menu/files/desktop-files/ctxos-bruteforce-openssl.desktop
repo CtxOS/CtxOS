@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bruteforce-openssl
+Comment=bruteforce-openssl
+Encoding=UTF-8
+Exec=menuexec bruteforce-openssl --help
+Icon=ctxos_bruteforce-openssl
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=bruteforce-openssl

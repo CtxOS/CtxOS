@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rcrack
+Comment=rcrack
+Encoding=UTF-8
+Exec=menuexec rcrack --help
+Icon=ctxos_rcrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=rcrack

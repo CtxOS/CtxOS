@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rifiuti2
+Comment=rifiuti2
+Encoding=UTF-8
+Exec=menuexec rifiuti2 --help
+Icon=ctxos_rifiuti2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rifiuti2

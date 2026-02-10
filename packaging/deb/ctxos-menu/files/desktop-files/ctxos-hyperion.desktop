@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hyperion
+Comment=hyperion
+Encoding=UTF-8
+Exec=menuexec hyperion --help
+Icon=ctxos_hyperion
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=hyperion

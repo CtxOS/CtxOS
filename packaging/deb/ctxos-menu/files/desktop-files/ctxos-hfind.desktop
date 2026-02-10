@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hfind
+Comment=hfind
+Encoding=UTF-8
+Exec=menuexec hfind --help
+Icon=ctxos_hfind
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=hfind

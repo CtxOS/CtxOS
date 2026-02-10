@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-uhd_rx_cfile
+Comment=gnuradio-uhd_rx_cfile
+Encoding=UTF-8
+Exec=menuexec gnuradio-uhd_rx_cfile --help
+Icon=ctxos_gnuradio-uhd_rx_cfile
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-uhd_rx_cfile

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=evil-winrm-py
+Comment=evil-winrm-py
+Encoding=UTF-8
+Exec=menuexec evil-winrm-py --help
+Icon=ctxos_evil-winrm-py
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=evil-winrm-py

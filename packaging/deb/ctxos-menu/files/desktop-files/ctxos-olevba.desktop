@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=olevba
+Comment=olevba
+Encoding=UTF-8
+Exec=menuexec olevba --help
+Icon=ctxos_olevba
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=olevba

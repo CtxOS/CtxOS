@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rarun2
+Comment=rarun2
+Encoding=UTF-8
+Exec=menuexec rarun2 --help
+Icon=ctxos_rarun2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rarun2

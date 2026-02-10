@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xhydra
+Comment=xhydra
+Encoding=UTF-8
+Exec=menuexec xhydra --help
+Icon=ctxos_xhydra
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-01-online-attacks;05-password-attacks;
+X-Ctxos-Package=xhydra

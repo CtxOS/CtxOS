@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=zulucrypt
+Comment=zulucrypt
+Encoding=UTF-8
+Exec=menuexec zulucrypt --help
+Icon=ctxos_zulucrypt
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=zulucrypt

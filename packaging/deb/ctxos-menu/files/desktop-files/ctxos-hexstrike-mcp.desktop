@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hexstrike-mcp
+Comment=hexstrike-mcp
+Encoding=UTF-8
+Exec=menuexec hexstrike-mcp --help
+Icon=ctxos_hexstrike-mcp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=hexstrike-mcp

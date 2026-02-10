@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ollydbg
+Comment=ollydbg
+Encoding=UTF-8
+Exec=menuexec ollydbg --help
+Icon=ctxos_ollydbg
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-02-debuggers;07-reverseengineer;
+X-Ctxos-Package=ollydbg

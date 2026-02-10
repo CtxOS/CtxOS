@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=unicornscan
+Comment=unicornscan
+Encoding=UTF-8
+Exec=menuexec unicornscan --help
+Icon=ctxos_unicornscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=unicornscan

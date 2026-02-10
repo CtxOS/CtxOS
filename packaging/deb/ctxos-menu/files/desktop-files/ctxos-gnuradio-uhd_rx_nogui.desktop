@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-uhd_rx_nogui
+Comment=gnuradio-uhd_rx_nogui
+Encoding=UTF-8
+Exec=menuexec gnuradio-uhd_rx_nogui --help
+Icon=ctxos_gnuradio-uhd_rx_nogui
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-uhd_rx_nogui

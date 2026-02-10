@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=detect-it-easy
+Comment=detect-it-easy
+Encoding=UTF-8
+Exec=menuexec detect-it-easy --help
+Icon=ctxos_detect-it-easy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=detect-it-easy

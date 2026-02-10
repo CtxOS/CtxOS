@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=autopsy
+Comment=autopsy
+Encoding=UTF-8
+Exec=menuexec autopsy --help
+Icon=ctxos_autopsy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-08-forensic-suites;11-forensics;
+X-Ctxos-Package=autopsy

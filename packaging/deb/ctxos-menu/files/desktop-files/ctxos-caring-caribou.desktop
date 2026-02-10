@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=caring-caribou
+Comment=caring-caribou
+Encoding=UTF-8
+Exec=menuexec caring-caribou --help
+Icon=ctxos_caring-caribou
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=caring-caribou

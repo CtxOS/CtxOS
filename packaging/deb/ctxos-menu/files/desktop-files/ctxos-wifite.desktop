@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wifite
+Comment=wifite
+Encoding=UTF-8
+Exec=menuexec wifite --help
+Icon=ctxos_wifite
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=wifite

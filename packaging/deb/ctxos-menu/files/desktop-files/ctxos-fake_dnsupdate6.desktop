@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fake_dnsupdate6
+Comment=fake_dnsupdate6
+Encoding=UTF-8
+Exec=menuexec fake_dnsupdate6 --help
+Icon=ctxos_fake_dnsupdate6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=fake_dnsupdate6

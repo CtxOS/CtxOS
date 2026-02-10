@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=testssl
+Comment=testssl
+Encoding=UTF-8
+Exec=menuexec testssl --help
+Icon=ctxos_testssl
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=testssl

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=genpmk
+Comment=genpmk
+Encoding=UTF-8
+Exec=menuexec genpmk --help
+Icon=ctxos_genpmk
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=genpmk

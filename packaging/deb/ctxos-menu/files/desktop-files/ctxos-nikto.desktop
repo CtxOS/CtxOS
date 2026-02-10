@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nikto
+Comment=nikto
+Encoding=UTF-8
+Exec=menuexec nikto --help
+Icon=ctxos_nikto
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-01-web-vulnerability-scanners;02-vulnerability-analysis;
+X-Ctxos-Package=nikto

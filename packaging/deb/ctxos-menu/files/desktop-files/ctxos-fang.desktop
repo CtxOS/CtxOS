@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fang
+Comment=fang
+Encoding=UTF-8
+Exec=menuexec fang --help
+Icon=ctxos_fang
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fang

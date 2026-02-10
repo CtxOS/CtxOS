@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=statsgen
+Comment=statsgen
+Encoding=UTF-8
+Exec=menuexec statsgen --help
+Icon=ctxos_statsgen
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=statsgen

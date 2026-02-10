@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=keystone-engine
+Comment=keystone-engine
+Encoding=UTF-8
+Exec=menuexec keystone-engine --help
+Icon=ctxos_keystone-engine
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=keystone-engine

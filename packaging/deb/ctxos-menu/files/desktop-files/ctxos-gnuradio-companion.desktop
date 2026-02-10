@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-companion
+Comment=gnuradio-companion
+Encoding=UTF-8
+Exec=menuexec gnuradio-companion --help
+Icon=ctxos_gnuradio-companion
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-companion

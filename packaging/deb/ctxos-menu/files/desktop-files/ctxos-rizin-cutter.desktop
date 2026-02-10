@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rizin-cutter
+Comment=rizin-cutter
+Encoding=UTF-8
+Exec=menuexec rizin-cutter --help
+Icon=ctxos_rizin-cutter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-05-rizin;07-reverseengineer;
+X-Ctxos-Package=rizin-cutter

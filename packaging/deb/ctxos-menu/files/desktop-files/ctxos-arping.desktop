@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=arping
+Comment=arping
+Encoding=UTF-8
+Exec=menuexec arping --help
+Icon=ctxos_arping
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=arping

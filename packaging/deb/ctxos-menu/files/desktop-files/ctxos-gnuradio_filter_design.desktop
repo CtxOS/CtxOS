@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio_filter_design
+Comment=gnuradio_filter_design
+Encoding=UTF-8
+Exec=menuexec gnuradio_filter_design --help
+Icon=ctxos_gnuradio_filter_design
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio_filter_design

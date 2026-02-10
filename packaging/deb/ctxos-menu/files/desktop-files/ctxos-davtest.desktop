@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=davtest
+Comment=davtest
+Encoding=UTF-8
+Exec=menuexec davtest --help
+Icon=ctxos_davtest
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=davtest

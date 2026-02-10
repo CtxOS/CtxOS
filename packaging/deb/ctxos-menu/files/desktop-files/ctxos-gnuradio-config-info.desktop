@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-config-info
+Comment=gnuradio-config-info
+Encoding=UTF-8
+Exec=menuexec gnuradio-config-info --help
+Icon=ctxos_gnuradio-config-info
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-config-info

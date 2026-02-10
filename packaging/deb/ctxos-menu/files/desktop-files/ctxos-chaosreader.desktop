@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=chaosreader
+Comment=chaosreader
+Encoding=UTF-8
+Exec=menuexec chaosreader --help
+Icon=ctxos_chaosreader
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=chaosreader

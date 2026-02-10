@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tsk_loaddb
+Comment=tsk_loaddb
+Encoding=UTF-8
+Exec=menuexec tsk_loaddb --help
+Icon=ctxos_tsk_loaddb
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tsk_loaddb

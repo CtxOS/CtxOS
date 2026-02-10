@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cutter
+Comment=cutter
+Encoding=UTF-8
+Exec=menuexec cutter --help
+Icon=ctxos_cutter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cutter

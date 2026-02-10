@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ils
+Comment=ils
+Encoding=UTF-8
+Exec=menuexec ils --help
+Icon=ctxos_ils
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ils

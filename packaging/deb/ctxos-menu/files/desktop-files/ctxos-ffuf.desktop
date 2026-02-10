@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ffuf
+Comment=ffuf
+Encoding=UTF-8
+Exec=menuexec ffuf --help
+Icon=ctxos_ffuf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ffuf

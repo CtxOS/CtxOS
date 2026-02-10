@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fierce
+Comment=fierce
+Encoding=UTF-8
+Exec=menuexec fierce --help
+Icon=ctxos_fierce
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fierce

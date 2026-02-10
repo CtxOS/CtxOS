@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=caido
+Comment=caido
+Encoding=UTF-8
+Exec=menuexec caido --help
+Icon=ctxos_caido
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=caido

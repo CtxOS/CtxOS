@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=neo4j start
+Comment=neo4j start
+Encoding=UTF-8
+Exec=menuexec sudo service neo4j start
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=neo4j

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=binwalk
+Comment=binwalk
+Encoding=UTF-8
+Exec=menuexec binwalk --help
+Icon=ctxos_binwalk
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=binwalk

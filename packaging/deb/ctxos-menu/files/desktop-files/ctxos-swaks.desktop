@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=swaks
+Comment=swaks
+Encoding=UTF-8
+Exec=menuexec swaks --help
+Icon=ctxos_swaks
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-11-smtp-analysis;01-info-gathering;
+X-Ctxos-Package=swaks

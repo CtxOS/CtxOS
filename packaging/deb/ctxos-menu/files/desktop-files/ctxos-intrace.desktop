@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=intrace
+Comment=intrace
+Encoding=UTF-8
+Exec=menuexec intrace --help
+Icon=ctxos_intrace
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=intrace

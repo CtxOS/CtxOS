@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=recoverdm
+Comment=recoverdm
+Encoding=UTF-8
+Exec=menuexec recoverdm --help
+Icon=ctxos_recoverdm
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=recoverdm

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dradis
+Comment=dradis
+Encoding=UTF-8
+Exec=menuexec dradis --help
+Icon=ctxos_dradis
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=12-reporting;
+X-Ctxos-Package=dradis

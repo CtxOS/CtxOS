@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nishang
+Comment=nishang
+Encoding=UTF-8
+Exec=menuexec nishang --help
+Icon=ctxos_nishang
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-post-exploit;
+X-Ctxos-Package=nishang

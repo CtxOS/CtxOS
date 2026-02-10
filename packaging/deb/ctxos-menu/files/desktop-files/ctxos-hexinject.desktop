@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hexinject
+Comment=hexinject
+Encoding=UTF-8
+Exec=menuexec hexinject --help
+Icon=ctxos_hexinject
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=hexinject

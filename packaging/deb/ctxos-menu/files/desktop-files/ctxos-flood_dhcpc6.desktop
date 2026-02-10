@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=flood_dhcpc6
+Comment=flood_dhcpc6
+Encoding=UTF-8
+Exec=menuexec flood_dhcpc6 --help
+Icon=ctxos_flood_dhcpc6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=flood_dhcpc6

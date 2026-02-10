@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=searchsploit
+Comment=searchsploit
+Encoding=UTF-8
+Exec=menuexec searchsploit --help
+Icon=ctxos_searchsploit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-03-exploit-search;04-exploitation-tools;
+X-Ctxos-Package=searchsploit

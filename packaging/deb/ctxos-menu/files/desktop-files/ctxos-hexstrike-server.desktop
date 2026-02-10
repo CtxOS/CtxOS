@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hexstrike-server
+Comment=hexstrike-server
+Encoding=UTF-8
+Exec=menuexec hexstrike-server --help
+Icon=ctxos_hexstrike-server
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=hexstrike-server

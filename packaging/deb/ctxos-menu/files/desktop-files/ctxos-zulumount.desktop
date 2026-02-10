@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=zulumount
+Comment=zulumount
+Encoding=UTF-8
+Exec=menuexec zulumount --help
+Icon=ctxos_zulumount
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=zulumount

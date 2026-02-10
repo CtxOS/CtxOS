@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fake_mipv6
+Comment=fake_mipv6
+Encoding=UTF-8
+Exec=menuexec fake_mipv6 --help
+Icon=ctxos_fake_mipv6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fake_mipv6

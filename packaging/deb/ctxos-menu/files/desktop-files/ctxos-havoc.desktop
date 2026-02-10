@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=havoc
+Comment=havoc
+Encoding=UTF-8
+Exec=menuexec havoc --help
+Icon=ctxos_havoc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=havoc

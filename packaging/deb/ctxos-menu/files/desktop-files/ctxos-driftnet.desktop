@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=driftnet
+Comment=driftnet
+Encoding=UTF-8
+Exec=menuexec driftnet --help
+Icon=ctxos_driftnet
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=driftnet

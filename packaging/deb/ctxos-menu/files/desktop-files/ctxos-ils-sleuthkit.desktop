@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ils-sleuthkit
+Comment=ils-sleuthkit
+Encoding=UTF-8
+Exec=menuexec ils-sleuthkit --help
+Icon=ctxos_ils-sleuthkit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-forensics;
+X-Ctxos-Package=ils-sleuthkit

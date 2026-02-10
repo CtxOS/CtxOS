@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=oleid
+Comment=oleid
+Encoding=UTF-8
+Exec=menuexec oleid --help
+Icon=ctxos_oleid
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=oleid

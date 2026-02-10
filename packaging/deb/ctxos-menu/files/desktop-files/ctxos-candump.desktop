@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=candump
+Comment=candump
+Encoding=UTF-8
+Exec=menuexec candump --help
+Icon=ctxos_candump
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=candump

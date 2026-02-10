@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-wmis
+Comment=pth-wmis
+Encoding=UTF-8
+Exec=menuexec pth-wmis --help
+Icon=ctxos_pth-wmis
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pth-wmis

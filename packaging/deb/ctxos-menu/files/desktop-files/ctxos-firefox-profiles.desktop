@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=firefox-profiles
+Comment=firefox-profiles
+Encoding=UTF-8
+Exec=menuexec firefox-profiles --help
+Icon=ctxos_firefox-profiles
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=firefox-profiles

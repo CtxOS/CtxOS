@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=powershell-empire-client
+Comment=powershell-empire-client
+Encoding=UTF-8
+Exec=menuexec powershell-empire-client --help
+Icon=ctxos_powershell-empire-client
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-post-exploit;
+X-Ctxos-Package=powershell-empire-client

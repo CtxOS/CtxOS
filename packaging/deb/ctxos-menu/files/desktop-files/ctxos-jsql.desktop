@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jsql
+Comment=jsql
+Encoding=UTF-8
+Exec=menuexec jsql --help
+Icon=ctxos_jsql
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=jsql

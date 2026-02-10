@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pcodedmp
+Comment=pcodedmp
+Encoding=UTF-8
+Exec=menuexec pcodedmp --help
+Icon=ctxos_pcodedmp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pcodedmp

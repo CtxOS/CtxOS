@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=airdecloak
+Comment=airdecloak
+Encoding=UTF-8
+Exec=menuexec airdecloak --help
+Icon=ctxos_airdecloak
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=airdecloak

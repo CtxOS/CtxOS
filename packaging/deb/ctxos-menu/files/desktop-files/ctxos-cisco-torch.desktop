@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cisco-torch
+Comment=cisco-torch
+Encoding=UTF-8
+Exec=menuexec cisco-torch --help
+Icon=ctxos_cisco-torch
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=cisco-torch

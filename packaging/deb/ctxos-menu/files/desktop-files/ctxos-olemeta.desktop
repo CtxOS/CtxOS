@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=olemeta
+Comment=olemeta
+Encoding=UTF-8
+Exec=menuexec olemeta --help
+Icon=ctxos_olemeta
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=olemeta

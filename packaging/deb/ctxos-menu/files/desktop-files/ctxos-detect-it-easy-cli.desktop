@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=detect-it-easy-cli
+Comment=detect-it-easy-cli
+Encoding=UTF-8
+Exec=menuexec detect-it-easy-cli --help
+Icon=ctxos_detect-it-easy-cli
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=detect-it-easy-cli

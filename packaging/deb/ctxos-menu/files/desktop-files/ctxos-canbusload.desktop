@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=canbusload
+Comment=canbusload
+Encoding=UTF-8
+Exec=menuexec canbusload --help
+Icon=ctxos_canbusload
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=canbusload

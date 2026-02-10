@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=zkar
+Comment=zkar
+Encoding=UTF-8
+Exec=menuexec zkar --help
+Icon=ctxos_zkar
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=zkar

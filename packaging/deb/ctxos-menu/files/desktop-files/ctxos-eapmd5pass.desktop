@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=eapmd5pass
+Comment=eapmd5pass
+Encoding=UTF-8
+Exec=menuexec eapmd5pass --help
+Icon=ctxos_eapmd5pass
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=eapmd5pass

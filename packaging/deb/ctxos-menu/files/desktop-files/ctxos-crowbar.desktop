@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=crowbar
+Comment=crowbar
+Encoding=UTF-8
+Exec=menuexec crowbar --help
+Icon=ctxos_crowbar
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=crowbar

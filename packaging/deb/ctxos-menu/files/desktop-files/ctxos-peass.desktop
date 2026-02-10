@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=peass
+Comment=peass
+Encoding=UTF-8
+Exec=menuexec peass --help
+Icon=ctxos_peass
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-01-priv-esc;08-post-exploit;
+X-Ctxos-Package=peass

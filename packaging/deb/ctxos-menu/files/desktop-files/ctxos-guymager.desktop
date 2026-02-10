@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=guymager
+Comment=guymager
+Encoding=UTF-8
+Exec=menuexec guymager --help
+Icon=ctxos_guymager
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-07-forensic-imaging-tools;11-forensics;
+X-Ctxos-Package=guymager

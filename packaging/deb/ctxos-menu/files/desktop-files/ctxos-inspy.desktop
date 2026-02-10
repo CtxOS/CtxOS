@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=inspy
+Comment=inspy
+Encoding=UTF-8
+Exec=menuexec inspy --help
+Icon=ctxos_inspy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=inspy

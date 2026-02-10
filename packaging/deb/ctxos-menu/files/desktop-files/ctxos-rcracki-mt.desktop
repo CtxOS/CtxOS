@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rcracki-mt
+Comment=rcracki-mt
+Encoding=UTF-8
+Exec=menuexec rcracki-mt --help
+Icon=ctxos_rcracki-mt
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=rcracki-mt

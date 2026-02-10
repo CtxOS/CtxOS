@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=blkcalc
+Comment=blkcalc
+Encoding=UTF-8
+Exec=menuexec blkcalc --help
+Icon=ctxos_blkcalc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=blkcalc

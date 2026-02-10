@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=netmask
+Comment=netmask
+Encoding=UTF-8
+Exec=menuexec netmask --help
+Icon=ctxos_netmask
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=netmask

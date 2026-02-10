@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=firewalk
+Comment=firewalk
+Encoding=UTF-8
+Exec=menuexec firewalk --help
+Icon=ctxos_firewalk
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=firewalk

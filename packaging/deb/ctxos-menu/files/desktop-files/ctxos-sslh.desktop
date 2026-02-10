@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sslh
+Comment=sslh
+Encoding=UTF-8
+Exec=menuexec sslh --help
+Icon=ctxos_sslh
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sslh

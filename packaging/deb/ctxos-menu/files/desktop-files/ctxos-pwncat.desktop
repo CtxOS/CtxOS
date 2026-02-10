@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pwncat
+Comment=pwncat
+Encoding=UTF-8
+Exec=menuexec pwncat --help
+Icon=ctxos_pwncat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pwncat

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=masscan
+Comment=masscan
+Encoding=UTF-8
+Exec=menuexec masscan --help
+Icon=ctxos_masscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=masscan

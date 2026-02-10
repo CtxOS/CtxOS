@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tsk_recover
+Comment=tsk_recover
+Encoding=UTF-8
+Exec=menuexec tsk_recover --help
+Icon=ctxos_tsk_recover
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tsk_recover

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cmospwd
+Comment=cmospwd
+Encoding=UTF-8
+Exec=menuexec cmospwd --help
+Icon=ctxos_cmospwd
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cmospwd

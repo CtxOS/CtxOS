@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ext3grep
+Comment=ext3grep
+Encoding=UTF-8
+Exec=menuexec ext3grep --help
+Icon=ctxos_ext3grep
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ext3grep

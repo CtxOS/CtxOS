@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=aireplay
+Comment=aireplay
+Encoding=UTF-8
+Exec=menuexec aireplay --help
+Icon=ctxos_aireplay
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=aireplay

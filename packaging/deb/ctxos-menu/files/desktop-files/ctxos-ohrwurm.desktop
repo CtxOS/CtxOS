@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ohrwurm
+Comment=ohrwurm
+Encoding=UTF-8
+Exec=menuexec ohrwurm --help
+Icon=ctxos_ohrwurm
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ohrwurm

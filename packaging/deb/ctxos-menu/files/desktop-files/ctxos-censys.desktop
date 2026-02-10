@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=censys
+Comment=censys
+Encoding=UTF-8
+Exec=menuexec censys --help
+Icon=ctxos_censys
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=censys

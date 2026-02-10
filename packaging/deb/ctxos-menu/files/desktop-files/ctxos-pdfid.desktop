@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pdfid
+Comment=pdfid
+Encoding=UTF-8
+Exec=menuexec pdfid --help
+Icon=ctxos_pdfid
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pdfid

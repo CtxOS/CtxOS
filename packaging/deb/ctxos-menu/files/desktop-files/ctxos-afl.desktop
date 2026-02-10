@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=afl
+Comment=afl
+Encoding=UTF-8
+Exec=menuexec afl --help
+Icon=ctxos_afl
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=afl

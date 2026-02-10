@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=windows-binaries
+Comment=windows-binaries
+Encoding=UTF-8
+Exec=menuexec windows-binaries --help
+Icon=ctxos_windows-binaries
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=windows-binaries

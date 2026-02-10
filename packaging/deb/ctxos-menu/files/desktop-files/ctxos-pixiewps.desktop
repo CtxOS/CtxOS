@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pixiewps
+Comment=pixiewps
+Encoding=UTF-8
+Exec=menuexec pixiewps --help
+Icon=ctxos_pixiewps
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pixiewps

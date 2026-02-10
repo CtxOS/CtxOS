@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pdf-parser
+Comment=pdf-parser
+Encoding=UTF-8
+Exec=menuexec pdf-parser --help
+Icon=ctxos_pdf-parser
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pdf-parser

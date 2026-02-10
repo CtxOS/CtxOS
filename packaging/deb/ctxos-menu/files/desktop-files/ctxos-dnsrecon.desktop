@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnsrecon
+Comment=dnsrecon
+Encoding=UTF-8
+Exec=menuexec dnsrecon --help
+Icon=ctxos_dnsrecon
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnsrecon

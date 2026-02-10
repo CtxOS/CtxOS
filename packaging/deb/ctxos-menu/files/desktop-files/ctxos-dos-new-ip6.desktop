@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dos-new-ip6
+Comment=dos-new-ip6
+Encoding=UTF-8
+Exec=menuexec dos-new-ip6 --help
+Icon=ctxos_dos-new-ip6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dos-new-ip6

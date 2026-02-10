@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=isotprecv
+Comment=isotprecv
+Encoding=UTF-8
+Exec=menuexec isotprecv --help
+Icon=ctxos_isotprecv
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=isotprecv

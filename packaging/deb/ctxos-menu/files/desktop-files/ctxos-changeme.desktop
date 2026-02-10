@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=changeme
+Comment=changeme
+Encoding=UTF-8
+Exec=menuexec changeme --help
+Icon=ctxos_changeme
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=changeme

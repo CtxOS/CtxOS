@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-modtool
+Comment=gnuradio-modtool
+Encoding=UTF-8
+Exec=menuexec gnuradio-modtool --help
+Icon=ctxos_gnuradio-modtool
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-modtool

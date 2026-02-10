@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gospider
+Comment=gospider
+Encoding=UTF-8
+Exec=menuexec gospider --help
+Icon=ctxos_gospider
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gospider

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=d2j-dex2jar
+Comment=d2j-dex2jar
+Encoding=UTF-8
+Exec=menuexec d2j-dex2jar --help
+Icon=ctxos_d2j-dex2jar
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=d2j-dex2jar

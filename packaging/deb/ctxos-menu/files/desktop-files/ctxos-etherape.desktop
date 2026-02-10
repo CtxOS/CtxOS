@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=etherape
+Comment=etherape
+Encoding=UTF-8
+Exec=menuexec etherape --help
+Icon=ctxos_etherape
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=etherape

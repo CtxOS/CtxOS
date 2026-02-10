@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=impacket
+Comment=impacket
+Encoding=UTF-8
+Exec=menuexec impacket --help
+Icon=ctxos_impacket
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=impacket

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=villain
+Comment=villain
+Encoding=UTF-8
+Exec=menuexec villain --help
+Icon=ctxos_villain
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=villain

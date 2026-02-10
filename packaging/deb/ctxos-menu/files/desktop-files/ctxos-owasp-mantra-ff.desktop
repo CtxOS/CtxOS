@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=owasp-mantra-ff
+Comment=owasp-mantra-ff
+Encoding=UTF-8
+Exec=menuexec owasp-mantra-ff --help
+Icon=ctxos_owasp-mantra-ff
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=owasp-mantra-ff

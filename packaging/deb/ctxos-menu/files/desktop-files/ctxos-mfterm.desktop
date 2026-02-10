@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mfterm
+Comment=mfterm
+Encoding=UTF-8
+Exec=menuexec mfterm --help
+Icon=ctxos_mfterm
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mfterm

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=magicrescue
+Comment=magicrescue
+Encoding=UTF-8
+Exec=menuexec magicrescue --help
+Icon=ctxos_magicrescue
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=magicrescue

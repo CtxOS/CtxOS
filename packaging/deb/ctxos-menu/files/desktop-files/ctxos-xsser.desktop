@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xsser
+Comment=xsser
+Encoding=UTF-8
+Exec=menuexec xsser --help
+Icon=ctxos_xsser
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=xsser

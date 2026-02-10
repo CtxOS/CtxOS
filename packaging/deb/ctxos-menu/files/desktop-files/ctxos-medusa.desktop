@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=medusa
+Comment=medusa
+Encoding=UTF-8
+Exec=menuexec medusa --help
+Icon=ctxos_medusa
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-01-online-attacks;05-password-attacks;
+X-Ctxos-Package=medusa

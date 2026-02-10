@@ -1,0 +1,12 @@
+# Ignore generated icon directories (keep only 256x256 master source)
+16x16/
+16x16@2/
+24x24/
+24x24@2/
+32x32/
+32x32@2/
+48x48/
+48x48@2/
+
+# But keep the 256x256 master source directory
+!256x256/

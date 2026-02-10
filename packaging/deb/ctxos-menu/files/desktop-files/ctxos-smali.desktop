@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=smali
+Comment=smali
+Encoding=UTF-8
+Exec=menuexec smali --help
+Icon=ctxos_smali
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=smali

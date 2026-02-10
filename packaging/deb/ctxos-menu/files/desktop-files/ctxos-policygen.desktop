@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=policygen
+Comment=policygen
+Encoding=UTF-8
+Exec=menuexec policygen --help
+Icon=ctxos_policygen
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=policygen

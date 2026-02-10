@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=johnny
+Comment=johnny
+Encoding=UTF-8
+Exec=menuexec johnny --help
+Icon=ctxos_johnny
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-02-offline-attacks;05-password-attacks;
+X-Ctxos-Package=johnny

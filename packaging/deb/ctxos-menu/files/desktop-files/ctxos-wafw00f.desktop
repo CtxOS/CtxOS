@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wafw00f
+Comment=wafw00f
+Encoding=UTF-8
+Exec=menuexec wafw00f --help
+Icon=ctxos_wafw00f
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=wafw00f

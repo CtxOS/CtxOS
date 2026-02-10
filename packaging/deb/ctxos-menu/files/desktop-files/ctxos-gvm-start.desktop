@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gvm-start
+Comment=gvm-start
+Encoding=UTF-8
+Exec=menuexec gvm-start --help
+Icon=ctxos_gvm-start
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gvm-start

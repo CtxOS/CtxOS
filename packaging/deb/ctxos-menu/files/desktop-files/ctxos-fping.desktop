@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fping
+Comment=fping
+Encoding=UTF-8
+Exec=menuexec fping --help
+Icon=ctxos_fping
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-02-identify-live-hosts;01-info-gathering;
+X-Ctxos-Package=fping

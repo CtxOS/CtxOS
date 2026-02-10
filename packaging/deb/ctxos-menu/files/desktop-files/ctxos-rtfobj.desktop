@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtfobj
+Comment=rtfobj
+Encoding=UTF-8
+Exec=menuexec rtfobj --help
+Icon=ctxos_rtfobj
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtfobj

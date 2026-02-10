@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=afl-fuzz
+Comment=afl-fuzz
+Encoding=UTF-8
+Exec=menuexec afl-fuzz --help
+Icon=ctxos_afl-fuzz
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-vulnerability-analysis;
+X-Ctxos-Package=afl-fuzz

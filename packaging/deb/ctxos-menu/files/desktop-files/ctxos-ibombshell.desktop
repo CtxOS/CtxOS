@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ibombshell
+Comment=ibombshell
+Encoding=UTF-8
+Exec=menuexec ibombshell --help
+Icon=ctxos_ibombshell
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ibombshell

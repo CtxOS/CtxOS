@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=burpsuite-legacy
+Comment=burpsuite-legacy
+Encoding=UTF-8
+Exec=menuexec burpsuite-legacy --help
+Icon=ctxos_burpsuite-legacy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=burpsuite-legacy

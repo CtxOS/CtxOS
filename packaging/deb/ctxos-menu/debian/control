@@ -1,0 +1,13 @@
+Source: ctxos-menu
+Section: utils
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+
+Package: ctxos-menu
+Architecture: all
+Depends: ${misc:Depends}, hicolor-icon-theme
+Description: CtxOS Application Menu and Wrappers
+ Professional application menu, desktop entries, icons, and shell wrappers 
+ for the CtxOS security ecosystem.

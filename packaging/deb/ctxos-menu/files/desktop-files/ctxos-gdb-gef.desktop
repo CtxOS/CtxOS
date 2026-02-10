@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gdb-gef
+Comment=gdb-gef
+Encoding=UTF-8
+Exec=menuexec gdb-gef --help
+Icon=ctxos_gdb-gef
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gdb-gef

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=grokevt-addlog
+Comment=grokevt-addlog
+Encoding=UTF-8
+Exec=menuexec grokevt-addlog --help
+Icon=ctxos_grokevt-addlog
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=grokevt-addlog

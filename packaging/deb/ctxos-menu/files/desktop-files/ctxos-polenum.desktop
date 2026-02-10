@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=polenum
+Comment=polenum
+Encoding=UTF-8
+Exec=menuexec polenum --help
+Icon=ctxos_polenum
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=polenum

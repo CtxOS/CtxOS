@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sctpscan
+Comment=sctpscan
+Encoding=UTF-8
+Exec=menuexec sctpscan --help
+Icon=ctxos_sctpscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=sctpscan

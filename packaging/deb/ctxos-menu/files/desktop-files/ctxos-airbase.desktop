@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=airbase
+Comment=airbase
+Encoding=UTF-8
+Exec=menuexec airbase --help
+Icon=ctxos_airbase
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=airbase

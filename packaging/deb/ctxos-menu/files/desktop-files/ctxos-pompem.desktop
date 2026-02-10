@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pompem
+Comment=pompem
+Encoding=UTF-8
+Exec=menuexec pompem --help
+Icon=ctxos_pompem
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pompem

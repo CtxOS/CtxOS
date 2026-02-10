@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=flood_mld26
+Comment=flood_mld26
+Encoding=UTF-8
+Exec=menuexec flood_mld26 --help
+Icon=ctxos_flood_mld26
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=flood_mld26

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-smbclient
+Comment=pth-smbclient
+Encoding=UTF-8
+Exec=menuexec pth-smbclient --help
+Icon=ctxos_pth-smbclient
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=pth-smbclient

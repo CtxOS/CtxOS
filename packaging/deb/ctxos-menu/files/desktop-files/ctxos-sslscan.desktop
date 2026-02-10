@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sslscan
+Comment=sslscan
+Encoding=UTF-8
+Exec=menuexec sslscan --help
+Icon=ctxos_sslscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=sslscan

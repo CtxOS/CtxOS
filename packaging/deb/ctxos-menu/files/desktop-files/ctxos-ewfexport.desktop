@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ewfexport
+Comment=ewfexport
+Encoding=UTF-8
+Exec=menuexec ewfexport --help
+Icon=ctxos_ewfexport
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ewfexport

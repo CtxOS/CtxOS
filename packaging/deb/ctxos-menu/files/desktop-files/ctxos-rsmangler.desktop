@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rsmangler
+Comment=rsmangler
+Encoding=UTF-8
+Exec=menuexec rsmangler --help
+Icon=ctxos_rsmangler
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rsmangler

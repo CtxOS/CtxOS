@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=detect-new-ip6
+Comment=detect-new-ip6
+Encoding=UTF-8
+Exec=menuexec detect-new-ip6 --help
+Icon=ctxos_detect-new-ip6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=detect-new-ip6

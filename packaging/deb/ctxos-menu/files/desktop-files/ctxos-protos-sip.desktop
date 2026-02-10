@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=protos-sip
+Comment=protos-sip
+Encoding=UTF-8
+Exec=menuexec protos-sip --help
+Icon=ctxos_protos-sip
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=protos-sip

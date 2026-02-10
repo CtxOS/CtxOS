@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nbtscan
+Comment=nbtscan
+Encoding=UTF-8
+Exec=menuexec nbtscan --help
+Icon=ctxos_nbtscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=nbtscan

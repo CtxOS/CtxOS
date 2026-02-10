@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=yara
+Comment=yara
+Encoding=UTF-8
+Exec=menuexec yara --help
+Icon=ctxos_yara
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=yara

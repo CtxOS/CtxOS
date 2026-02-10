@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=maltego
+Comment=maltego
+Encoding=UTF-8
+Exec=menuexec maltego --help
+Icon=ctxos_maltego
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=maltego

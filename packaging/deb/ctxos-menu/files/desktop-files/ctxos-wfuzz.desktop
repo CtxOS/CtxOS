@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wfuzz
+Comment=wfuzz
+Encoding=UTF-8
+Exec=menuexec wfuzz --help
+Icon=ctxos_wfuzz
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-vulnerability-analysis;
+X-Ctxos-Package=wfuzz

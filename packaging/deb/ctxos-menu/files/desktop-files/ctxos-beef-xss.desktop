@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=beef-xss
+Comment=beef-xss
+Encoding=UTF-8
+Exec=menuexec beef-xss --help
+Icon=ctxos_beef-xss
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-05-web-exploit;04-exploitation-tools;
+X-Ctxos-Package=beef-xss

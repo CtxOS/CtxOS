@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ivy-optiv
+Comment=ivy-optiv
+Encoding=UTF-8
+Exec=menuexec ivy-optiv --help
+Icon=ctxos_ivy-optiv
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ivy-optiv

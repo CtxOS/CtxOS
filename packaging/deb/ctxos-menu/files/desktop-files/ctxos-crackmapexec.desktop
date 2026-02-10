@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=crackmapexec
+Comment=crackmapexec
+Encoding=UTF-8
+Exec=menuexec crackmapexec --help
+Icon=ctxos_crackmapexec
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=crackmapexec

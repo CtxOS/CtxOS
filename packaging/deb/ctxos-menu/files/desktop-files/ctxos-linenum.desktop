@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=linenum
+Comment=linenum
+Encoding=UTF-8
+Exec=menuexec linenum --help
+Icon=ctxos_linenum
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=linenum

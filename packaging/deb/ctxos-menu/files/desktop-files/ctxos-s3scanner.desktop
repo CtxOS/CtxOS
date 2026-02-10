@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=s3scanner
+Comment=s3scanner
+Encoding=UTF-8
+Exec=menuexec s3scanner --help
+Icon=ctxos_s3scanner
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=s3scanner

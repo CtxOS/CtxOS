@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sbd
+Comment=sbd
+Encoding=UTF-8
+Exec=menuexec sbd --help
+Icon=ctxos_sbd
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sbd

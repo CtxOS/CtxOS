@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rkhunter
+Comment=rkhunter
+Encoding=UTF-8
+Exec=menuexec rkhunter --help
+Icon=ctxos_rkhunter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rkhunter

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sfuzz
+Comment=sfuzz
+Encoding=UTF-8
+Exec=menuexec sfuzz --help
+Icon=ctxos_sfuzz
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-vulnerability-analysis;
+X-Ctxos-Package=sfuzz

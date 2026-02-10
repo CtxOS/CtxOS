@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=canbus-triple
+Comment=canbus-triple
+Encoding=UTF-8
+Exec=menuexec canbus-triple --help
+Icon=ctxos_canbus-triple
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=canbus-triple

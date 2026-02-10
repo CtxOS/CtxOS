@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-plot_iq
+Comment=gnuradio-plot_iq
+Encoding=UTF-8
+Exec=menuexec gnuradio-plot_iq --help
+Icon=ctxos_gnuradio-plot_iq
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-plot_iq

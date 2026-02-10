@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gobuster
+Comment=gobuster
+Encoding=UTF-8
+Exec=menuexec gobuster --help
+Icon=ctxos_gobuster
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-04-web-crawlers;03-webapp-analysis;
+X-Ctxos-Package=gobuster

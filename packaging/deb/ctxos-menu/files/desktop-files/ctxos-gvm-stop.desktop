@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gvm-stop
+Comment=gvm-stop
+Encoding=UTF-8
+Exec=menuexec gvm-stop --help
+Icon=ctxos_gvm-stop
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gvm-stop

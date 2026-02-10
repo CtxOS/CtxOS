@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=webmitm
+Comment=webmitm
+Encoding=UTF-8
+Exec=menuexec webmitm --help
+Icon=ctxos_webmitm
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=webmitm

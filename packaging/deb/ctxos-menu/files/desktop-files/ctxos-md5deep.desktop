@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=md5deep
+Comment=md5deep
+Encoding=UTF-8
+Exec=menuexec md5deep --help
+Icon=ctxos_md5deep
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=md5deep

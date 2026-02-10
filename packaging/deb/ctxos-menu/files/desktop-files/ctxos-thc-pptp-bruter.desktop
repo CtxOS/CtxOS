@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=thc-pptp-bruter
+Comment=thc-pptp-bruter
+Encoding=UTF-8
+Exec=menuexec thc-pptp-bruter --help
+Icon=ctxos_thc-pptp-bruter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=thc-pptp-bruter

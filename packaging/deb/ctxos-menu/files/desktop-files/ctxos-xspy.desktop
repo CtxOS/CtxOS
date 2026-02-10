@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xspy
+Comment=xspy
+Encoding=UTF-8
+Exec=menuexec xspy --help
+Icon=ctxos_xspy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=xspy

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnscat2-server
+Comment=dnscat2-server
+Encoding=UTF-8
+Exec=menuexec dnscat2-server --help
+Icon=ctxos_dnscat2-server
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnscat2-server

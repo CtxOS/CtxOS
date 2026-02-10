@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sqlitebrowser
+Comment=sqlitebrowser
+Encoding=UTF-8
+Exec=sqlitebrowser
+Icon=sqlitebrowser
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=sqlitebrowser

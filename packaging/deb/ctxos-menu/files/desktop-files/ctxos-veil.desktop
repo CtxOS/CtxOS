@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=veil
+Comment=veil
+Encoding=UTF-8
+Exec=menuexec veil --help
+Icon=ctxos_veil
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=veil

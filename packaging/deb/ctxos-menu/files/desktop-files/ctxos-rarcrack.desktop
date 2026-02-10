@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rarcrack
+Comment=rarcrack
+Encoding=UTF-8
+Exec=menuexec rarcrack --help
+Icon=ctxos_rarcrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=rarcrack

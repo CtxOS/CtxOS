@@ -1,0 +1,5 @@
+#!/bin/bash
+"$@"
+echo
+echo "Press Enter to close this window..."
+read

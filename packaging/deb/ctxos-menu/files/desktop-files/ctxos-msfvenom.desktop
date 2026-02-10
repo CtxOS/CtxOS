@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=msfvenom
+Comment=msfvenom
+Encoding=UTF-8
+Exec=menuexec msfvenom --help
+Icon=ctxos_msfvenom
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-exploitation-tools;
+X-Ctxos-Package=msfvenom

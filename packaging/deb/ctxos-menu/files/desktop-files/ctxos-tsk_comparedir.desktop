@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tsk_comparedir
+Comment=tsk_comparedir
+Encoding=UTF-8
+Exec=menuexec tsk_comparedir --help
+Icon=ctxos_tsk_comparedir
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tsk_comparedir

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fake_mldrouter6
+Comment=fake_mldrouter6
+Encoding=UTF-8
+Exec=menuexec fake_mldrouter6 --help
+Icon=ctxos_fake_mldrouter6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fake_mldrouter6

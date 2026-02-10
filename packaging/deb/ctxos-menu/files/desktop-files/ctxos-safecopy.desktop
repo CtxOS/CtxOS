@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=safecopy
+Comment=safecopy
+Encoding=UTF-8
+Exec=menuexec safecopy --help
+Icon=ctxos_safecopy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=safecopy

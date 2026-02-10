@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cadaver
+Comment=cadaver
+Encoding=UTF-8
+Exec=menuexec cadaver --help
+Icon=ctxos_cadaver
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cadaver

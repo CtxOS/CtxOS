@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ddrescue
+Comment=ddrescue
+Encoding=UTF-8
+Exec=menuexec ddrescue --help
+Icon=ctxos_ddrescue
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ddrescue

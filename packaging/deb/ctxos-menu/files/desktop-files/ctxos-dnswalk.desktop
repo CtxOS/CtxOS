@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnswalk
+Comment=dnswalk
+Encoding=UTF-8
+Exec=menuexec dnswalk --help
+Icon=ctxos_dnswalk
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnswalk

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=odat
+Comment=odat
+Encoding=UTF-8
+Exec=menuexec odat --help
+Icon=ctxos_odat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=odat

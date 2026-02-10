@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rahash2
+Comment=rahash2
+Encoding=UTF-8
+Exec=menuexec rahash2 --help
+Icon=ctxos_rahash2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=rahash2

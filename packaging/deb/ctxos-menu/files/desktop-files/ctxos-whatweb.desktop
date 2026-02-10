@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=whatweb
+Comment=whatweb
+Encoding=UTF-8
+Exec=menuexec whatweb --help
+Icon=ctxos_whatweb
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=whatweb

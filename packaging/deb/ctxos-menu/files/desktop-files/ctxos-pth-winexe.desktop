@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-winexe
+Comment=pth-winexe
+Encoding=UTF-8
+Exec=menuexec pth-winexe --help
+Icon=ctxos_pth-winexe
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pth-winexe

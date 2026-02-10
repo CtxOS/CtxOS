@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dsniff
+Comment=dsniff
+Encoding=UTF-8
+Exec=menuexec dsniff --help
+Icon=ctxos_dsniff
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=dsniff

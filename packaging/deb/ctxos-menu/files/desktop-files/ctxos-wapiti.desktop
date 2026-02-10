@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wapiti
+Comment=wapiti
+Encoding=UTF-8
+Exec=menuexec wapiti --help
+Icon=ctxos_wapiti
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=wapiti

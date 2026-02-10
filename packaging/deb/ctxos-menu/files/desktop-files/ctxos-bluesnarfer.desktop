@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bluesnarfer
+Comment=bluesnarfer
+Encoding=UTF-8
+Exec=menuexec bluesnarfer --help
+Icon=ctxos_bluesnarfer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=bluesnarfer

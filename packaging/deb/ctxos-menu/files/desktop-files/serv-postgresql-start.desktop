@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=postgresql start
+Comment=postgresql start
+Encoding=UTF-8
+Exec=menuexec sudo service postgresql start
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=postgresql

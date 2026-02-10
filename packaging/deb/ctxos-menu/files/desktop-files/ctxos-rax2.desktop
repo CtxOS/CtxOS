@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rax2
+Comment=rax2
+Encoding=UTF-8
+Exec=menuexec rax2 --help
+Icon=ctxos_rax2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rax2

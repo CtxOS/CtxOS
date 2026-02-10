@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sshd stop
+Comment=sshd stop
+Encoding=UTF-8
+Exec=menuexec sudo service sshd stop
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=sshd

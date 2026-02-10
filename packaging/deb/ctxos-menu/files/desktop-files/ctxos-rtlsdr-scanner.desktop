@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtlsdr-scanner
+Comment=rtlsdr-scanner
+Encoding=UTF-8
+Exec=menuexec rtlsdr-scanner --help
+Icon=ctxos_rtlsdr-scanner
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=rtlsdr-scanner

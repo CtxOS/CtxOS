@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=p0f
+Comment=p0f
+Encoding=UTF-8
+Exec=menuexec p0f --help
+Icon=ctxos_p0f
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=p0f

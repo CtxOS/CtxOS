@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=volatility3-volshell
+Comment=volatility3-volshell
+Encoding=UTF-8
+Exec=menuexec volatility3-volshell --help
+Icon=ctxos_volatility3-volshell
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-forensics;
+X-Ctxos-Package=volatility3-volshell

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-dial_tone
+Comment=gnuradio-dial_tone
+Encoding=UTF-8
+Exec=menuexec gnuradio-dial_tone --help
+Icon=ctxos_gnuradio-dial_tone
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-dial_tone

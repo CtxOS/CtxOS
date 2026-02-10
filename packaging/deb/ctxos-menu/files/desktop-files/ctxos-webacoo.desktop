@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=webacoo
+Comment=webacoo
+Encoding=UTF-8
+Exec=menuexec webacoo --help
+Icon=ctxos_webacoo
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=webacoo

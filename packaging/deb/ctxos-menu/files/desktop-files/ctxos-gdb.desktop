@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gdb
+Comment=gdb
+Encoding=UTF-8
+Exec=menuexec gdb --help
+Icon=ctxos_gdb
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gdb

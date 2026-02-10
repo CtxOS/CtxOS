@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=voiphopper
+Comment=voiphopper
+Encoding=UTF-8
+Exec=menuexec voiphopper --help
+Icon=ctxos_voiphopper
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=voiphopper

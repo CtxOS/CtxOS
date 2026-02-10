@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ass
+Comment=ass
+Encoding=UTF-8
+Exec=menuexec ass --help
+Icon=ctxos_ass
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ass

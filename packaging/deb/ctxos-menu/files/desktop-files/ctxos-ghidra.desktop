@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ghidra
+Comment=ghidra
+Encoding=UTF-8
+Exec=menuexec ghidra --help
+Icon=ctxos_ghidra
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-reverseengineer;
+X-Ctxos-Package=ghidra

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=owasp-zsc
+Comment=owasp-zsc
+Encoding=UTF-8
+Exec=menuexec owasp-zsc --help
+Icon=ctxos_owasp-zsc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=owasp-zsc

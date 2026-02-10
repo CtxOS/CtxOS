@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sirikali
+Comment=sirikali
+Encoding=UTF-8
+Exec=menuexec sirikali --help
+Icon=ctxos_sirikali
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sirikali

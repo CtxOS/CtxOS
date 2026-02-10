@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pipal
+Comment=pipal
+Encoding=UTF-8
+Exec=menuexec pipal --help
+Icon=ctxos_pipal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pipal

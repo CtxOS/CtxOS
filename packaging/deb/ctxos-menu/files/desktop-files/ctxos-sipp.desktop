@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sipp
+Comment=sipp
+Encoding=UTF-8
+Exec=menuexec sipp --help
+Icon=ctxos_sipp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sipp

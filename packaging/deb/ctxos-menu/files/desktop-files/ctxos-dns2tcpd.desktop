@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dns2tcpd
+Comment=dns2tcpd
+Encoding=UTF-8
+Exec=menuexec dns2tcpd --help
+Icon=ctxos_dns2tcpd
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dns2tcpd

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=amap
+Comment=amap
+Encoding=UTF-8
+Exec=menuexec amap --help
+Icon=ctxos_amap
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-04-network-scanners;01-info-gathering;
+X-Ctxos-Package=amap

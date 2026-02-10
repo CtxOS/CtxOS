@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hb-honeypot
+Comment=hb-honeypot
+Encoding=UTF-8
+Exec=menuexec hb-honeypot --help
+Icon=ctxos_hb-honeypot
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=hb-honeypot

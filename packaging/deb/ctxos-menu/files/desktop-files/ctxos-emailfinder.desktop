@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=emailfinder
+Comment=emailfinder
+Encoding=UTF-8
+Exec=menuexec emailfinder --help
+Icon=ctxos_emailfinder
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=emailfinder

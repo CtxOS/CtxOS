@@ -1,0 +1,94 @@
+#!/bin/bash
+# menuexecg - GUI wrapper for executing commands in a terminal
+# Automatically detects and uses available terminal emulators
+
+# List of terminal emulators to try (in order of preference)
+TERMINALS=(
+    "gnome-terminal -- bash -c"
+    "konsole -e bash -c"
+    "xfce4-terminal -e bash -c"
+    "mate-terminal -e bash -c"
+    "lxterminal -e bash -c"
+    "qterminal -e bash -c"
+    "terminator -e bash -c"
+    "tilix -e bash -c"
+    "alacritty -e bash -c"
+    "kitty -e bash -c"
+    "xterm -e bash -c"
+)
+
+# Function to find available terminal
+find_terminal() {
+    for term_cmd in "${TERMINALS[@]}"; do
+        term_bin=$(echo "$term_cmd" | awk '{print $1}')
+        if command -v "$term_bin" &> /dev/null; then
+            echo "$term_cmd"
+            return 0
+        fi
+    done
+    return 1
+}
+
+# Function to show error dialog
+show_error() {
+    local message="$1"
+    
+    # Try zenity first
+    if command -v zenity &> /dev/null; then
+        zenity --error --title="menuexecg Error" --text="$message" --width=400
+    # Try kdialog
+    elif command -v kdialog &> /dev/null; then
+        kdialog --error "$message" --title "menuexecg Error"
+    # Try xmessage as fallback
+    elif command -v xmessage &> /dev/null; then
+        xmessage -center "menuexecg Error: $message"
+    else
+        # Last resort: terminal notification
+        echo "ERROR: $message" >&2
+    fi
+}
+
+# Check if command was provided
+if [ $# -eq 0 ]; then
+    show_error "No command specified.\n\nUsage: menuexecg <command> [args...]"
+    exit 1
+fi
+
+# Find available terminal
+TERMINAL_CMD=$(find_terminal)
+
+if [ -z "$TERMINAL_CMD" ]; then
+    show_error "No terminal emulator found.\n\nPlease install one of the following:\n- gnome-terminal\n- konsole\n- xfce4-terminal\n- xterm"
+    exit 1
+fi
+
+# Build the command to execute
+# Escape single quotes in the command
+ESCAPED_CMD=$(printf '%s\n' "$*" | sed "s/'/'\\\\''/g")
+
+# Create a wrapper script that:
+# 1. Runs the command
+# 2. Shows the exit status
+# 3. Waits for user input before closing
+WRAPPER="
+echo '========================================';
+echo 'Executing: $ESCAPED_CMD';
+echo '========================================';
+echo '';
+$ESCAPED_CMD;
+EXIT_CODE=\$?;
+echo '';
+echo '========================================';
+if [ \$EXIT_CODE -eq 0 ]; then
+    echo 'Command completed successfully (exit code: '\$EXIT_CODE')';
+else
+    echo 'Command failed with exit code: '\$EXIT_CODE;
+fi;
+echo '========================================';
+echo '';
+echo 'Press Enter to close this window...';
+read;
+"
+
+# Execute in terminal
+eval "$TERMINAL_CMD '$WRAPPER'"

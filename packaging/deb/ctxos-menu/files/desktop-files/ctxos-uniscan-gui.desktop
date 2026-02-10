@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=uniscan-gui
+Comment=uniscan-gui
+Encoding=UTF-8
+Exec=menuexec uniscan-gui --help
+Icon=ctxos_uniscan-gui
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=uniscan-gui

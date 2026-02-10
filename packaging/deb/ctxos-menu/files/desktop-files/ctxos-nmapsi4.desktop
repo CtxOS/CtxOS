@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nmapsi4
+Comment=nmapsi4
+Encoding=UTF-8
+Exec=menuexec nmapsi4 --help
+Icon=ctxos_nmapsi4
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-04-network-scanners;01-info-gathering;
+X-Ctxos-Package=nmapsi4

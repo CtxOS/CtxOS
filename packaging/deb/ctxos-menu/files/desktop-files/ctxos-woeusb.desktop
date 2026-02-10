@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=woeusb
+Comment=woeusb
+Encoding=UTF-8
+Exec=menuexec woeusb --help
+Icon=ctxos_woeusb
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=woeusb

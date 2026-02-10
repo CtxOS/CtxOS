@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sorter
+Comment=sorter
+Encoding=UTF-8
+Exec=menuexec sorter --help
+Icon=ctxos_sorter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sorter

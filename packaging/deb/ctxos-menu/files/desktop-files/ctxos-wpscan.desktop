@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wpscan
+Comment=wpscan
+Encoding=UTF-8
+Exec=menuexec wpscan --help
+Icon=ctxos_wpscan
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-05-cms-scanners;03-webapp-analysis;
+X-Ctxos-Package=wpscan

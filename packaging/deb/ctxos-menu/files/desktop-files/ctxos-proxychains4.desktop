@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=proxychains4
+Comment=proxychains4
+Encoding=UTF-8
+Exec=menuexec proxychains4 --help
+Icon=ctxos_proxychains4
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=proxychains4

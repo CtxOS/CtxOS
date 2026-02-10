@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtpflood
+Comment=rtpflood
+Encoding=UTF-8
+Exec=menuexec rtpflood --help
+Icon=ctxos_rtpflood
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtpflood

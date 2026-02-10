@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=redfang
+Comment=redfang
+Encoding=UTF-8
+Exec=menuexec redfang --help
+Icon=ctxos_redfang
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=redfang

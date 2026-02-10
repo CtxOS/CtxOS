@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cansend
+Comment=cansend
+Encoding=UTF-8
+Exec=menuexec cansend --help
+Icon=ctxos_cansend
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=13-automotive;
+X-Ctxos-Package=cansend

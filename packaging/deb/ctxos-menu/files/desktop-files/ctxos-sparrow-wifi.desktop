@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sparrow-wifi
+Comment=sparrow-wifi
+Encoding=UTF-8
+Exec=menuexec sparrow-wifi --help
+Icon=ctxos_sparrow-wifi
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=sparrow-wifi

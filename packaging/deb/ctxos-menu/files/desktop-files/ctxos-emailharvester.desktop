@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=emailharvester
+Comment=emailharvester
+Encoding=UTF-8
+Exec=menuexec emailharvester --help
+Icon=ctxos_emailharvester
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=emailharvester

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sqlsus
+Comment=sqlsus
+Encoding=UTF-8
+Exec=menuexec sqlsus --help
+Icon=ctxos_sqlsus
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=sqlsus

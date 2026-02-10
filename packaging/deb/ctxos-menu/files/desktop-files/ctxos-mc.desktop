@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mc
+Comment=mc
+Encoding=UTF-8
+Exec=menuexec mc --help
+Icon=ctxos_mc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mc

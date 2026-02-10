@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=spike-generic-send-tcp
+Comment=spike-generic-send-tcp
+Encoding=UTF-8
+Exec=menuexec spike-generic-send-tcp --help
+Icon=ctxos_spike-generic-send-tcp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-02-fuzzers;02-vulnerability-analysis;
+X-Ctxos-Package=spike-generic-send-tcp

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=affcat
+Comment=affcat
+Encoding=UTF-8
+Exec=menuexec affcat --help
+Icon=ctxos_affcat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=affcat

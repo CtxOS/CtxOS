@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cowpatty
+Comment=cowpatty
+Encoding=UTF-8
+Exec=menuexec cowpatty --help
+Icon=ctxos_cowpatty
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=cowpatty

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gvm-setup
+Comment=gvm-setup
+Encoding=UTF-8
+Exec=menuexec gvm-setup --help
+Icon=ctxos_gvm-setup
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gvm-setup

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jadx-gui
+Comment=jadx-gui
+Encoding=UTF-8
+Exec=menuexec jadx-gui --help
+Icon=ctxos_jadx-gui
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-reverseengineer;
+X-Ctxos-Package=jadx-gui

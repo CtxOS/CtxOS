@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bddisasm
+Comment=bddisasm
+Encoding=UTF-8
+Exec=menuexec bddisasm --help
+Icon=ctxos_bddisasm
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-01-disassemblers;07-reverseengineer;
+X-Ctxos-Package=bddisasm

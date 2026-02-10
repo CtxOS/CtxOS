@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=webscarab
+Comment=webscarab
+Encoding=UTF-8
+Exec=menuexec webscarab --help
+Icon=ctxos_webscarab
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=webscarab

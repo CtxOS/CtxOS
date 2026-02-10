@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio_tags_demo.
+Comment=gnuradio_tags_demo.
+Encoding=UTF-8
+Exec=menuexec gnuradio_tags_demo. --help
+Icon=ctxos_gnuradio_tags_demo.
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio_tags_demo.

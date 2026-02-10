@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=recon-ng
+Comment=recon-ng
+Encoding=UTF-8
+Exec=menuexec recon-ng --help
+Icon=ctxos_recon-ng
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-07-osint-analysis;01-info-gathering;
+X-Ctxos-Package=recon-ng

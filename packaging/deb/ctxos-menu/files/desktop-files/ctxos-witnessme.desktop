@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=witnessme
+Comment=witnessme
+Encoding=UTF-8
+Exec=menuexec witnessme --help
+Icon=ctxos_witnessme
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=witnessme

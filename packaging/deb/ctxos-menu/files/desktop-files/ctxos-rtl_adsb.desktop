@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtl_adsb
+Comment=rtl_adsb
+Encoding=UTF-8
+Exec=menuexec rtl_adsb --help
+Icon=ctxos_rtl_adsb
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtl_adsb

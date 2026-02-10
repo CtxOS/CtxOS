@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=siege
+Comment=siege
+Encoding=UTF-8
+Exec=menuexec siege --help
+Icon=ctxos_siege
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=siege

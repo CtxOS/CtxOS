@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=oscanner
+Comment=oscanner
+Encoding=UTF-8
+Exec=menuexec oscanner --help
+Icon=ctxos_oscanner
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=oscanner

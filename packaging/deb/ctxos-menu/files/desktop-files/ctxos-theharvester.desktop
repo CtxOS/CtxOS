@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=theharvester
+Comment=theharvester
+Encoding=UTF-8
+Exec=menuexec theharvester --help
+Icon=ctxos_theharvester
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-07-osint-analysis;01-info-gathering;
+X-Ctxos-Package=theharvester

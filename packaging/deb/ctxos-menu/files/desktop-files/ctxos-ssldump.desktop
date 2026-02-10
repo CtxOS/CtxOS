@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ssldump
+Comment=ssldump
+Encoding=UTF-8
+Exec=menuexec ssldump --help
+Icon=ctxos_ssldump
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ssldump

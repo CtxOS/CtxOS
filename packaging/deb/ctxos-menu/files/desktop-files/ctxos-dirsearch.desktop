@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dirsearch
+Comment=dirsearch
+Encoding=UTF-8
+Exec=menuexec dirsearch --help
+Icon=ctxos_dirsearch
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dirsearch

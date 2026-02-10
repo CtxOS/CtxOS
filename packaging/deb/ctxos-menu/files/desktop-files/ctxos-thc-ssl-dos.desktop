@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=thc-ssl-dos
+Comment=thc-ssl-dos
+Encoding=UTF-8
+Exec=menuexec thc-ssl-dos --help
+Icon=ctxos_thc-ssl-dos
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=thc-ssl-dos

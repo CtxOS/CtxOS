@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=snmpcheck
+Comment=snmpcheck
+Encoding=UTF-8
+Exec=menuexec snmpcheck --help
+Icon=ctxos_snmpcheck
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=snmpcheck

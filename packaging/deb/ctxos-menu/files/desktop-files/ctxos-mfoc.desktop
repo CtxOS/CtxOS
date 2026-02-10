@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mfoc
+Comment=mfoc
+Encoding=UTF-8
+Exec=menuexec mfoc --help
+Icon=ctxos_mfoc
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mfoc

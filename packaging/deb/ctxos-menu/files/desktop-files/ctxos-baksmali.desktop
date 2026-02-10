@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=baksmali
+Comment=baksmali
+Encoding=UTF-8
+Exec=menuexec baksmali --help
+Icon=ctxos_baksmali
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=baksmali

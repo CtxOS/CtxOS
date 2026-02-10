@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=scalpel
+Comment=scalpel
+Encoding=UTF-8
+Exec=menuexec scalpel --help
+Icon=ctxos_scalpel
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-05-forensic-carving-tools;11-forensics;
+X-Ctxos-Package=scalpel

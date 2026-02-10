@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sniffjoke
+Comment=sniffjoke
+Encoding=UTF-8
+Exec=menuexec sniffjoke --help
+Icon=ctxos_sniffjoke
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=sniffjoke

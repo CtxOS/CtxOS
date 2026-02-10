@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=powersploit
+Comment=powersploit
+Encoding=UTF-8
+Exec=menuexec powersploit --help
+Icon=ctxos_powersploit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-exploitation-tools;
+X-Ctxos-Package=powersploit

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=reglookup
+Comment=reglookup
+Encoding=UTF-8
+Exec=menuexec reglookup --help
+Icon=ctxos_reglookup
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=reglookup

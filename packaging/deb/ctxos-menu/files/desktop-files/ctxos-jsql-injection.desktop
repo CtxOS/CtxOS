@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jsql-injection
+Comment=jsql-injection
+Encoding=UTF-8
+Exec=menuexec jsql-injection --help
+Icon=ctxos_jsql-injection
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=jsql-injection

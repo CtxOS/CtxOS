@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ext4magic
+Comment=ext4magic
+Encoding=UTF-8
+Exec=menuexec ext4magic --help
+Icon=ctxos_ext4magic
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ext4magic

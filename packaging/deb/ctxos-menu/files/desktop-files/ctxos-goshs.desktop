@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=goshs
+Comment=goshs
+Encoding=UTF-8
+Exec=menuexec goshs --help
+Icon=ctxos_goshs
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=goshs

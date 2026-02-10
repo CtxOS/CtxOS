@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=flood_router6
+Comment=flood_router6
+Encoding=UTF-8
+Exec=menuexec flood_router6 --help
+Icon=ctxos_flood_router6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=flood_router6

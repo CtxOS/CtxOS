@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jwtxploiter
+Comment=jwtxploiter
+Encoding=UTF-8
+Exec=menuexec jwtxploiter --help
+Icon=ctxos_jwtxploiter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=jwtxploiter

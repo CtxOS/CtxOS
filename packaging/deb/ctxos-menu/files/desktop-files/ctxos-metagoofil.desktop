@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=metagoofil
+Comment=metagoofil
+Encoding=UTF-8
+Exec=menuexec metagoofil --help
+Icon=ctxos_metagoofil
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=metagoofil

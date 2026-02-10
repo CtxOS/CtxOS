@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=xplico stop
+Comment=xplico stop
+Encoding=UTF-8
+Exec=menuexec sudo service xplico stop
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=xplico

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=unhide
+Comment=unhide
+Encoding=UTF-8
+Exec=menuexec unhide --help
+Icon=ctxos_unhide
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=unhide

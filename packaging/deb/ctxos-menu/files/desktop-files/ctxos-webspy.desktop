@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=webspy
+Comment=webspy
+Encoding=UTF-8
+Exec=menuexec webspy --help
+Icon=ctxos_webspy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=webspy

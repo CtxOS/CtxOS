@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=burpsuite
+Comment=burpsuite
+Encoding=UTF-8
+Exec=menuexec burpsuite --help
+Icon=ctxos_burpsuite
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=burpsuite

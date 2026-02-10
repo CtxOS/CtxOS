@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tcpreplay
+Comment=tcpreplay
+Encoding=UTF-8
+Exec=menuexec tcpreplay --help
+Icon=ctxos_tcpreplay
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tcpreplay

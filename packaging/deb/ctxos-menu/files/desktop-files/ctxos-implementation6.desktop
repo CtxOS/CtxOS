@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=implementation6
+Comment=implementation6
+Encoding=UTF-8
+Exec=menuexec implementation6 --help
+Icon=ctxos_implementation6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=implementation6

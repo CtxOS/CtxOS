@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rasm2
+Comment=rasm2
+Encoding=UTF-8
+Exec=menuexec rasm2 --help
+Icon=ctxos_rasm2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rasm2

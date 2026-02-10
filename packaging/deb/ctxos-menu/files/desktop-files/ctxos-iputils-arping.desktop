@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=iputils-arping
+Comment=iputils-arping
+Encoding=UTF-8
+Exec=menuexec iputils-arping --help
+Icon=ctxos_iputils-arping
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=iputils-arping

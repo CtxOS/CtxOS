@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=backdoor-factory
+Comment=backdoor-factory
+Encoding=UTF-8
+Exec=menuexec backdoor-factory --help
+Icon=ctxos_backdoor-factory
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=backdoor-factory

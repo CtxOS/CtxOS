@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jboss-autopwn-windows
+Comment=jboss-autopwn-windows
+Encoding=UTF-8
+Exec=menuexec jboss-autopwn-windows --help
+Icon=ctxos_jboss-autopwn-windows
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=jboss-autopwn-windows

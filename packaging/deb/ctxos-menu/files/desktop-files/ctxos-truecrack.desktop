@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=truecrack
+Comment=truecrack
+Encoding=UTF-8
+Exec=menuexec truecrack --help
+Icon=ctxos_truecrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=truecrack

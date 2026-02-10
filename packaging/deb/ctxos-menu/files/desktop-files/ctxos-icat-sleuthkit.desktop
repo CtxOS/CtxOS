@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=icat-sleuthkit
+Comment=icat-sleuthkit
+Encoding=UTF-8
+Exec=menuexec icat-sleuthkit --help
+Icon=ctxos_icat-sleuthkit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-forensics;
+X-Ctxos-Package=icat-sleuthkit

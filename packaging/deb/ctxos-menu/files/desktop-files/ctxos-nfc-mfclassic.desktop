@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nfc-mfclassic
+Comment=nfc-mfclassic
+Encoding=UTF-8
+Exec=menuexec nfc-mfclassic --help
+Icon=ctxos_nfc-mfclassic
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=nfc-mfclassic

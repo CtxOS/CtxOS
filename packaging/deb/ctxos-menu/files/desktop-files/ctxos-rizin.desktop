@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rizin
+Comment=rizin
+Encoding=UTF-8
+Exec=menuexec rizin --help
+Icon=ctxos_rizin
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=07-05-rizin;07-reverseengineer;
+X-Ctxos-Package=rizin

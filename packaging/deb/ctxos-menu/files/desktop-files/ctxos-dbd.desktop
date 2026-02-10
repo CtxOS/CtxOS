@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dbd
+Comment=dbd
+Encoding=UTF-8
+Exec=menuexec dbd --help
+Icon=ctxos_dbd
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dbd

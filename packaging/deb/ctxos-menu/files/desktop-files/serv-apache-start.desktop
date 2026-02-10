@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=apache start
+Comment=apache start
+Encoding=UTF-8
+Exec=menuexec sudo service apache start
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=apache

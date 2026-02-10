@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=shellnoob
+Comment=shellnoob
+Encoding=UTF-8
+Exec=menuexec shellnoob --help
+Icon=ctxos_shellnoob
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=shellnoob

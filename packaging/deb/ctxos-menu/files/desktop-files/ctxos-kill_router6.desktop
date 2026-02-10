@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=kill_router6
+Comment=kill_router6
+Encoding=UTF-8
+Exec=menuexec kill_router6 --help
+Icon=ctxos_kill_router6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=kill_router6

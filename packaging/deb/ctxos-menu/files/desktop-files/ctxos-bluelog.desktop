@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bluelog
+Comment=bluelog
+Encoding=UTF-8
+Exec=menuexec bluelog --help
+Icon=ctxos_bluelog
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=bluelog

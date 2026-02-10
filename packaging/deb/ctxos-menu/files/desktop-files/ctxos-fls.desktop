@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=fls
+Comment=fls
+Encoding=UTF-8
+Exec=menuexec fls --help
+Icon=ctxos_fls
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=fls

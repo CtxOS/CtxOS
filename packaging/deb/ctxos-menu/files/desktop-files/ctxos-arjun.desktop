@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=arjun
+Comment=arjun
+Encoding=UTF-8
+Exec=menuexec arjun --help
+Icon=ctxos_arjun
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=arjun

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=kerberoast
+Comment=kerberoast
+Encoding=UTF-8
+Exec=menuexec kerberoast --help
+Icon=ctxos_kerberoast
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=kerberoast

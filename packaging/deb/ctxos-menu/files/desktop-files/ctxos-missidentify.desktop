@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=missidentify
+Comment=missidentify
+Encoding=UTF-8
+Exec=menuexec missidentify --help
+Icon=ctxos_missidentify
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=missidentify

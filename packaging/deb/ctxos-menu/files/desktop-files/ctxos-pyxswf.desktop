@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pyxswf
+Comment=pyxswf
+Encoding=UTF-8
+Exec=menuexec pyxswf --help
+Icon=ctxos_pyxswf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pyxswf

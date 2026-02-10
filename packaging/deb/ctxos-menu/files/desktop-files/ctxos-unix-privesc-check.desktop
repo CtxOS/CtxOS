@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=unix-privesc-check
+Comment=unix-privesc-check
+Encoding=UTF-8
+Exec=menuexec unix-privesc-check --help
+Icon=ctxos_unix-privesc-check
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-01-priv-esc;08-post-exploit;
+X-Ctxos-Package=unix-privesc-check

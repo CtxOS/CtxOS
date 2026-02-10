@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=airolib
+Comment=airolib
+Encoding=UTF-8
+Exec=menuexec airolib --help
+Icon=ctxos_airolib
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=airolib

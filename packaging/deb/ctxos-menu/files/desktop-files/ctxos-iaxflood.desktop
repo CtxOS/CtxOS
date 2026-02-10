@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=iaxflood
+Comment=iaxflood
+Encoding=UTF-8
+Exec=menuexec iaxflood --help
+Icon=ctxos_iaxflood
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=iaxflood

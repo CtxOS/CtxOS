@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=commix
+Comment=commix
+Encoding=UTF-8
+Exec=menuexec commix --help
+Icon=ctxos_commix
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=commix

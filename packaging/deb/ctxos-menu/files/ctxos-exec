@@ -1,0 +1,258 @@
+#!/bin/bash
+# ctxos-exec - Unified execution wrapper for CtxOS
+# Intelligently handles CLI tools, GUI apps, services, and more
+
+set -e
+
+# Source error_exit if available
+if command -v error_exit &> /dev/null; then
+    ERROR_EXIT="error_exit"
+else
+    ERROR_EXIT="echo"
+fi
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+# Function to print colored messages
+print_info() {
+    echo -e "${BLUE}[*]${NC} $1"
+}
+
+print_success() {
+    echo -e "${GREEN}[✓]${NC} $1"
+}
+
+print_error() {
+    echo -e "${RED}[✗]${NC} $1"
+}
+
+print_warning() {
+    echo -e "${YELLOW}[!]${NC} $1"
+}
+
+# Function to detect command type
+detect_command_type() {
+    local cmd="$1"
+    
+    # Check if it's a service command
+    if [[ "$cmd" =~ ^(service|systemctl) ]]; then
+        echo "service"
+        return
+    fi
+    
+    # Check if it's a known GUI application
+    if command -v "$cmd" &> /dev/null; then
+        # Check if command has a desktop file (likely GUI)
+        if [ -f "/usr/share/applications/${cmd}.desktop" ] || \
+           [ -f "$HOME/.local/share/applications/${cmd}.desktop" ]; then
+            echo "gui"
+            return
+        fi
+        
+        # Check common GUI apps
+        case "$cmd" in
+            wireshark|burpsuite|ghidra|ida|sqlitebrowser|firefox|chromium|code|gedit|nautilus)
+                echo "gui"
+                return
+                ;;
+        esac
+    fi
+    
+    # Default to CLI
+    echo "cli"
+}
+
+# Function to check if running in GUI environment
+is_gui_environment() {
+    [ -n "$DISPLAY" ] || [ -n "$WAYLAND_DISPLAY" ]
+}
+
+# Function to execute CLI command
+execute_cli() {
+    local cmd="$*"
+    
+    print_info "Executing CLI command: $cmd"
+    echo "========================================"
+    
+    if eval "$cmd"; then
+        echo "========================================"
+        print_success "Command completed successfully"
+        return 0
+    else
+        local exit_code=$?
+        echo "========================================"
+        print_error "Command failed with exit code: $exit_code"
+        return $exit_code
+    fi
+}
+
+# Function to execute GUI application
+execute_gui() {
+    local cmd="$*"
+    
+    print_info "Launching GUI application: $cmd"
+    
+    # Run in background and detach from terminal
+    if is_gui_environment; then
+        nohup $cmd </dev/null >/dev/null 2>&1 &
+        local pid=$!
+        print_success "Application launched (PID: $pid)"
+        return 0
+    else
+        print_error "No GUI environment detected"
+        $ERROR_EXIT "Cannot launch GUI application without display" 1
+        return 1
+    fi
+}
+
+# Function to execute service command
+execute_service() {
+    local cmd="$*"
+    
+    # Extract service name and action
+    local service=""
+    local action=""
+    
+    if [[ "$cmd" =~ systemctl[[:space:]]+([a-z]+)[[:space:]]+([a-z0-9.-]+) ]]; then
+        action="${BASH_REMATCH[1]}"
+        service="${BASH_REMATCH[2]}"
+    elif [[ "$cmd" =~ service[[:space:]]+([a-z0-9.-]+)[[:space:]]+([a-z]+) ]]; then
+        service="${BASH_REMATCH[1]}"
+        action="${BASH_REMATCH[2]}"
+    fi
+    
+    if [ -n "$service" ] && [ -n "$action" ]; then
+        # Use servicexc if available
+        if command -v servicexc &> /dev/null; then
+            servicexc "$service" "$action"
+            return $?
+        fi
+    fi
+    
+    # Fallback to direct execution
+    execute_cli "$cmd"
+}
+
+# Function to show help
+show_help() {
+    cat << EOF
+CtxOS Exec - Unified Command Execution Wrapper
+
+Usage: ctxos-exec [OPTIONS] <command> [args...]
+
+Options:
+  -t, --type TYPE    Force command type (cli, gui, service)
+  -b, --background   Run in background (for GUI apps)
+  -w, --wait         Wait for command to complete (show output)
+  -h, --help         Show this help message
+
+Command Types:
+  cli       - Command-line tools (default)
+  gui       - Graphical applications
+  service   - System services
+
+Examples:
+  ctxos-exec nmap -sV localhost
+  ctxos-exec --type gui wireshark
+  ctxos-exec --type service apache2 start
+  ctxos-exec burpsuite
+
+Auto-Detection:
+  The wrapper automatically detects the command type based on:
+  - Presence of desktop files
+  - Known GUI application names
+  - Service-related commands (systemctl, service)
+
+Environment:
+  CTXOS_EXEC_TYPE    - Override auto-detection
+  CTXOS_EXEC_WAIT    - Always wait for completion
+
+EOF
+}
+
+# Main function
+main() {
+    local force_type=""
+    local background=false
+    local wait_mode=false
+    
+    # Parse options
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            -t|--type)
+                force_type="$2"
+                shift 2
+                ;;
+            -b|--background)
+                background=true
+                shift
+                ;;
+            -w|--wait)
+                wait_mode=true
+                shift
+                ;;
+            -h|--help)
+                show_help
+                exit 0
+                ;;
+            -*)
+                print_error "Unknown option: $1"
+                show_help
+                exit 1
+                ;;
+            *)
+                break
+                ;;
+        esac
+    done
+    
+    # Check if command provided
+    if [ $# -eq 0 ]; then
+        print_error "No command specified"
+        show_help
+        exit 1
+    fi
+    
+    # Get command
+    local cmd="$*"
+    local first_cmd="$1"
+    
+    # Determine command type
+    local cmd_type="${force_type:-${CTXOS_EXEC_TYPE:-}}"
+    if [ -z "$cmd_type" ]; then
+        cmd_type=$(detect_command_type "$first_cmd")
+    fi
+    
+    print_info "Command type: $cmd_type"
+    
+    # Execute based on type
+    case "$cmd_type" in
+        cli)
+            execute_cli "$cmd"
+            ;;
+        gui)
+            if [ "$wait_mode" = true ]; then
+                execute_cli "$cmd"
+            else
+                execute_gui "$cmd"
+            fi
+            ;;
+        service)
+            execute_service "$cmd"
+            ;;
+        *)
+            print_error "Unknown command type: $cmd_type"
+            exit 1
+            ;;
+    esac
+    
+    return $?
+}
+
+# Run main function
+main "$@"

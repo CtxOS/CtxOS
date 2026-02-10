@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=randicmp6
+Comment=randicmp6
+Encoding=UTF-8
+Exec=menuexec randicmp6 --help
+Icon=ctxos_randicmp6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=randicmp6

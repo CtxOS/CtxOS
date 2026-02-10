@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=oledir
+Comment=oledir
+Encoding=UTF-8
+Exec=menuexec oledir --help
+Icon=ctxos_oledir
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=oledir

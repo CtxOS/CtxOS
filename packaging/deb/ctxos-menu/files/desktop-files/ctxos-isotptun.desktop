@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=isotptun
+Comment=isotptun
+Encoding=UTF-8
+Exec=menuexec isotptun --help
+Icon=ctxos_isotptun
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=isotptun

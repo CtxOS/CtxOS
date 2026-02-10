@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ewfacquire
+Comment=ewfacquire
+Encoding=UTF-8
+Exec=menuexec ewfacquire --help
+Icon=ctxos_ewfacquire
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ewfacquire

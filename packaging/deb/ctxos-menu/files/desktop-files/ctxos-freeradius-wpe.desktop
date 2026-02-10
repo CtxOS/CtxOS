@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=freeradius-wpe
+Comment=freeradius-wpe
+Encoding=UTF-8
+Exec=menuexec freeradius-wpe --help
+Icon=ctxos_freeradius-wpe
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=freeradius-wpe

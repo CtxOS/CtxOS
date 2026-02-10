@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sherlock
+Comment=sherlock
+Encoding=UTF-8
+Exec=menuexec sherlock --help
+Icon=ctxos_sherlock
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sherlock

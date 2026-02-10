@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nessus start
+Comment=nessus start
+Encoding=UTF-8
+Exec=menuexec sudo service nessus start
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=14-services;
+X-Ctxos-Package=nessus

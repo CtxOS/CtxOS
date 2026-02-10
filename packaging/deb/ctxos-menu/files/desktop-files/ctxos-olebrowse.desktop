@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=olebrowse
+Comment=olebrowse
+Encoding=UTF-8
+Exec=menuexec olebrowse --help
+Icon=ctxos_olebrowse
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=olebrowse

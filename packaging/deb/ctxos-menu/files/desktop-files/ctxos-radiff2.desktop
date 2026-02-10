@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=radiff2
+Comment=radiff2
+Encoding=UTF-8
+Exec=menuexec radiff2 --help
+Icon=ctxos_radiff2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=radiff2

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ssdeep
+Comment=ssdeep
+Encoding=UTF-8
+Exec=menuexec ssdeep --help
+Icon=ctxos_ssdeep
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ssdeep

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=websploit
+Comment=websploit
+Encoding=UTF-8
+Exec=menuexec websploit --help
+Icon=ctxos_websploit
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=websploit

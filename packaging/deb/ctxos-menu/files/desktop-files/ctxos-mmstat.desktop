@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mmstat
+Comment=mmstat
+Encoding=UTF-8
+Exec=menuexec mmstat --help
+Icon=ctxos_mmstat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mmstat

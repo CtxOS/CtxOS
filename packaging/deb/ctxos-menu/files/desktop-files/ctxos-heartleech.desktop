@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=heartleech
+Comment=heartleech
+Encoding=UTF-8
+Exec=menuexec heartleech --help
+Icon=ctxos_heartleech
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=heartleech

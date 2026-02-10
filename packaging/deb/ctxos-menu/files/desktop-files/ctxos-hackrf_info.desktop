@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hackrf_info
+Comment=hackrf_info
+Encoding=UTF-8
+Exec=menuexec hackrf_info --help
+Icon=ctxos_hackrf_info
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=hackrf_info

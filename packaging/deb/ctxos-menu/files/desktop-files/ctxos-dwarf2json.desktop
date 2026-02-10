@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dwarf2json
+Comment=dwarf2json
+Encoding=UTF-8
+Exec=menuexec dwarf2json --help
+Icon=ctxos_dwarf2json
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dwarf2json

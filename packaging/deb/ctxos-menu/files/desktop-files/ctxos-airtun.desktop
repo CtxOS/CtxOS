@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=airtun
+Comment=airtun
+Encoding=UTF-8
+Exec=menuexec airtun --help
+Icon=ctxos_airtun
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=airtun

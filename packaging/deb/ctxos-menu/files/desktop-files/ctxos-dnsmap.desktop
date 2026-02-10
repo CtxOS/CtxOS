@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnsmap
+Comment=dnsmap
+Encoding=UTF-8
+Exec=menuexec dnsmap --help
+Icon=ctxos_dnsmap
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnsmap

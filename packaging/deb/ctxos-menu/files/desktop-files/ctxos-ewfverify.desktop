@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ewfverify
+Comment=ewfverify
+Encoding=UTF-8
+Exec=menuexec ewfverify --help
+Icon=ctxos_ewfverify
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ewfverify

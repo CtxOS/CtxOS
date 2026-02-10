@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=isotpsniffer
+Comment=isotpsniffer
+Encoding=UTF-8
+Exec=menuexec isotpsniffer --help
+Icon=ctxos_isotpsniffer
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Ctxos-Package=isotpsniffer

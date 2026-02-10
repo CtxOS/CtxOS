@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=iodine
+Comment=iodine
+Encoding=UTF-8
+Exec=menuexec iodine --help
+Icon=ctxos_iodine
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=iodine

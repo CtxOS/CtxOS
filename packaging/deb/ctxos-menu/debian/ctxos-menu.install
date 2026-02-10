@@ -1,0 +1,13 @@
+files/desktop-files/*.desktop usr/share/applications/
+files/desktop-directories/*.directory usr/share/desktop-directories/
+files/menuexec usr/local/bin/
+files/menuexecg usr/local/bin/
+files/servicexc usr/local/bin/
+files/error_exit usr/local/bin/
+files/ctxos-exec usr/local/bin/
+files/ctxos-ls usr/local/bin/
+files/launcher-updater usr/local/bin/
+menu-icons/hicolor/* usr/share/icons/hicolor/
+menu-icons/ctxos-common/* usr/share/icons/ctxos-common/
+files/90-ctxos-menu etc/dconf/db/local.d/
+files/user etc/dconf/profile/

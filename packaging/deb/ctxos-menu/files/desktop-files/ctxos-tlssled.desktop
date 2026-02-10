@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tlssled
+Comment=tlssled
+Encoding=UTF-8
+Exec=menuexec tlssled --help
+Icon=ctxos_tlssled
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tlssled

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dnsdict6
+Comment=dnsdict6
+Encoding=UTF-8
+Exec=menuexec dnsdict6 --help
+Icon=ctxos_dnsdict6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-01-dns-analysis;01-info-gathering;
+X-Ctxos-Package=dnsdict6

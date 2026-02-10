@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=merge-router-config
+Comment=merge-router-config
+Encoding=UTF-8
+Exec=menuexec merge-router-config --help
+Icon=ctxos_merge-router-config
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=merge-router-config

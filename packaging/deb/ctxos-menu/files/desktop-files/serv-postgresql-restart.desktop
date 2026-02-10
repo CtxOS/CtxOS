@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=postgresql restart
+Comment=postgresql restart
+Encoding=UTF-8
+Exec=menuexec sudo service postgresql restart
+Icon=utilities-terminal
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=postgresql

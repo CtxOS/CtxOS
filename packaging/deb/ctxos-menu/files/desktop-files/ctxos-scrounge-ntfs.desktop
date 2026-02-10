@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=scrounge-ntfs
+Comment=scrounge-ntfs
+Encoding=UTF-8
+Exec=menuexec scrounge-ntfs --help
+Icon=ctxos_scrounge-ntfs
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=scrounge-ntfs

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=CAT
+Comment=CAT
+Encoding=UTF-8
+Exec=menuexec CAT --help
+Icon=ctxos_CAT
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=CAT

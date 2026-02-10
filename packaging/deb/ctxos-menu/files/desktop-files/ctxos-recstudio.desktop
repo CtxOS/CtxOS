@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=recstudio
+Comment=recstudio
+Encoding=UTF-8
+Exec=menuexec recstudio --help
+Icon=ctxos_recstudio
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=recstudio

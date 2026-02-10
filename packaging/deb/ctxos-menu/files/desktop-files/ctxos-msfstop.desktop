@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=msfstop
+Comment=msfstop
+Encoding=UTF-8
+Exec=menuexec msfstop --help
+Icon=ctxos_msfstop
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=04-exploitation-tools;
+X-Ctxos-Package=msfstop

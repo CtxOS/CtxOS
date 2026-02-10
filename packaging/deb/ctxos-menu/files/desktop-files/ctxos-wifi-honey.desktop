@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wifi-honey
+Comment=wifi-honey
+Encoding=UTF-8
+Exec=menuexec wifi-honey --help
+Icon=ctxos_wifi-honey
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=wifi-honey

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-curl
+Comment=pth-curl
+Encoding=UTF-8
+Exec=menuexec pth-curl --help
+Icon=ctxos_pth-curl
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pth-curl

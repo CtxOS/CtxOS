@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=seclists
+Comment=seclists
+Encoding=UTF-8
+Exec=menuexec seclists --help
+Icon=ctxos_seclists
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=seclists

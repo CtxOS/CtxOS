@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=arduino
+Comment=arduino
+Encoding=UTF-8
+Exec=menuexec arduino --help
+Icon=ctxos_arduino
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=arduino

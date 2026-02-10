@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mmls
+Comment=mmls
+Encoding=UTF-8
+Exec=menuexec mmls --help
+Icon=ctxos_mmls
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mmls

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=nfc-list
+Comment=nfc-list
+Encoding=UTF-8
+Exec=menuexec nfc-list --help
+Icon=ctxos_nfc-list
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=nfc-list

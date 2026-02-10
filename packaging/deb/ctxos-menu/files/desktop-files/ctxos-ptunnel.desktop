@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ptunnel
+Comment=ptunnel
+Encoding=UTF-8
+Exec=menuexec ptunnel --help
+Icon=ctxos_ptunnel
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ptunnel

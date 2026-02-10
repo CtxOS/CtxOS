@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=reaver
+Comment=reaver
+Encoding=UTF-8
+Exec=menuexec reaver --help
+Icon=ctxos_reaver
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=reaver

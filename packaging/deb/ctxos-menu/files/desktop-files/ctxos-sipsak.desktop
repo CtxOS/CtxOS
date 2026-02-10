@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=sipsak
+Comment=sipsak
+Encoding=UTF-8
+Exec=menuexec sipsak --help
+Icon=ctxos_sipsak
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=sipsak

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dex2jar
+Comment=dex2jar
+Encoding=UTF-8
+Exec=menuexec dex2jar --help
+Icon=ctxos_dex2jar
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=dex2jar

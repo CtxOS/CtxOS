@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=neo4j
+Comment=neo4j
+Encoding=UTF-8
+Exec=menuexec neo4j --help
+Icon=ctxos_neo4j
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=neo4j

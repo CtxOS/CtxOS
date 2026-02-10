@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=merlin-agent
+Comment=merlin-agent
+Encoding=UTF-8
+Exec=menuexec merlin-agent --help
+Icon=ctxos_merlin-agent
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=merlin-agent

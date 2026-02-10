@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=b374k
+Comment=b374k
+Encoding=UTF-8
+Exec=menuexec b374k --help
+Icon=ctxos_b374k
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=b374k

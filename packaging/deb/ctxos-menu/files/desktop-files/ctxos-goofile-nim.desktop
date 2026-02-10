@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=goofile-nim
+Comment=goofile-nim
+Encoding=UTF-8
+Exec=menuexec goofile-nim --help
+Icon=ctxos_goofile-nim
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=goofile-nim

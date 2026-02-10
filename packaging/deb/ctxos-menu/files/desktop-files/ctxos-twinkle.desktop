@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=twinkle
+Comment=twinkle
+Encoding=UTF-8
+Exec=menuexec twinkle --help
+Icon=ctxos_twinkle
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=twinkle

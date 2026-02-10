@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=shellter
+Comment=shellter
+Encoding=UTF-8
+Exec=menuexec shellter --help
+Icon=ctxos_shellter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=shellter

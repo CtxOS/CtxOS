@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-sqsh
+Comment=pth-sqsh
+Encoding=UTF-8
+Exec=menuexec pth-sqsh --help
+Icon=ctxos_pth-sqsh
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=pth-sqsh

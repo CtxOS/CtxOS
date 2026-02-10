@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tcpflow
+Comment=tcpflow
+Encoding=UTF-8
+Exec=menuexec tcpflow --help
+Icon=ctxos_tcpflow
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=tcpflow

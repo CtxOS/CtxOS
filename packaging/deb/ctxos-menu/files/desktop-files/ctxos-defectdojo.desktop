@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=defectdojo
+Comment=defectdojo
+Encoding=UTF-8
+Exec=menuexec defectdojo --help
+Icon=ctxos_defectdojo
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=defectdojo

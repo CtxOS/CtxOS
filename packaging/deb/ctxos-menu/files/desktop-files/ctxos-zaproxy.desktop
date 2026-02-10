@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=zaproxy
+Comment=zaproxy
+Encoding=UTF-8
+Exec=menuexec zaproxy --help
+Icon=ctxos_zaproxy
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-webapp-analysis;
+X-Ctxos-Package=zaproxy

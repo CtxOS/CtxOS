@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=geoiplookup6
+Comment=geoiplookup6
+Encoding=UTF-8
+Exec=menuexec geoiplookup6 --help
+Icon=ctxos_geoiplookup6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=geoiplookup6

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pth-smbget
+Comment=pth-smbget
+Encoding=UTF-8
+Exec=menuexec pth-smbget --help
+Icon=ctxos_pth-smbget
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Ctxos-Package=pth-smbget

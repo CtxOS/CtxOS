@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=inverse_lookup6
+Comment=inverse_lookup6
+Encoding=UTF-8
+Exec=menuexec inverse_lookup6 --help
+Icon=ctxos_inverse_lookup6
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=inverse_lookup6

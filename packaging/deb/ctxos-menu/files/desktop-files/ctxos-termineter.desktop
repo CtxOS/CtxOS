@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=termineter
+Comment=termineter
+Encoding=UTF-8
+Exec=menuexec termineter --help
+Icon=ctxos_termineter
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=termineter

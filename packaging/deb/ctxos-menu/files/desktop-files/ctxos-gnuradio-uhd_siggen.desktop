@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gnuradio-uhd_siggen
+Comment=gnuradio-uhd_siggen
+Encoding=UTF-8
+Exec=menuexec gnuradio-uhd_siggen --help
+Icon=ctxos_gnuradio-uhd_siggen
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=gnuradio-uhd_siggen

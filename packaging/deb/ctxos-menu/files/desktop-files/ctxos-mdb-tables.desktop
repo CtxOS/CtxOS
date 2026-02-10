@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mdb-tables
+Comment=mdb-tables
+Encoding=UTF-8
+Exec=menuexec mdb-tables --help
+Icon=ctxos_mdb-tables
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mdb-tables

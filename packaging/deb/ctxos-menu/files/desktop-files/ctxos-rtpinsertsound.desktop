@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=rtpinsertsound
+Comment=rtpinsertsound
+Encoding=UTF-8
+Exec=menuexec rtpinsertsound --help
+Icon=ctxos_rtpinsertsound
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=rtpinsertsound

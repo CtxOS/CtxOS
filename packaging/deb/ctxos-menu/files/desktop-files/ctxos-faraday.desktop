@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=faraday
+Comment=faraday
+Encoding=UTF-8
+Exec=menuexec faraday --help
+Icon=ctxos_faraday
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=12-reporting;
+X-Ctxos-Package=faraday

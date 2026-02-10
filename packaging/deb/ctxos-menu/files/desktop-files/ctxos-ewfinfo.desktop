@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ewfinfo
+Comment=ewfinfo
+Encoding=UTF-8
+Exec=menuexec ewfinfo --help
+Icon=ctxos_ewfinfo
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=ewfinfo

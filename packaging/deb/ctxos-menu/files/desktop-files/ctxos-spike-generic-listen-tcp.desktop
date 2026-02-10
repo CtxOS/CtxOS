@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=spike-generic-listen-tcp
+Comment=spike-generic-listen-tcp
+Encoding=UTF-8
+Exec=menuexec spike-generic-listen-tcp --help
+Icon=ctxos_spike-generic-listen-tcp
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-02-fuzzers;02-vulnerability-analysis;
+X-Ctxos-Package=spike-generic-listen-tcp

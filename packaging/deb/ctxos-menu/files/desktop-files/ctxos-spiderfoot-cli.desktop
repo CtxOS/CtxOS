@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=spiderfoot-cli
+Comment=spiderfoot-cli
+Encoding=UTF-8
+Exec=menuexec spiderfoot-cli --help
+Icon=ctxos_spiderfoot-cli
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=spiderfoot-cli

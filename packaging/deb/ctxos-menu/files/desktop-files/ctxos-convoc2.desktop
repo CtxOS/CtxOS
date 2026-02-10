@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=convoc2
+Comment=convoc2
+Encoding=UTF-8
+Exec=menuexec convoc2 --help
+Icon=ctxos_convoc2
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=convoc2

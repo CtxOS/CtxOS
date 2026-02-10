@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dirbuster
+Comment=dirbuster
+Encoding=UTF-8
+Exec=menuexec dirbuster --help
+Icon=ctxos_dirbuster
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=03-04-web-crawlers;03-webapp-analysis;
+X-Ctxos-Package=dirbuster

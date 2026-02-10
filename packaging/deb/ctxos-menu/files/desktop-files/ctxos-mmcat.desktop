@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mmcat
+Comment=mmcat
+Encoding=UTF-8
+Exec=menuexec mmcat --help
+Icon=ctxos_mmcat
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=10-maintain;
+X-Ctxos-Package=mmcat

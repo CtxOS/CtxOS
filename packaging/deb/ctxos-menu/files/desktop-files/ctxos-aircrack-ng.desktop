@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=aircrack-ng
+Comment=aircrack-ng
+Encoding=UTF-8
+Exec=menuexec aircrack-ng --help
+Icon=ctxos_aircrack-ng
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Ctxos-Package=aircrack-ng

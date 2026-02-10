@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=svcrack
+Comment=svcrack
+Encoding=UTF-8
+Exec=menuexec svcrack --help
+Icon=ctxos_svcrack
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=svcrack

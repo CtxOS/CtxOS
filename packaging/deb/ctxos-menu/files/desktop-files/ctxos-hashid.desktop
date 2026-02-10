@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hashid
+Comment=hashid
+Encoding=UTF-8
+Exec=menuexec hashid --help
+Icon=ctxos_hashid
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-password-attacks;
+X-Ctxos-Package=hashid

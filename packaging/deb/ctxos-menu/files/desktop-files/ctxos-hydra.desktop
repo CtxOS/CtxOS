@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=hydra
+Comment=hydra
+Encoding=UTF-8
+Exec=menuexec hydra --help
+Icon=ctxos_hydra
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=05-01-online-attacks;05-password-attacks;
+X-Ctxos-Package=hydra
