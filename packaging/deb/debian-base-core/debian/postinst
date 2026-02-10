@@ -1,3 +1,6 @@
 #!/bin/sh
 set -e
 echo "debian-base-core installed successfully"
+
+# Set python3 as default python
+update-alternatives --install /usr/bin/python python /usr/bin/python3 10
