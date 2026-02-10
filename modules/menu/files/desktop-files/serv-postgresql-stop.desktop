@@ -7,5 +7,5 @@ Icon=utilities-terminal
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=services;
+Categories=03-webapp-analysis;
 X-Ctxos-Package=postgresql

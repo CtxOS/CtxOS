@@ -7,5 +7,5 @@ Icon=ctxos_msfconsole
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=04-01-metasploit-framework;04-exploitation-tools;
+Categories=04-exploitation-tools;
 X-Ctxos-Package=msfconsole

@@ -1,0 +1,17 @@
+# CtxOS Web Security Stack
+zaproxy
+sqlmap
+wpscan
+dirb
+gobuster
+wfuzz
+burpsuite
+commix
+skipfish
+nikto
+apache2
+nginx
+curl
+wget
+feroxbuster
+ffuf

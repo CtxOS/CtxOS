@@ -1,0 +1,13 @@
+Source: ctxos-tools-automotive
+Section: misc
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: ctxos-tools-automotive
+Architecture: all
+Depends: can-utils, cantools, caring-caribou, kayak, udsim
+Description: CtxOS Automotive Security Stack
+ This meta-package installs tools for CAN bus analysis, UDS protocol research,
+ and automotive security assessments.

@@ -5,7 +5,17 @@ set -e
 # Configuration
 VERSION_FILE="VERSION"
 REPO_DIR="packaging/repo"
-MODULES=("software-center" "packaging/deb/debian-base-core" "packaging/deb/debian-base-desktop" "packaging/deb/debian-base-tools")
+MODULES=(
+    "software-center" 
+    "packaging/deb/debian-base-core" 
+    "packaging/deb/debian-base-desktop" 
+    "packaging/deb/debian-base-tools"
+    "packaging/deb/ctxos-tools-web"
+    "packaging/deb/ctxos-tools-wireless"
+    "packaging/deb/ctxos-tools-forensics"
+    "packaging/deb/ctxos-tools-reversing"
+    "packaging/deb/ctxos-tools-automotive"
+)
 
 log() { echo -e "\033[0;34m[RELEASE]\033[0m $1"; }
 error() { echo -e "\033[0;31m[ERROR]\033[0m $1"; exit 1; }

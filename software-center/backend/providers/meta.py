@@ -56,6 +56,13 @@ class MetaProvider:
             "description": "Disassemblers, decompilers, and binary analysis frameworks.",
             "type": "profile",
             "icon": "emblem-system-symbolic"
+        },
+        "security-automotive": {
+            "id": "ctxos-tools-automotive",
+            "name": "Automotive Security Stack",
+            "description": "Specialized tools for CAN bus analysis and automotive security research.",
+            "type": "profile",
+            "icon": "car-symbolic"
         }
     }
 

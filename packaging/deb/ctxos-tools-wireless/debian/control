@@ -1,0 +1,13 @@
+Source: ctxos-tools-wireless
+Section: misc
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: ctxos-tools-wireless
+Architecture: all
+Depends: aircrack-ng, wash, reaver, wifite, kismet, bully, pixiewps, airgeddon, cowpatty, bettercap, hcxtools, hcxdumptool, hostapd-wpe
+Description: CtxOS Wireless Auditing Stack
+ This meta-package installs tools for wireless security research, including
+ WiFi, Bluetooth, and SDR-based auditing.

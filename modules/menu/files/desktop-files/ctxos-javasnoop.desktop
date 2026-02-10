@@ -7,5 +7,5 @@ Icon=ctxos_javasnoop
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=07-reverseengineer;
 X-Ctxos-Package=javasnoop

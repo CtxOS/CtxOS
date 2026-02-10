@@ -7,5 +7,5 @@ Icon=ctxos_mitmproxy
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=09-01-network-sniffers;09-sniffing-spoofing;
+Categories=03-webapp-analysis;
 X-Ctxos-Package=mitmproxy

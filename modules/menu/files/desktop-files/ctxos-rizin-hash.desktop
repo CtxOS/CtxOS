@@ -7,5 +7,5 @@ Icon=ctxos_rizin-hash
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=07-05-rizin;07-reverseengineer;
+Categories=05-password-attacks;
 X-Ctxos-Package=rizin-hash

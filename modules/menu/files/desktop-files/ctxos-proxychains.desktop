@@ -7,5 +7,5 @@ Icon=ctxos_proxychains
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=03-webapp-analysis;
 X-Ctxos-Package=proxychains

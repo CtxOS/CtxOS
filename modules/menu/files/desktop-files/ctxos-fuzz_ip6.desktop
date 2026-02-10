@@ -7,5 +7,5 @@ Icon=ctxos_fuzz_ip6
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=02-02-fuzzers;02-vulnerability-analysis;
+Categories=02-vulnerability-analysis;
 X-Ctxos-Package=fuzz_ip6

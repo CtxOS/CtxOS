@@ -1,0 +1,14 @@
+# CtxOS Forensics Stack
+autopsy
+sleuthkit
+volatility3
+binwalk
+foremost
+scalpel
+guymager
+chkrootkit
+rkhunter
+bulk-extractor
+hashdeep
+photorec
+testdisk

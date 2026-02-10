@@ -7,5 +7,5 @@ Icon=ctxos_mactime-sleuthkit
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=11-forensics;
 X-Ctxos-Package=mactime-sleuthkit

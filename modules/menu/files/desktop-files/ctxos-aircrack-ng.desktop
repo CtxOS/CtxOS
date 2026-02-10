@@ -7,5 +7,5 @@ Icon=ctxos_aircrack-ng
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=05-password-attacks;
+Categories=06-wireless-attacks;
 X-Ctxos-Package=aircrack-ng

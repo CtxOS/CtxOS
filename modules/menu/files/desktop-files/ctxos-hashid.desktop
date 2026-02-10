@@ -7,5 +7,5 @@ Icon=ctxos_hashid
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=05-password-attacks;
 X-Ctxos-Package=hashid

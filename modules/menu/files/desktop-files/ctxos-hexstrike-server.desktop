@@ -7,5 +7,5 @@ Icon=ctxos_hexstrike-server
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=14-services;
 X-Ctxos-Package=hexstrike-server

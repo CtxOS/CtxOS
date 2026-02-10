@@ -7,5 +7,5 @@ Icon=ctxos_pth-smbget
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=01-10-smb-analysis;01-info-gathering;
+Categories=01-info-gathering;
 X-Ctxos-Package=pth-smbget

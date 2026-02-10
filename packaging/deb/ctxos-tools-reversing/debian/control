@@ -1,0 +1,13 @@
+Source: ctxos-tools-reversing
+Section: misc
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: ctxos-tools-reversing
+Architecture: all
+Depends: radare2, rizin, edb-debugger, apktool, dex2jar, sqlitebrowser, ghidra, gdb
+Description: CtxOS Reverse Engineering Stack
+ This meta-package installs disassemblers, decompilers, and debuggers for 
+ binary analysis and software reverse engineering.

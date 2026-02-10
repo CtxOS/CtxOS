@@ -1,0 +1,15 @@
+# CtxOS Wireless Security Stack
+aircrack-ng
+wash
+reaver
+wifite
+kismet
+bully
+pixiewps
+airgeddon
+cowpatty
+bettercap
+hcxtools
+hcxdumptool
+hostapd-wpe
+berryfpp

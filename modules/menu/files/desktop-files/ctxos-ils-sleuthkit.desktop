@@ -7,5 +7,5 @@ Icon=ctxos_ils-sleuthkit
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=11-forensics;
 X-Ctxos-Package=ils-sleuthkit

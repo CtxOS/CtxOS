@@ -1,0 +1,13 @@
+Source: ctxos-tools-forensics
+Section: misc
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: ctxos-tools-forensics
+Architecture: all
+Depends: autopsy, sleuthkit, volatility3, binwalk, foremost, scalpel, guymager, chkrootkit, rkhunter, bulk-extractor, hashdeep
+Description: CtxOS Digital Forensics Stack
+ This meta-package installs a professional suite of tools for digital forensics,
+ incident response, and evidence analysis.

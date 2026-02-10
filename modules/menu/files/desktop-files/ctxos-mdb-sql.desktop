@@ -7,5 +7,5 @@ Icon=ctxos_mdb-sql
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=04-06-db-exploit;03-webapp-analysis;
+Categories=03-webapp-analysis;
 X-Ctxos-Package=mdb-sql

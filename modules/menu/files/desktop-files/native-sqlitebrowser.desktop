@@ -7,5 +7,5 @@ Icon=sqlitebrowser
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=07-reverseengineer;01-10-smb-analysis;
+Categories=03-webapp-analysis;
 X-Ctxos-Package=sqlitebrowser

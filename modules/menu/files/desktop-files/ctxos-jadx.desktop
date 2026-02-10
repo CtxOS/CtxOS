@@ -7,5 +7,5 @@ Icon=ctxos_jadx
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=07-reverseengineer;
 X-Ctxos-Package=jadx

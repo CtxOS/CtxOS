@@ -7,5 +7,5 @@ Icon=ctxos_aireplay
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=06-01-wireless-tools;06-wireless-attacks;
+Categories=06-wireless-attacks;
 X-Ctxos-Package=aireplay

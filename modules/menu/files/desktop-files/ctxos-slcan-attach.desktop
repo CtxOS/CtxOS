@@ -7,5 +7,5 @@ Icon=ctxos_slcan-attach
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=13-01-can-utils;13-automotive;
+Categories=13-automotive;
 X-Ctxos-Package=slcan-attach

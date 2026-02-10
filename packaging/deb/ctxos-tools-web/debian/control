@@ -1,0 +1,13 @@
+Source: ctxos-tools-web
+Section: misc
+Priority: optional
+Maintainer: CtxOS Team <team@ctxos.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: ctxos-tools-web
+Architecture: all
+Depends: zaproxy, sqlmap, wpscan, dirb, gobuster, wfuzz, burpsuite, commix, skipfish, nikto, feroxbuster, ffuf
+Description: CtxOS Web Security Stack
+ This meta-package installs a comprehensive suite of tools for web application
+ penetration testing and security research.

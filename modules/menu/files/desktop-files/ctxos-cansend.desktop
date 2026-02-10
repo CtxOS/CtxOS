@@ -7,5 +7,5 @@ Icon=ctxos_cansend
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=13-automotive;
 X-Ctxos-Package=cansend

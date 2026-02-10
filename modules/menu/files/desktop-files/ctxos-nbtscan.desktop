@@ -7,5 +7,5 @@ Icon=ctxos_nbtscan
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=01-info-gathering;
+Categories=06-wireless-attacks;
 X-Ctxos-Package=nbtscan

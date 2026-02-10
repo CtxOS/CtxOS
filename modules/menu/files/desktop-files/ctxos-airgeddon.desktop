@@ -7,5 +7,5 @@ Icon=ctxos_airgeddon
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=06-wireless-attacks;
 X-Ctxos-Package=airgeddon

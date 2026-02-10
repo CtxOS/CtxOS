@@ -7,5 +7,5 @@ Icon=ctxos_zaproxy
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=03-05-web-vulnerability-scanners;03-webapp-analysis;
+Categories=03-webapp-analysis;
 X-Ctxos-Package=zaproxy

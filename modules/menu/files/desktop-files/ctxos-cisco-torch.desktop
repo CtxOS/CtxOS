@@ -7,5 +7,5 @@ Icon=ctxos_cisco-torch
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=10-maintain;
+Categories=01-info-gathering;
 X-Ctxos-Package=cisco-torch
