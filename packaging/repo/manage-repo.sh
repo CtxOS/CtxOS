@@ -6,8 +6,9 @@ REPO_NAME="ctxos"
 DISTRIBUTION="bookworm"
 COMPONENT="main"
 GPG_KEY="CtxOS"
-ROOT_DIR="/var/lib/aptly"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 INCOMING_DIR="$ROOT_DIR/incoming"
+mkdir -p "$INCOMING_DIR"
 
 log() { echo -e "\033[0;32m[REPO]\033[0m $1"; }
 
@@ -22,6 +23,11 @@ case "$1" in
         aptly repo create -distribution="$DISTRIBUTION" -component="$COMPONENT" "$REPO_NAME"
         ;;
     add)
+        log "Checking if repo $REPO_NAME exists..."
+        if ! aptly repo show "$REPO_NAME" &> /dev/null; then
+            log "Repo not found, initializing..."
+            aptly repo create -distribution="$DISTRIBUTION" -component="$COMPONENT" "$REPO_NAME"
+        fi
         log "Adding packages from $INCOMING_DIR..."
         aptly repo add "$REPO_NAME" "$INCOMING_DIR"
         ;;
@@ -32,10 +38,17 @@ case "$1" in
         aptly snapshot create "$SNAPSHOT_NAME" from repo "$REPO_NAME"
         
         log "Publishing snapshot..."
+        SIGN_FLAGS="-gpg-key=$GPG_KEY"
+        if [ "$SKIP_SIGNING" == "true" ]; then
+            SIGN_FLAGS="-skip-signing"
+        fi
+
         if aptly publish list | grep -q "$REPO_NAME"; then
-            aptly publish switch "$DISTRIBUTION" "$SNAPSHOT_NAME"
+            aptly publish switch $SIGN_FLAGS "$DISTRIBUTION" "$SNAPSHOT_NAME"
         else
-            aptly publish snapshot -gpg-key="$GPG_KEY" -distribution="$DISTRIBUTION" "$SNAPSHOT_NAME"
+            aptly publish snapshot $SIGN_FLAGS \
+                -architectures="amd64,arm64,all" \
+                -distribution="$DISTRIBUTION" "$SNAPSHOT_NAME"
         fi
         ;;
     cleanup)

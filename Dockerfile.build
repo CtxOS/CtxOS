@@ -1,0 +1,38 @@
+# Build environment for CtxOS
+FROM debian:bookworm-slim
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install all necessary build and repository tools
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    devscripts \
+    debhelper \
+    dh-python \
+    aptly \
+    gnupg2 \
+    live-build \
+    python3-all \
+    python3-pip \
+    python3-gi \
+    python3-pydbus \
+    libadwaita-1-0 \
+    flatpak \
+    curl \
+    git \
+    rsync \
+    debmirror \
+    sudo \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set default git identity
+RUN git config --global user.email "ctxos-builder@ctxos.org" && \
+    git config --global user.name "CtxOS Builder"
+
+# Fix for live-build...
+RUN apt-get update && apt-get install -y debootstrap && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# The user will mount their source to /app
+ENTRYPOINT ["/bin/bash"]

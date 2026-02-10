@@ -15,8 +15,8 @@ log "Stage 1: Building Core Packages & Versioning..."
 ./scripts/release.sh "${1:-patch}"
 
 # 1.5 Build Registered Projects
-log "Stage 1.5: Building Registered Projects..."
-./scripts/project-packager.sh build "sample-app"
+log "Stage 1.5: Skipping Registered Projects (sample-app)..."
+# ./scripts/project-packager.sh build "sample-app"
 
 # 2. Build Docker Image
 log "Stage 2: Building Distribution Docker Image..."

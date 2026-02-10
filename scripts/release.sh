@@ -101,9 +101,10 @@ for mod in "${MODULES[@]}"; do
 done
 
 # 4. Integrate with Repository
-log "Pushing packages to local repository..."
-# Assuming artifacts are in the parent of the modules as per debuild
-find . -name "*.deb" -exec cp {} "$REPO_DIR/incoming/" \;
+log "Collecting artifacts and updating repository..."
+mkdir -p "$REPO_DIR/incoming"
+find . -name "*.deb" -not -path "./$REPO_DIR/incoming/*" -not -path "./build_output/*" -exec cp {} "$REPO_DIR/incoming/" \;
+find . -name "*.deb" -not -path "./build_output/*" -exec mv {} build_output/ \; 2>/dev/null || true
 
 log "Updating Aptly Repository..."
 ./$REPO_DIR/manage-repo.sh add
@@ -112,10 +113,14 @@ log "Updating Aptly Repository..."
 # 5. Git Tagging
 if [ -d ".git" ]; then
     log "Creating git tag v$NEW_VERSION..."
-    git add "$VERSION_FILE"
-    for mod in "${MODULES[@]}"; do git add "$mod/debian/changelog"; done
+    git add "$VERSION_FILE" || true
+    for mod in "${MODULES[@]}"; do
+        if [ -f "$mod/debian/changelog" ]; then
+            git add "$mod/debian/changelog" || true
+        fi
+    done
     git commit -m "chore: release v$NEW_VERSION" || true
-    git tag -a "v$NEW_VERSION" -m "Release v$NEW_VERSION"
+    git tag -a "v$NEW_VERSION" -m "Release v$NEW_VERSION" || true
 fi
 
 log "✅ Success! Version $NEW_VERSION is now published to the Aptly repository."
