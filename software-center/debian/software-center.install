@@ -1,7 +1,5 @@
 # Backend
 backend/* usr/lib/software-center/backend/
-backend/locales/* usr/lib/software-center/backend/locales/
-backend/branding.json usr/lib/software-center/backend/branding.json
 
 # Python scripts
 webview_launcher.py usr/lib/software-center/webview_launcher.py
