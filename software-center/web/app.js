@@ -172,6 +172,87 @@ async function init() {
     async function refreshHome() {
         const apps = await API.fetch('list_featured');
         renderApps(apps);
+
+        // Fetch Parallel Data
+        const health = await API.fetch('get_health');
+        const mirror = await API.fetch('get_repo_status');
+        const recommendations = await API.fetch('get_recommendations');
+
+        renderHealth(health);
+        renderRecommendations(recommendations);
+        renderMirrorStatus(mirror);
+    }
+
+    function renderHealth(health) {
+        if (!health) return;
+
+        let container = document.getElementById('health-widget');
+        if (!container) {
+            container = document.createElement('div');
+            container.id = 'health-widget';
+            container.className = 'health-card';
+            // Insert before featured grid
+            featuredGrid.parentNode.insertBefore(container, featuredGrid);
+        }
+
+        const scoreColor = health.score > 80 ? 'var(--success)' : health.score > 50 ? '#f59e0b' : 'var(--danger)';
+
+        container.innerHTML = `
+            <div class="health-header">
+                <h3>System Health</h3>
+                <div class="health-score" style="color: ${scoreColor}">${health.score}/100</div>
+            </div>
+            <div class="health-metrics">
+                <div class="metric">
+                    <span>CPU</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: ${health.metrics.cpu_percent}%"></div></div>
+                </div>
+                <div class="metric">
+                    <span>RAM</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: ${health.metrics.memory.percent}%"></div></div>
+                </div>
+                <div class="metric">
+                    <span>Disk</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: ${health.metrics.disk.percent}%"></div></div>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderRecommendations(recs) {
+        if (!recs || recs.length === 0) return;
+
+        let section = document.getElementById('recommendations-section');
+        if (!section) {
+            section = document.createElement('section');
+            section.id = 'recommendations-section';
+            section.innerHTML = '<h2>AI Recommendations</h2><div class="app-grid" id="recs-grid"></div>';
+            featuredGrid.parentNode.insertBefore(section, featuredGrid);
+        }
+
+        const grid = document.getElementById('recs-grid');
+        grid.innerHTML = '';
+
+        recs.forEach(rec => {
+            const card = document.createElement('div');
+            card.className = 'app-card recommendation-card';
+            card.innerHTML = `
+                <div class="confidence-badge">${Math.round(rec.confidence * 100)}% Match</div>
+                <div class="icon">✨</div>
+                <h3>${rec.profile_id}</h3>
+                <p class="reason">"${rec.reason}"</p>
+                <button class="primary-btn small-btn">Apply Profile</button>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    function renderMirrorStatus(status) {
+        // Update settings page
+        if (status) {
+            const el = document.getElementById('repo-status');
+            if (el) el.textContent = status.enabled ? "Local Mirror Active" : "Online";
+        }
     }
 
     // Search
@@ -211,14 +292,16 @@ async function init() {
     });
 
     async function showSettings() {
-        const status = await API.fetch('get_repo_status');
-        document.getElementById('repo-primary').textContent = status.primary;
-        document.getElementById('repo-status').textContent = status.status;
-        document.getElementById('repo-priority-badge').style.display = status.priority_enforced ? 'block' : 'none';
+        const mirror = await API.fetch('get_repo_status');
+
+        document.getElementById('repo-primary').textContent = mirror.path || "Debian Main";
+        document.getElementById('repo-status').textContent = mirror.enabled ? "Offline Mirror" : "Online";
+
+        document.getElementById('repo-priority-badge').style.display = 'block';
+        document.getElementById('repo-priority-badge').textContent = mirror.is_uptodate ? "Synced" : "Sync Required";
 
         document.getElementById('repo-primary-label').textContent = i18n.ui.repo_primary;
         document.getElementById('repo-status-label').textContent = i18n.ui.repo_status;
-        document.getElementById('repo-priority-badge').textContent = i18n.ui.repo_priority;
     }
 
     window.showUpdateNotification = (count) => {

@@ -6,6 +6,34 @@ const API = {
     async fetch(action, params = {}) {
         console.log(`[UI] Calling ${action}`, params);
 
+        // Map actions to REST endpoints
+        const endpoints = {
+            'list_featured': '/api/v1/profiles',
+            'get_details': `/api/v1/packages/${params.id}`,
+            'search': `/api/v1/packages?search=${params.query}`,
+            'install': `/api/v1/packages/${params.id}/install`,
+            'remove': `/api/v1/packages/${params.id}/install`, // DELETE method in real REST, but using same endpoint for now
+            'get_repo_status': '/api/v1/system/mirror',
+            'get_health': '/api/v1/system/health',
+            'get_recommendations': '/api/v1/recommendations'
+        };
+
+        const url = endpoints[action];
+
+        if (url) {
+            try {
+                const method = action === 'install' ? 'POST' : 'GET';
+                // Note: Connects to local REST API
+                const response = await fetch(`http://127.0.0.1:8000${url}`, {
+                    method: method
+                });
+                return await response.json();
+            } catch (err) {
+                console.error("REST Error:", err);
+                // Fallback for demo if API is down
+            }
+        }
+
         // Use pywebview bridge if available
         if (window.pywebview && window.pywebview.api) {
             try {
