@@ -1,41 +1,31 @@
-#!/usr/bin/env bash
-# remote-install.sh - One-line installer for users
-set -e
+# Exit immediately if a command exits with a non-zero status
+# set -e
 
-# --- Configuration (User should update these) ---
-REPO_DOMAIN="ctxos.github.io"
-KEY_URL="https://${REPO_DOMAIN}/ctxos.asc"
-REPO_URL="https://${REPO_DOMAIN}"
-DISTRO="bookworm"
-COMPONENT="main"
-# ------------------------------------------------
+# Desktop software and tweaks will only be installed if we're running Gnome
+RUNNING_GNOME=$([[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]] && echo true || echo false)
 
-log() { echo -e "\033[0;32m[INSTALL]\033[0m $1"; }
+if $RUNNING_GNOME; then
+	# Ensure computer doesn't go to sleep or lock while installing
+	gsettings set org.gnome.desktop.screensaver lock-enabled false
+	gsettings set org.gnome.desktop.session idle-delay 0
 
-if [[ $EUID -ne 0 ]]; then
-   echo "Please run as root (sudo)"
-   exit 1
+	echo "Get ready to make a few choices..."
+	source ~/.local/share/ctxos/install/terminal/required/app-gum.sh >/dev/null
+	source ~/.local/share/ctxos/first_run_choices.sh
+
+	echo "Installing terminal and desktop tools.."
+else
+	echo "Only installing terminal tools..."
 fi
 
-check_command() {
-    if ! command -v "$1" &> /dev/null; then
-        echo "Error: Required command not found: $1"
-        exit 1
-    fi
-}
+# Install terminal tools
+source ~/.local/share/ctxos/install/terminal.sh
 
-check_command "curl"
-check_command "gpg"
+if $RUNNING_GNOME; then
+	# Install desktop tools and tweaks
+	source ~/.local/share/ctxos/install/desktop.sh
 
-log "Downloading distribution GPG key..."
-curl -fsSL "$KEY_URL" | gpg --dearmor -o /usr/share/keyrings/ctxos.gpg
-
-log "Adding repository to sources..."
-echo "deb [signed-by=/usr/share/keyrings/ctxos.gpg] $REPO_URL $DISTRO $COMPONENT" \
-    > /etc/apt/sources.list.d/ctxos.list
-
-log "Updating package lists..."
-apt-get update
-
-log "✅ CtxOS repository is now active."
-log "You can now run: apt install ctxos-core"
+	# Revert to normal idle and lock settings
+	gsettings set org.gnome.desktop.screensaver lock-enabled true
+	gsettings set org.gnome.desktop.session idle-delay 300
+fi

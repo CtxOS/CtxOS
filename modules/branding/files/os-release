@@ -1,9 +1,0 @@
-NAME="CtxOS"
-ID=ctxos
-PRETTY_NAME="CtxOS GNU/Linux"
-VERSION="1.0.1 (Bookworm)"
-VERSION_ID="1.0.1"
-HOME_URL="https://github.com/ctxos/ctxos"
-SUPPORT_URL="https://github.com/ctxos/ctxos/issues"
-BUG_REPORT_URL="https://github.com/ctxos/ctxos/issues"
-ID_LIKE=debian

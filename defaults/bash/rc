@@ -1,0 +1,4 @@
+source ~/.local/share/ctxos/defaults/bash/shell
+source ~/.local/share/ctxos/defaults/bash/aliases
+source ~/.local/share/ctxos/defaults/bash/prompt
+source ~/.local/share/ctxos/defaults/bash/init

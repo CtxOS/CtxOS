@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Software Center
-Comment=Manage system profiles and applications
-Exec=software-center-gtk
-Icon=software-center
-Terminal=false
-Type=Application
-Categories=System;Settings;
-StartupNotify=true

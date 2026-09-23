@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-echo "ctxos-core installed successfully"
-
-# Set python3 as default python
-update-alternatives --install /usr/bin/python python /usr/bin/python3 10
