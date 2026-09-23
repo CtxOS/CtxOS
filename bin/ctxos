@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source $CTXOS_PATH/ascii.sh
+echo "" # Add spacing
+echo "                                 $(cat $CTXOS_PATH/version)"
+echo "" # Add spacing
+source $CTXOS_PATH/bin/ctxos-sub/menu.sh
